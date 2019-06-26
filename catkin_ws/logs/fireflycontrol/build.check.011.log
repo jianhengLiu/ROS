@@ -1,0 +1,30 @@
+-- Using CATKIN_DEVEL_PREFIX: /home/chris/catkin_ws/devel/.private/fireflycontrol
+-- Using CMAKE_PREFIX_PATH: /home/chris/catkin_ws/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/chris/catkin_ws/devel;/opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/chris/catkin_ws/build/fireflycontrol/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+CMake Error at /home/chris/catkin_ws/src/fireflycontrol/CMakeLists.txt:199 (add_executable):
+  Cannot find source file:
+
+    src/control.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: control
+CMake Error: Cannot determine link language for target "control".
+-- Generating done
+-- Build files have been written to: /home/chris/catkin_ws/build/fireflycontrol
+Makefile:1246: recipe for target 'cmake_check_build_system' failed
+make: *** [cmake_check_build_system] Error 1

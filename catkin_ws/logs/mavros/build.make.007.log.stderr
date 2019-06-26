@@ -1,0 +1,5 @@
+CMakeFiles/mavros.dir/src/lib/mavlink_diag.cpp.o:无法识别文件: 文件被截断
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/chris/catkin_ws/devel/.private/mavros/lib/libmavros.so] Error 1
+make[1]: *** [CMakeFiles/mavros.dir/all] Error 2
+make: *** [all] Error 2

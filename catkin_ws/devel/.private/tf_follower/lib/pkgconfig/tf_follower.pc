@@ -1,0 +1,8 @@
+prefix=/home/chris/catkin_ws/devel/.private/tf_follower
+
+Name: tf_follower
+Description: Description of tf_follower
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/chris/catkin_ws/devel/.private/tf_follower/lib 
+Requires: 

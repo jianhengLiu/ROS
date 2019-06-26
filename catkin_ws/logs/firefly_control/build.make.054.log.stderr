@@ -1,0 +1,24 @@
+/home/chris/catkin_ws/src/firefly_control/src/control.cpp: In member function ‘void control_fly::callback_fly(const ConstPtr&)’:
+/home/chris/catkin_ws/src/firefly_control/src/control.cpp:32:18: error: no match for ‘operator=’ (operand types are ‘geometry_msgs::Pose {aka geometry_msgs::Pose_<std::allocator<void> >}’ and ‘const ConstPtr {aka const boost::shared_ptr<const geometry_msgs::Pose_<std::allocator<void> > >}’)
+         pose_fly = msg;
+                  ^
+In file included from /opt/ros/kinetic/include/geometry_msgs/PoseWithCovariance.h:18:0,
+                 from /opt/ros/kinetic/include/geometry_msgs/PoseWithCovarianceStamped.h:19,
+                 from /home/chris/catkin_ws/devel/.private/apriltags2_ros/include/apriltags2_ros/AprilTagDetection.h:18,
+                 from /home/chris/catkin_ws/devel/.private/apriltags2_ros/include/apriltags2_ros/AprilTagDetectionArray.h:19,
+                 from /home/chris/catkin_ws/src/firefly_control/src/control.cpp:1:
+/opt/ros/kinetic/include/geometry_msgs/Pose.h:24:8: note: candidate: geometry_msgs::Pose_<std::allocator<void> >& geometry_msgs::Pose_<std::allocator<void> >::operator=(const geometry_msgs::Pose_<std::allocator<void> >&)
+ struct Pose_
+        ^
+/opt/ros/kinetic/include/geometry_msgs/Pose.h:24:8: note:   no known conversion for argument 1 from ‘const ConstPtr {aka const boost::shared_ptr<const geometry_msgs::Pose_<std::allocator<void> > >}’ to ‘const geometry_msgs::Pose_<std::allocator<void> >&’
+/home/chris/catkin_ws/src/firefly_control/src/control.cpp: In member function ‘void control_fly::fly()’:
+/home/chris/catkin_ws/src/firefly_control/src/control.cpp:39:9: error: ‘msgxyz’ was not declared in this scope
+         msgxyz.pose.position.x = msg->position.x;
+         ^
+/home/chris/catkin_ws/src/firefly_control/src/control.cpp:39:34: error: ‘msg’ was not declared in this scope
+         msgxyz.pose.position.x = msg->position.x;
+                                  ^
+make[2]: *** [CMakeFiles/control.dir/src/control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/control.dir/all] Error 2
+make[1]: *** 正在等待未完成的任务....
+make: *** [all] Error 2

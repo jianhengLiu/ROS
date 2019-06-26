@@ -1,0 +1,7 @@
+CMake Error at /home/chris/catkin_ws/src/learningOpenCV/CMakeLists.txt:207 (add_executable):
+  add_executable cannot create target "VideoCapture" because another target
+  with the same name already exists.  The existing target is an executable
+  created in source directory "/home/chris/catkin_ws/src/learningOpenCV".
+  See documentation for policy CMP0002 for more details.
+
+

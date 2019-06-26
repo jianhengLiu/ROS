@@ -1,0 +1,14 @@
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp: In constructor ‘detect_and_fly::detect_and_fly()’:
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:14:76: error: invalid use of non-static member function
+      sub2=nh.subscribe("/tag_detections",1,detect_and_fly::detect_data,this);
+                                                                            ^
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:15:13: error: ‘class ros::NodeHandle’ has no member named ‘subscriber’
+      sub=nh.subscriber("/firefly/ground_truth/pose",1,&detect_and_fly::Callback,this);
+             ^
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp: At global scope:
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:46:36: error: two or more data types in declaration of ‘main’
+ int int main(int argc, char *argv[])
+                                    ^
+make[2]: *** [CMakeFiles/fly.dir/src/fly.cpp.o] Error 1
+make[1]: *** [CMakeFiles/fly.dir/all] Error 2
+make: *** [all] Error 2

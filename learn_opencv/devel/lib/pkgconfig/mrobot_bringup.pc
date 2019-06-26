@@ -1,0 +1,8 @@
+prefix=/home/chris/learn_opencv/devel
+
+Name: mrobot_bringup
+Description: Description of mrobot_bringup
+Version: 0.0.0
+Cflags: -I/home/chris/learn_opencv/src/ros_exploring/robot_mrobot/mrobot_bringup/include
+Libs: -L/home/chris/learn_opencv/devel/lib 
+Requires: 

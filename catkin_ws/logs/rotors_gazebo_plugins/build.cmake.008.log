@@ -1,0 +1,95 @@
+Not searching for unused variables given on the command line.
+-- BUILD_MAVLINK_INTERFACE_PLUGIN variable not provided, setting to FALSE.
+-- BUILD_OCTOMAP_PLUGIN variable not provided, setting to FALSE.
+-- BUILD_OPTICAL_FLOW_PLUGIN variable not provided, setting to FALSE.
+-- NO_ROS variable not provided, setting to FALSE.
+-- CMAKE_BINARY_DIR = /home/chris/catkin_ws/build/rotors_gazebo_plugins
+-- ADDITIONAL_INCLUDE_DIRS =
+-- BUILD_OCTOMAP_PLUGIN = FALSE, NOT building gazebo_octomap_plugin.
+-- BUILD_OPTICAL_FLOW_PLUGIN = FALSE, NOT building gazebo_optical_flow_plugin.
+-- NO_ROS = FALSE, building rotors_gazebo_plugins WITH ROS dependancies.
+-- Using CATKIN_DEVEL_PREFIX: /home/chris/catkin_ws/devel/.private/rotors_gazebo_plugins
+-- Using CMAKE_PREFIX_PATH: /home/chris/catkin_ws/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/chris/catkin_ws/devel;/opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/chris/catkin_ws/build/rotors_gazebo_plugins/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- CMAKE_BINARY_DIR = /home/chris/catkin_ws/build/rotors_gazebo_plugins
+-- Eigen found (include: /usr/include/eigen3)
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   thread
+--   signals
+--   system
+--   filesystem
+--   program_options
+--   regex
+--   iostreams
+--   date_time
+--   chrono
+--   atomic
+-- Boost version: 1.58.0
+-- Looking for OGRE...
+-- Found Ogre Ghadamon (1.9.0)
+-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- No yaml_cpp_catkin, using yaml-cpp system library instead.
+-- PROTOBUF_IMPORT_DIRS = /usr/include/gazebo-7/gazebo/msgs/proto
+CMake Warning at /opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake:166 (message):
+  catkin_package() DEPENDS on 'eigen' but neither 'eigen_INCLUDE_DIRS' nor
+  'eigen_LIBRARIES' is defined.
+Call Stack (most recent call first):
+  /opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+  CMakeLists.txt:198 (catkin_package)
+
+
+CMake Warning at /opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake:166 (message):
+  catkin_package() DEPENDS on 'gazebo' but neither 'gazebo_INCLUDE_DIRS' nor
+  'gazebo_LIBRARIES' is defined.
+Call Stack (most recent call first):
+  /opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+  CMakeLists.txt:198 (catkin_package)
+
+
+CMake Warning at /opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake:166 (message):
+  catkin_package() DEPENDS on 'octomap' but neither 'octomap_INCLUDE_DIRS'
+  nor 'octomap_LIBRARIES' is defined.
+Call Stack (most recent call first):
+  /opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+  CMakeLists.txt:198 (catkin_package)
+
+
+CMake Warning at /opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake:166 (message):
+  catkin_package() DEPENDS on 'opencv' but neither 'opencv_INCLUDE_DIRS' nor
+  'opencv_LIBRARIES' is defined.
+Call Stack (most recent call first):
+  /opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+  CMakeLists.txt:198 (catkin_package)
+
+
+-- GAZEBO 7.0.0
+--
+-- BUILD_MAVLINK_INTERFACE_PLUGIN = FALSE, NOT adding mavros dependency and NOT building mavlink_interface_plugin.
+-- CMAKE_INSTALL_PREFIX = /home/chris/catkin_ws/install
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/chris/catkin_ws/build/rotors_gazebo_plugins

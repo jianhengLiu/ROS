@@ -1,0 +1,8 @@
+/home/chris/catkin_ws/src/firefly_control/src/control.cpp:21:68: error: ISO C++ forbids declaration of ‘PoseOnly’ with no type [-fpermissive]
+   geometry_msgs::PoseOnly(const geometry_msgs::Pose::ConstPtr &msg1) {}
+                                                                    ^
+/home/chris/catkin_ws/src/firefly_control/src/control.cpp:21:68: error: invalid use of ‘::’
+make[2]: *** [CMakeFiles/control.dir/src/control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/control.dir/all] Error 2
+make[1]: *** 正在等待未完成的任务....
+make: *** [all] Error 2

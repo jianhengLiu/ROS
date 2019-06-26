@@ -1,0 +1,4 @@
+ROS-Academy-for-Beginners/rtabmap_demo
+/home/chris/catkin_ws/devel/.private/rtabmap_demo/share/rtabmap_demo/cmake/rtabmap_demoConfig-version.cmake /home/chris/catkin_ws/devel/share/rtabmap_demo/cmake/rtabmap_demoConfig-version.cmake
+/home/chris/catkin_ws/devel/.private/rtabmap_demo/share/rtabmap_demo/cmake/rtabmap_demoConfig.cmake /home/chris/catkin_ws/devel/share/rtabmap_demo/cmake/rtabmap_demoConfig.cmake
+/home/chris/catkin_ws/devel/.private/rtabmap_demo/lib/pkgconfig/rtabmap_demo.pc /home/chris/catkin_ws/devel/lib/pkgconfig/rtabmap_demo.pc

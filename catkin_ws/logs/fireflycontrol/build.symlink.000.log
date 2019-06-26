@@ -1,0 +1,4 @@
+Symlinking /home/chris/catkin_ws/devel/share/fireflycontrol/cmake/fireflycontrolConfig-version.cmake
+Symlinking /home/chris/catkin_ws/devel/share/fireflycontrol/cmake/fireflycontrolConfig.cmake
+Symlinking /home/chris/catkin_ws/devel/lib/fireflycontrol/control
+Symlinking /home/chris/catkin_ws/devel/lib/pkgconfig/fireflycontrol.pc

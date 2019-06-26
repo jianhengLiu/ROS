@@ -1,0 +1,67 @@
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:8:26: error: ‘apriltags2_ros’ does not name a type
+   void detect_data(const apriltags2_ros::AprilTagDetectionArray::ConstPtr &msg)
+                          ^
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:8:64: error: expected unqualified-id before ‘::’ token
+   void detect_data(const apriltags2_ros::AprilTagDetectionArray::ConstPtr &msg)
+                                                                ^
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:8:64: error: expected ‘)’ before ‘::’ token
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:8:42: error: expected ‘;’ at end of member declaration
+   void detect_data(const apriltags2_ros::AprilTagDetectionArray::ConstPtr &msg)
+                                          ^
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:8:66: error: ‘ConstPtr’ in namespace ‘::’ does not name a type
+   void detect_data(const apriltags2_ros::AprilTagDetectionArray::ConstPtr &msg)
+                                                                  ^
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:19:23: error: ‘geometry_msgs’ does not name a type
+   void Callback(const geometry_msgs::Pose::ConstPtr &msg)
+                       ^
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:19:42: error: expected unqualified-id before ‘::’ token
+   void Callback(const geometry_msgs::Pose::ConstPtr &msg)
+                                          ^
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:19:42: error: expected ‘)’ before ‘::’ token
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:19:38: error: expected ‘;’ at end of member declaration
+   void Callback(const geometry_msgs::Pose::ConstPtr &msg)
+                                      ^
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:19:44: error: ‘ConstPtr’ in namespace ‘::’ does not name a type
+   void Callback(const geometry_msgs::Pose::ConstPtr &msg)
+                                            ^
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:30:3: error: ‘ros’ does not name a type
+   ros::NodeHandle nh;
+   ^
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:31:3: error: ‘ros’ does not name a type
+   ros::Publisher pub;
+   ^
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:32:3: error: ‘ros’ does not name a type
+   ros::Subscriber sub;
+   ^
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:33:3: error: ‘ros’ does not name a type
+   ros::Subscriber sub2;
+   ^
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:34:3: error: ‘geometry_msgs’ does not name a type
+   geometry_msgs::Pose tag_pose;
+   ^
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:35:1: error: expected ‘;’ after class definition
+ }
+ ^
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp: In constructor ‘detect_and_fly::detect_and_fly()’:
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:4:6: error: ‘pub’ was not declared in this scope
+      pub=nh.advertise<geometry_msgs::PoseStamped>("firefly/command/pose",1);
+      ^
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:4:10: error: ‘nh’ was not declared in this scope
+      pub=nh.advertise<geometry_msgs::PoseStamped>("firefly/command/pose",1);
+          ^
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:4:23: error: ‘geometry_msgs’ has not been declared
+      pub=nh.advertise<geometry_msgs::PoseStamped>("firefly/command/pose",1);
+                       ^
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:5:6: error: ‘sub2’ was not declared in this scope
+      sub2=nh.Subscriber("/tag_detections",1,detect_and_fly::detect_data,this);
+      ^
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:6:6: error: ‘sub’ was not declared in this scope
+      sub=nh.Subscriber("/firefly/ground_truth/pose",1,&detect_and_fly::Callback,this);
+      ^
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp: At global scope:
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:37:36: error: two or more data types in declaration of ‘main’
+ int int main(int argc, char *argv[])
+                                    ^
+make[2]: *** [CMakeFiles/fly.dir/src/fly.cpp.o] Error 1
+make[1]: *** [CMakeFiles/fly.dir/all] Error 2
+make: *** [all] Error 2

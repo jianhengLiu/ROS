@@ -1,0 +1,8 @@
+prefix=/home/chris/catkin_ws/devel/.private/learning
+
+Name: learning
+Description: Description of learning
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/chris/catkin_ws/devel/.private/learning/lib 
+Requires: 

@@ -1,0 +1,59 @@
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target _service_demo_generate_messages_check_deps_Greeting[0m
+[  0%] Built target _service_demo_generate_messages_check_deps_Greeting
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target service_demo_generate_messages_nodejs[0m
+[  9%] [34m[1mGenerating Javascript code from service_demo/Greeting.srv[0m
+[  9%] Built target service_demo_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  9%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  9%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  9%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target service_demo_generate_messages_lisp[0m
+[ 18%] [34m[1mGenerating Lisp code from service_demo/Greeting.srv[0m
+[ 18%] Built target service_demo_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[ 18%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[ 18%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[ 18%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[ 18%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[ 18%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[ 18%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[ 18%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target service_demo_generate_messages_py[0m
+[ 27%] [34m[1mGenerating Python code from SRV service_demo/Greeting[0m
+[ 36%] [34m[1mGenerating Python srv __init__.py for service_demo[0m
+[ 36%] Built target service_demo_generate_messages_py
+[35m[1mScanning dependencies of target service_demo_generate_messages_eus[0m
+[ 45%] [34m[1mGenerating EusLisp code from service_demo/Greeting.srv[0m
+[ 54%] [34m[1mGenerating EusLisp manifest code for service_demo[0m
+[ 54%] Built target service_demo_generate_messages_eus
+[35m[1mScanning dependencies of target service_demo_generate_messages_cpp[0m
+[ 63%] [34m[1mGenerating C++ code from service_demo/Greeting.srv[0m
+[ 63%] Built target service_demo_generate_messages_cpp
+[35m[1mScanning dependencies of target server[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[35m[1mScanning dependencies of target client[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable /home/chris/catkin_ws/devel/.private/service_demo/lib/service_demo/server[0m
+[ 90%] Built target server
+[35m[1mScanning dependencies of target service_demo_generate_messages[0m
+[ 90%] Built target service_demo_generate_messages
+[100%] [32m[1mLinking CXX executable /home/chris/catkin_ws/devel/.private/service_demo/lib/service_demo/client[0m
+[100%] Built target client

@@ -1,0 +1,7 @@
+/home/chris/catkin_ws/src/firefly_control/src/control.cpp: In constructor ‘control_fly::control_fly()’:
+/home/chris/catkin_ws/src/firefly_control/src/control.cpp:13:55: error: invalid use of non-static member function
+     sub = nh.subscribe("/tag_detection", 10, call_back);
+                                                       ^
+make[2]: *** [CMakeFiles/control.dir/src/control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/control.dir/all] Error 2
+make: *** [all] Error 2

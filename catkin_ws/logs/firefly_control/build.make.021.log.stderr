@@ -1,0 +1,11 @@
+[01m[K/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:[m[K In constructor ‘[01m[Kdetect_and_fly::detect_and_fly()[m[K’:
+[01m[K/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:14:76:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function
+      sub2=nh.subscribe("/tag_detections",1,detect_and_fly::detect_data,this);
+[01;32m[K                                                                            ^[m[K
+[01m[K/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:[m[K At global scope:
+[01m[K/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:46:36:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[Kmain[m[K’
+ int int main(int argc, char *argv[])
+[01;32m[K                                    ^[m[K
+make[2]: *** [CMakeFiles/fly.dir/src/fly.cpp.o] Error 1
+make[1]: *** [CMakeFiles/fly.dir/all] Error 2
+make: *** [all] Error 2

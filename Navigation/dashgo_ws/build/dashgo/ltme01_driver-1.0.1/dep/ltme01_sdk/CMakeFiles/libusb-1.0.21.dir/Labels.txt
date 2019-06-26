@@ -1,0 +1,13 @@
+# Target labels
+ libusb-1.0.21
+# Source files and their labels
+/home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/libusb-1.0.21
+/home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/libusb-1.0.21.rule
+/home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/libusb-1.0.21-complete.rule
+/home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-install.rule
+/home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-mkdir.rule
+/home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-download.rule
+/home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-update.rule
+/home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-patch.rule
+/home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-configure.rule
+/home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-build.rule

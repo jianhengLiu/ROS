@@ -1,0 +1,8 @@
+prefix=/home/chris/catkin_ws/devel/.private/slam_sim_demo
+
+Name: slam_sim_demo
+Description: Description of slam_sim_demo
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/chris/catkin_ws/devel/.private/slam_sim_demo/lib 
+Requires: urdf xacro

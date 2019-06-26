@@ -1,0 +1,18 @@
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _topic_demo_generate_messages_check_deps_gps
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  9%] Built target topic_demo_generate_messages_cpp
+[ 18%] Built target topic_demo_generate_messages_nodejs
+[ 36%] Built target topic_demo_generate_messages_py
+[ 45%] Built target topic_demo_generate_messages_lisp
+[ 63%] Built target topic_demo_generate_messages_eus
+[ 72%] Building CXX object CMakeFiles/listener.dir/src/listener.cpp.o
+[ 81%] Linking CXX executable /home/chris/catkin_ws/devel/.private/topic_demo/lib/topic_demo/listener
+[ 81%] Built target listener
+[ 90%] Building CXX object CMakeFiles/talker.dir/src/talker.cpp.o
+[100%] Linking CXX executable /home/chris/catkin_ws/devel/.private/topic_demo/lib/topic_demo/talker
+[100%] Built target talker
+[100%] Built target topic_demo_generate_messages

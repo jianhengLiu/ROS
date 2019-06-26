@@ -1,0 +1,1 @@
+/home/chris/catkin_ws/devel/.private/fireflycontrol/share/fireflycontrol/cmake/fireflycontrolConfig-version.cmake

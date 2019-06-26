@@ -1,0 +1,79 @@
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target bond_generate_messages_lisp
+[  0%] Built target nodelet_generate_messages_nodejs
+[  0%] Built target bond_generate_messages_cpp
+[  0%] Built target bond_generate_messages_nodejs
+[  0%] Built target nodelet_generate_messages_lisp
+[  0%] Built target nodelet_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target nodelet_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target apriltags2_ros_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target bond_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target bond_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target nodelet_generate_messages_py
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target apriltags2_ros_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target apriltags2_ros_generate_messages_nodejs
+[  0%] Built target apriltags2_ros_generate_messages_py
+[  0%] Built target apriltags2_ros_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_nodejs
+Scanning dependencies of target control
+[ 25%] Building CXX object CMakeFiles/control.dir/src/control.cpp.o
+Scanning dependencies of target fly
+[ 50%] Building CXX object CMakeFiles/fly.dir/src/fly.cpp.o
+/home/chris/catkin_ws/src/fireflycontrol/src/control.cpp:2:34: fatal error: geometry_msgs/Pose.h.h: 没有那个文件或目录
+/home/chris/catkin_ws/src/fireflycontrol/src/fly.cpp:3:34: fatal error: geometry_msgs/Pose.h.h: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+CMakeFiles/control.dir/build.make:62: recipe for target 'CMakeFiles/control.dir/src/control.cpp.o' failed
+CMakeFiles/fly.dir/build.make:62: recipe for target 'CMakeFiles/fly.dir/src/fly.cpp.o' failed
+CMakeFiles/Makefile2:126: recipe for target 'CMakeFiles/control.dir/all' failed
+CMakeFiles/Makefile2:702: recipe for target 'CMakeFiles/fly.dir/all' failed
+make[2]: *** [CMakeFiles/control.dir/src/control.cpp.o] Error 1
+make[2]: *** [CMakeFiles/fly.dir/src/fly.cpp.o] Error 1
+make[1]: *** [CMakeFiles/control.dir/all] Error 2
+make[1]: *** 正在等待未完成的任务....
+make[1]: *** [CMakeFiles/fly.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

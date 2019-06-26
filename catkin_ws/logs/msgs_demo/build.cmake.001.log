@@ -1,0 +1,23 @@
+Not searching for unused variables given on the command line.
+-- Using CATKIN_DEVEL_PREFIX: /home/chris/catkin_ws/devel/.private/msgs_demo
+-- Using CMAKE_PREFIX_PATH: /home/chris/catkin_ws/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/chris/catkin_ws/devel;/opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/chris/catkin_ws/build/msgs_demo/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Generating .msg files for action msgs_demo/AutoDocking /home/chris/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/action/AutoDocking.action
+-- Generating .msg files for action msgs_demo/AddTwoInts /home/chris/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/action/AddTwoInts.action
+-- Generating .msg files for action msgs_demo/GetMap /home/chris/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/action/GetMap.action
+-- Generating .msg files for action msgs_demo/MoveBase /home/chris/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/action/MoveBase.action
+-- msgs_demo: 42 messages, 9 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/chris/catkin_ws/build/msgs_demo

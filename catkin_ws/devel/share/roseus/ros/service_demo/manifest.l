@@ -1,0 +1,1 @@
+/home/chris/catkin_ws/devel/.private/service_demo/share/roseus/ros/service_demo/manifest.l

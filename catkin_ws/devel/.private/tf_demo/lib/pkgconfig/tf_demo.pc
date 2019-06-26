@@ -1,0 +1,8 @@
+prefix=/home/chris/catkin_ws/devel/.private/tf_demo
+
+Name: tf_demo
+Description: Description of tf_demo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/chris/catkin_ws/devel/.private/tf_demo/lib 
+Requires: 

@@ -1,0 +1,15 @@
+[ 10%] Building CXX object CMakeFiles/tf_listerner.dir/src/tf_listerner.cpp.o
+[ 20%] Building CXX object CMakeFiles/coordinate_transformation.dir/src/coordinate_transformation.cpp.o
+[ 30%] Linking CXX executable /home/chris/catkin_ws/devel/.private/tf_demo/lib/tf_demo/coordinate_transformation
+[ 30%] Built target coordinate_transformation
+[ 40%] Building CXX object CMakeFiles/Quaternion2Euler.dir/src/Quaternion2Euler.cpp.o
+[ 50%] Linking CXX executable /home/chris/catkin_ws/devel/.private/tf_demo/lib/tf_demo/tf_listerner
+[ 50%] Built target tf_listerner
+[ 60%] Building CXX object CMakeFiles/Euler2Quaternion.dir/src/Euler2Quaternion.cpp.o
+[ 70%] Building CXX object CMakeFiles/tf_broadcaster.dir/src/tf_broadcaster.cpp.o
+[ 80%] Linking CXX executable /home/chris/catkin_ws/devel/.private/tf_demo/lib/tf_demo/Quaternion2Euler
+[ 80%] Built target Quaternion2Euler
+[ 90%] Linking CXX executable /home/chris/catkin_ws/devel/.private/tf_demo/lib/tf_demo/Euler2Quaternion
+[ 90%] Built target Euler2Quaternion
+[100%] Linking CXX executable /home/chris/catkin_ws/devel/.private/tf_demo/lib/tf_demo/tf_broadcaster
+[100%] Built target tf_broadcaster

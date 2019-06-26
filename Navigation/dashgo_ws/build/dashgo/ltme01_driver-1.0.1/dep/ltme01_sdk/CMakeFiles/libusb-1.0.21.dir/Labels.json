@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/libusb-1.0.21"
+		},
+		{
+			"file" : "/home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/libusb-1.0.21.rule"
+		},
+		{
+			"file" : "/home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/libusb-1.0.21-complete.rule"
+		},
+		{
+			"file" : "/home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-install.rule"
+		},
+		{
+			"file" : "/home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-mkdir.rule"
+		},
+		{
+			"file" : "/home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-download.rule"
+		},
+		{
+			"file" : "/home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-update.rule"
+		},
+		{
+			"file" : "/home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-patch.rule"
+		},
+		{
+			"file" : "/home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-configure.rule"
+		},
+		{
+			"file" : "/home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libusb-1.0.21"
+		],
+		"name" : "libusb-1.0.21"
+	}
+}

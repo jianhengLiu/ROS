@@ -1,0 +1,5 @@
+/home/chris/catkin_ws/src/firefly_control/src/fly.cpp:3:34: fatal error: geometry_msgs/Pose.h.h: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [CMakeFiles/fly.dir/src/fly.cpp.o] Error 1
+make[1]: *** [CMakeFiles/fly.dir/all] Error 2
+make: *** [all] Error 2

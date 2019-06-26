@@ -1,0 +1,8 @@
+prefix=/home/chris/catkin_ws/devel/.private/orbslam2_demo
+
+Name: orbslam2_demo
+Description: Description of orbslam2_demo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/chris/catkin_ws/devel/.private/orbslam2_demo/lib 
+Requires: 

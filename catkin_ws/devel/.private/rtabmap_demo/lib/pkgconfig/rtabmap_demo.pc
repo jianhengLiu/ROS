@@ -1,0 +1,8 @@
+prefix=/home/chris/catkin_ws/devel/.private/rtabmap_demo
+
+Name: rtabmap_demo
+Description: Description of rtabmap_demo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/chris/catkin_ws/devel/.private/rtabmap_demo/lib 
+Requires: 

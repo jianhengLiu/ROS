@@ -1,0 +1,3 @@
+make[2]: *** No rule to make target '/home/chris/catkin_ws/src/fireflycontrol/src/control.cpp', needed by 'CMakeFiles/control.dir/src/control.cpp.o'。 停止。
+make[1]: *** [CMakeFiles/control.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,19 @@
+/home/chris/catkin_ws/src/rotors_simulator/rotors_hil_interface/src/hil_interface_node.cpp: In constructor ‘rotors_hil::HilInterfaceNode::HilInterfaceNode()’:
+/home/chris/catkin_ws/src/rotors_simulator/rotors_hil_interface/src/hil_interface_node.cpp:51:27: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     hil_interface_ = std::auto_ptr<HilSensorLevelInterface>(new HilSensorLevelInterface(q_S_B));
+                           ^
+In file included from /usr/include/c++/5/memory:81:0,
+                 from /home/chris/catkin_ws/src/rotors_simulator/rotors_hil_interface/include/rotors_hil_interface/hil_interface_node.h:20,
+                 from /home/chris/catkin_ws/src/rotors_simulator/rotors_hil_interface/src/hil_interface_node.cpp:17:
+/usr/include/c++/5/bits/unique_ptr.h:49:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^
+/home/chris/catkin_ws/src/rotors_simulator/rotors_hil_interface/src/hil_interface_node.cpp:53:27: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     hil_interface_ = std::auto_ptr<HilStateLevelInterface>(new HilStateLevelInterface(q_S_B));
+                           ^
+In file included from /usr/include/c++/5/memory:81:0,
+                 from /home/chris/catkin_ws/src/rotors_simulator/rotors_hil_interface/include/rotors_hil_interface/hil_interface_node.h:20,
+                 from /home/chris/catkin_ws/src/rotors_simulator/rotors_hil_interface/src/hil_interface_node.cpp:17:
+/usr/include/c++/5/bits/unique_ptr.h:49:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^

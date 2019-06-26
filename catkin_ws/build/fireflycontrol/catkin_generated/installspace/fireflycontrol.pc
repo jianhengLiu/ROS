@@ -1,0 +1,8 @@
+prefix=/home/chris/catkin_ws/install
+
+Name: fireflycontrol
+Description: Description of fireflycontrol
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/chris/catkin_ws/install/lib 
+Requires: 

@@ -1,0 +1,96 @@
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target bond_generate_messages_lisp
+[  0%] Built target bond_generate_messages_cpp
+[  0%] Built target nodelet_generate_messages_nodejs
+[  0%] Built target nodelet_generate_messages_lisp
+[  0%] Built target bond_generate_messages_nodejs
+[  0%] Built target nodelet_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target nodelet_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target apriltags2_ros_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target bond_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target bond_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target nodelet_generate_messages_py
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target apriltags2_ros_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target apriltags2_ros_generate_messages_nodejs
+[  0%] Built target apriltags2_ros_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target apriltags2_ros_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_nodejs
+Scanning dependencies of target control
+[ 50%] Building CXX object CMakeFiles/control.dir/src/control.cpp.o
+In file included from /opt/ros/kinetic/include/ros/ros.h:40:0,
+                 from /home/chris/catkin_ws/src/fireflycontrol/src/control.cpp:1:
+/home/chris/catkin_ws/src/fireflycontrol/src/control.cpp: In function ‘void Callback(const ConstPtr&)’:
+/opt/ros/kinetic/include/ros/console.h:346:176: warning: format ‘%f’ expects argument of type ‘double’, but argument 8 has type ‘const _position_type {aka const geometry_msgs::Point_<std::allocator<void> >}’ [-Wformat=]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+                                                                                                                                                                                ^
+/opt/ros/kinetic/include/ros/console.h:349:5: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+     ^
+/opt/ros/kinetic/include/ros/console.h:379:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+       ^
+/opt/ros/kinetic/include/ros/console.h:561:35: note: in expansion of macro ‘ROS_LOG_COND’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+                                   ^
+/opt/ros/kinetic/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       ^
+/home/chris/catkin_ws/src/fireflycontrol/src/control.cpp:10:3: note: in expansion of macro ‘ROS_INFO’
+   ROS_INFO("I heard: [%f]", msg->position);
+   ^
+/home/chris/catkin_ws/src/fireflycontrol/src/control.cpp: In function ‘int main(int, char**)’:
+/home/chris/catkin_ws/src/fireflycontrol/src/control.cpp:24:24: error: ‘nh’ was not declared in this scope
+   ros::Publisher pub = nh.advertise<geometry_msgs::Pose>("poser", 1000);  
+                        ^
+/home/chris/catkin_ws/src/fireflycontrol/src/control.cpp:24:56: error: expected primary-expression before ‘>’ token
+   ros::Publisher pub = nh.advertise<geometry_msgs::Pose>("poser", 1000);  
+                                                        ^
+CMakeFiles/control.dir/build.make:62: recipe for target 'CMakeFiles/control.dir/src/control.cpp.o' failed
+make[2]: *** [CMakeFiles/control.dir/src/control.cpp.o] Error 1
+CMakeFiles/Makefile2:126: recipe for target 'CMakeFiles/control.dir/all' failed
+make[1]: *** [CMakeFiles/control.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

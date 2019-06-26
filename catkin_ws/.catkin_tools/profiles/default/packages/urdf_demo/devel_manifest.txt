@@ -1,0 +1,4 @@
+ROS-Academy-for-Beginners/urdf_demo
+/home/chris/catkin_ws/devel/.private/urdf_demo/share/urdf_demo/cmake/urdf_demoConfig-version.cmake /home/chris/catkin_ws/devel/share/urdf_demo/cmake/urdf_demoConfig-version.cmake
+/home/chris/catkin_ws/devel/.private/urdf_demo/share/urdf_demo/cmake/urdf_demoConfig.cmake /home/chris/catkin_ws/devel/share/urdf_demo/cmake/urdf_demoConfig.cmake
+/home/chris/catkin_ws/devel/.private/urdf_demo/lib/pkgconfig/urdf_demo.pc /home/chris/catkin_ws/devel/lib/pkgconfig/urdf_demo.pc
