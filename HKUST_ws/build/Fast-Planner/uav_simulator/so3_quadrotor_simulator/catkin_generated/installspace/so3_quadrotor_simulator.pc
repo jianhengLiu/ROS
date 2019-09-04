@@ -1,0 +1,8 @@
+prefix=/home/chrisliu/ROS/HKUST_ws/install
+
+Name: so3_quadrotor_simulator
+Description: Description of so3_quadrotor_simulator
+Version: 0.0.0
+Cflags: -I/home/chrisliu/ROS/HKUST_ws/install/include
+Libs: -L/home/chrisliu/ROS/HKUST_ws/install/lib 
+Requires: roscpp quadrotor_msgs uav_utils

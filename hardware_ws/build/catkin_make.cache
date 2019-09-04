@@ -1,0 +1,2 @@
+realsense-ros/realsense2_camera:realsense-ros/realsense2_description
+-DCATKIN_DEVEL_PREFIX=/home/chrisliu/ROS/hardware_ws/devel -DCMAKE_INSTALL_PREFIX=/home/chrisliu/ROS/hardware_ws/install -G Unix Makefiles

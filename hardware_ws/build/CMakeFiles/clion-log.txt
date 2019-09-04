@@ -1,0 +1,26 @@
+/home/chrisliu/software/clion-2019.2.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCATKIN_DEVEL_PREFIX:PATH=/home/chrisliu/ROS/hardware_ws/devel -G "CodeBlocks - Unix Makefiles" /home/chrisliu/ROS/hardware_ws/src
+-- Using CATKIN_DEVEL_PREFIX: /home/chrisliu/ROS/hardware_ws/devel
+-- Using CMAKE_PREFIX_PATH: /home/chrisliu/ROS/hardware_ws/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/chrisliu/ROS/hardware_ws/devel;/opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: False
+-- catkin 0.7.18
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 2 packages in topological order:
+-- ~~  - realsense2_description
+-- ~~  - realsense2_camera
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'realsense2_description'
+-- ==> add_subdirectory(realsense-ros/realsense2_description)
+-- +++ processing catkin package: 'realsense2_camera'
+-- ==> add_subdirectory(realsense-ros/realsense2_camera)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Create Debug Build.
+-- realsense2_camera: 2 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/chrisliu/ROS/hardware_ws/build

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/chrisliu/ROS/HKUST_ws/devel/setup.sh
