@@ -1,8 +1,0 @@
-prefix=/home/chrisliu/ROS/HKUST_ws/install
-
-Name: path_searching
-Description: Description of path_searching
-Version: 0.0.0
-Cflags: -I/home/chrisliu/ROS/HKUST_ws/install/include
-Libs: -L/home/chrisliu/ROS/HKUST_ws/install/lib -lpath_searching
-Requires: plan_env

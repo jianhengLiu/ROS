@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/learn_opencv/src
+CMAKE_SOURCE_DIR = /home/chrisliu/ROS/learn_opencv/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/learn_opencv/build
+CMAKE_BINARY_DIR = /home/chrisliu/ROS/learn_opencv/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -77,16 +77,16 @@ list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
 
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
+# Special rule for the target install/strip
+install/strip/fast: install/strip
 
-.PHONY : edit_cache/fast
+.PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
@@ -110,17 +110,6 @@ test/fast: test
 
 .PHONY : test/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-
-.PHONY : install/strip/fast
-
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -133,16 +122,27 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	cd /home/chris/learn_opencv/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chris/learn_opencv/build/CMakeFiles /home/chris/learn_opencv/build/videocapture/CMakeFiles/progress.marks
-	cd /home/chris/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/learn_opencv/build/CMakeFiles 0
+	cd /home/chrisliu/ROS/learn_opencv/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chrisliu/ROS/learn_opencv/build/CMakeFiles /home/chrisliu/ROS/learn_opencv/build/videocapture/CMakeFiles/progress.marks
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisliu/ROS/learn_opencv/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/clean
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,217 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/chris/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/preinstall
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/preinstall
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/chris/learn_opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chrisliu/ROS/learn_opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-videocapture/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
-.PHONY : videocapture/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_nodejs: videocapture/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-geometry_msgs_generate_messages_nodejs/fast:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make videocapture/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
-.PHONY : geometry_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-videocapture/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-.PHONY : videocapture/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_lisp: videocapture/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_lisp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_lisp/fast:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make videocapture/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-.PHONY : geometry_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-videocapture/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-.PHONY : videocapture/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_eus: videocapture/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_eus
-
-# fast build rule for target.
-geometry_msgs_generate_messages_eus/fast:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make videocapture/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
-.PHONY : geometry_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-videocapture/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-.PHONY : videocapture/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_py: videocapture/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_py
-
-# fast build rule for target.
-geometry_msgs_generate_messages_py/fast:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make videocapture/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-.PHONY : geometry_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-videocapture/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-.PHONY : videocapture/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_cpp: videocapture/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_cpp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_cpp/fast:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make videocapture/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-.PHONY : sensor_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-videocapture/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-.PHONY : videocapture/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_lisp: videocapture/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_lisp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_lisp/fast:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make videocapture/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-.PHONY : sensor_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-videocapture/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-.PHONY : videocapture/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_py: videocapture/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_py
-
-# fast build rule for target.
-sensor_msgs_generate_messages_py/fast:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make videocapture/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
-.PHONY : sensor_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-videocapture/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-.PHONY : videocapture/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_eus: videocapture/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_eus
-
-# fast build rule for target.
-sensor_msgs_generate_messages_eus/fast:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make videocapture/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
-.PHONY : sensor_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-videocapture/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-.PHONY : videocapture/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_cpp: videocapture/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_cpp/fast:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make videocapture/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-.PHONY : geometry_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-videocapture/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
-.PHONY : videocapture/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_nodejs: videocapture/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-sensor_msgs_generate_messages_nodejs/fast:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make videocapture/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
-.PHONY : sensor_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-videocapture/CMakeFiles/cannyproc.dir/rule:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/CMakeFiles/cannyproc.dir/rule
-.PHONY : videocapture/CMakeFiles/cannyproc.dir/rule
-
-# Convenience name for target.
-cannyproc: videocapture/CMakeFiles/cannyproc.dir/rule
-
-.PHONY : cannyproc
-
-# fast build rule for target.
-cannyproc/fast:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/cannyproc.dir/build.make videocapture/CMakeFiles/cannyproc.dir/build
-.PHONY : cannyproc/fast
-
-# Convenience name for target.
-videocapture/CMakeFiles/picturepub.dir/rule:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/CMakeFiles/picturepub.dir/rule
-.PHONY : videocapture/CMakeFiles/picturepub.dir/rule
-
-# Convenience name for target.
-picturepub: videocapture/CMakeFiles/picturepub.dir/rule
-
-.PHONY : picturepub
-
-# fast build rule for target.
-picturepub/fast:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/picturepub.dir/build.make videocapture/CMakeFiles/picturepub.dir/build
-.PHONY : picturepub/fast
-
-# Convenience name for target.
-videocapture/CMakeFiles/cameraproc.dir/rule:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/CMakeFiles/cameraproc.dir/rule
-.PHONY : videocapture/CMakeFiles/cameraproc.dir/rule
-
-# Convenience name for target.
-cameraproc: videocapture/CMakeFiles/cameraproc.dir/rule
-
-.PHONY : cameraproc
-
-# fast build rule for target.
-cameraproc/fast:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/cameraproc.dir/build.make videocapture/CMakeFiles/cameraproc.dir/build
-.PHONY : cameraproc/fast
-
-# Convenience name for target.
 videocapture/CMakeFiles/picturesub.dir/rule:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/CMakeFiles/picturesub.dir/rule
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/CMakeFiles/picturesub.dir/rule
 .PHONY : videocapture/CMakeFiles/picturesub.dir/rule
 
 # Convenience name for target.
@@ -372,27 +177,27 @@ picturesub: videocapture/CMakeFiles/picturesub.dir/rule
 
 # fast build rule for target.
 picturesub/fast:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/picturesub.dir/build.make videocapture/CMakeFiles/picturesub.dir/build
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/picturesub.dir/build.make videocapture/CMakeFiles/picturesub.dir/build
 .PHONY : picturesub/fast
 
 # Convenience name for target.
-videocapture/CMakeFiles/linedetect.dir/rule:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/CMakeFiles/linedetect.dir/rule
-.PHONY : videocapture/CMakeFiles/linedetect.dir/rule
+videocapture/CMakeFiles/picturepub.dir/rule:
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/CMakeFiles/picturepub.dir/rule
+.PHONY : videocapture/CMakeFiles/picturepub.dir/rule
 
 # Convenience name for target.
-linedetect: videocapture/CMakeFiles/linedetect.dir/rule
+picturepub: videocapture/CMakeFiles/picturepub.dir/rule
 
-.PHONY : linedetect
+.PHONY : picturepub
 
 # fast build rule for target.
-linedetect/fast:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/linedetect.dir/build.make videocapture/CMakeFiles/linedetect.dir/build
-.PHONY : linedetect/fast
+picturepub/fast:
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/picturepub.dir/build.make videocapture/CMakeFiles/picturepub.dir/build
+.PHONY : picturepub/fast
 
 # Convenience name for target.
 videocapture/CMakeFiles/videocapture.dir/rule:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/CMakeFiles/videocapture.dir/rule
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/CMakeFiles/videocapture.dir/rule
 .PHONY : videocapture/CMakeFiles/videocapture.dir/rule
 
 # Convenience name for target.
@@ -402,8 +207,53 @@ videocapture: videocapture/CMakeFiles/videocapture.dir/rule
 
 # fast build rule for target.
 videocapture/fast:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/videocapture.dir/build.make videocapture/CMakeFiles/videocapture.dir/build
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/videocapture.dir/build.make videocapture/CMakeFiles/videocapture.dir/build
 .PHONY : videocapture/fast
+
+# Convenience name for target.
+videocapture/CMakeFiles/cameraproc.dir/rule:
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/CMakeFiles/cameraproc.dir/rule
+.PHONY : videocapture/CMakeFiles/cameraproc.dir/rule
+
+# Convenience name for target.
+cameraproc: videocapture/CMakeFiles/cameraproc.dir/rule
+
+.PHONY : cameraproc
+
+# fast build rule for target.
+cameraproc/fast:
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/cameraproc.dir/build.make videocapture/CMakeFiles/cameraproc.dir/build
+.PHONY : cameraproc/fast
+
+# Convenience name for target.
+videocapture/CMakeFiles/linedetect.dir/rule:
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/CMakeFiles/linedetect.dir/rule
+.PHONY : videocapture/CMakeFiles/linedetect.dir/rule
+
+# Convenience name for target.
+linedetect: videocapture/CMakeFiles/linedetect.dir/rule
+
+.PHONY : linedetect
+
+# fast build rule for target.
+linedetect/fast:
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/linedetect.dir/build.make videocapture/CMakeFiles/linedetect.dir/build
+.PHONY : linedetect/fast
+
+# Convenience name for target.
+videocapture/CMakeFiles/cannyproc.dir/rule:
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 videocapture/CMakeFiles/cannyproc.dir/rule
+.PHONY : videocapture/CMakeFiles/cannyproc.dir/rule
+
+# Convenience name for target.
+cannyproc: videocapture/CMakeFiles/cannyproc.dir/rule
+
+.PHONY : cannyproc
+
+# fast build rule for target.
+cannyproc/fast:
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/cannyproc.dir/build.make videocapture/CMakeFiles/cannyproc.dir/build
+.PHONY : cannyproc/fast
 
 src/cameraproc.o: src/cameraproc.cpp.o
 
@@ -411,7 +261,7 @@ src/cameraproc.o: src/cameraproc.cpp.o
 
 # target to build an object file
 src/cameraproc.cpp.o:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/cameraproc.dir/build.make videocapture/CMakeFiles/cameraproc.dir/src/cameraproc.cpp.o
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/cameraproc.dir/build.make videocapture/CMakeFiles/cameraproc.dir/src/cameraproc.cpp.o
 .PHONY : src/cameraproc.cpp.o
 
 src/cameraproc.i: src/cameraproc.cpp.i
@@ -420,7 +270,7 @@ src/cameraproc.i: src/cameraproc.cpp.i
 
 # target to preprocess a source file
 src/cameraproc.cpp.i:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/cameraproc.dir/build.make videocapture/CMakeFiles/cameraproc.dir/src/cameraproc.cpp.i
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/cameraproc.dir/build.make videocapture/CMakeFiles/cameraproc.dir/src/cameraproc.cpp.i
 .PHONY : src/cameraproc.cpp.i
 
 src/cameraproc.s: src/cameraproc.cpp.s
@@ -429,7 +279,7 @@ src/cameraproc.s: src/cameraproc.cpp.s
 
 # target to generate assembly for a file
 src/cameraproc.cpp.s:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/cameraproc.dir/build.make videocapture/CMakeFiles/cameraproc.dir/src/cameraproc.cpp.s
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/cameraproc.dir/build.make videocapture/CMakeFiles/cameraproc.dir/src/cameraproc.cpp.s
 .PHONY : src/cameraproc.cpp.s
 
 src/cannyproc.o: src/cannyproc.cpp.o
@@ -438,7 +288,7 @@ src/cannyproc.o: src/cannyproc.cpp.o
 
 # target to build an object file
 src/cannyproc.cpp.o:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/cannyproc.dir/build.make videocapture/CMakeFiles/cannyproc.dir/src/cannyproc.cpp.o
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/cannyproc.dir/build.make videocapture/CMakeFiles/cannyproc.dir/src/cannyproc.cpp.o
 .PHONY : src/cannyproc.cpp.o
 
 src/cannyproc.i: src/cannyproc.cpp.i
@@ -447,7 +297,7 @@ src/cannyproc.i: src/cannyproc.cpp.i
 
 # target to preprocess a source file
 src/cannyproc.cpp.i:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/cannyproc.dir/build.make videocapture/CMakeFiles/cannyproc.dir/src/cannyproc.cpp.i
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/cannyproc.dir/build.make videocapture/CMakeFiles/cannyproc.dir/src/cannyproc.cpp.i
 .PHONY : src/cannyproc.cpp.i
 
 src/cannyproc.s: src/cannyproc.cpp.s
@@ -456,7 +306,7 @@ src/cannyproc.s: src/cannyproc.cpp.s
 
 # target to generate assembly for a file
 src/cannyproc.cpp.s:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/cannyproc.dir/build.make videocapture/CMakeFiles/cannyproc.dir/src/cannyproc.cpp.s
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/cannyproc.dir/build.make videocapture/CMakeFiles/cannyproc.dir/src/cannyproc.cpp.s
 .PHONY : src/cannyproc.cpp.s
 
 src/linedetect.o: src/linedetect.cpp.o
@@ -465,7 +315,7 @@ src/linedetect.o: src/linedetect.cpp.o
 
 # target to build an object file
 src/linedetect.cpp.o:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/linedetect.dir/build.make videocapture/CMakeFiles/linedetect.dir/src/linedetect.cpp.o
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/linedetect.dir/build.make videocapture/CMakeFiles/linedetect.dir/src/linedetect.cpp.o
 .PHONY : src/linedetect.cpp.o
 
 src/linedetect.i: src/linedetect.cpp.i
@@ -474,7 +324,7 @@ src/linedetect.i: src/linedetect.cpp.i
 
 # target to preprocess a source file
 src/linedetect.cpp.i:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/linedetect.dir/build.make videocapture/CMakeFiles/linedetect.dir/src/linedetect.cpp.i
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/linedetect.dir/build.make videocapture/CMakeFiles/linedetect.dir/src/linedetect.cpp.i
 .PHONY : src/linedetect.cpp.i
 
 src/linedetect.s: src/linedetect.cpp.s
@@ -483,7 +333,7 @@ src/linedetect.s: src/linedetect.cpp.s
 
 # target to generate assembly for a file
 src/linedetect.cpp.s:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/linedetect.dir/build.make videocapture/CMakeFiles/linedetect.dir/src/linedetect.cpp.s
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/linedetect.dir/build.make videocapture/CMakeFiles/linedetect.dir/src/linedetect.cpp.s
 .PHONY : src/linedetect.cpp.s
 
 src/picturepub.o: src/picturepub.cpp.o
@@ -492,7 +342,7 @@ src/picturepub.o: src/picturepub.cpp.o
 
 # target to build an object file
 src/picturepub.cpp.o:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/picturepub.dir/build.make videocapture/CMakeFiles/picturepub.dir/src/picturepub.cpp.o
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/picturepub.dir/build.make videocapture/CMakeFiles/picturepub.dir/src/picturepub.cpp.o
 .PHONY : src/picturepub.cpp.o
 
 src/picturepub.i: src/picturepub.cpp.i
@@ -501,7 +351,7 @@ src/picturepub.i: src/picturepub.cpp.i
 
 # target to preprocess a source file
 src/picturepub.cpp.i:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/picturepub.dir/build.make videocapture/CMakeFiles/picturepub.dir/src/picturepub.cpp.i
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/picturepub.dir/build.make videocapture/CMakeFiles/picturepub.dir/src/picturepub.cpp.i
 .PHONY : src/picturepub.cpp.i
 
 src/picturepub.s: src/picturepub.cpp.s
@@ -510,7 +360,7 @@ src/picturepub.s: src/picturepub.cpp.s
 
 # target to generate assembly for a file
 src/picturepub.cpp.s:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/picturepub.dir/build.make videocapture/CMakeFiles/picturepub.dir/src/picturepub.cpp.s
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/picturepub.dir/build.make videocapture/CMakeFiles/picturepub.dir/src/picturepub.cpp.s
 .PHONY : src/picturepub.cpp.s
 
 src/picturesub.o: src/picturesub.cpp.o
@@ -519,7 +369,7 @@ src/picturesub.o: src/picturesub.cpp.o
 
 # target to build an object file
 src/picturesub.cpp.o:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/picturesub.dir/build.make videocapture/CMakeFiles/picturesub.dir/src/picturesub.cpp.o
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/picturesub.dir/build.make videocapture/CMakeFiles/picturesub.dir/src/picturesub.cpp.o
 .PHONY : src/picturesub.cpp.o
 
 src/picturesub.i: src/picturesub.cpp.i
@@ -528,7 +378,7 @@ src/picturesub.i: src/picturesub.cpp.i
 
 # target to preprocess a source file
 src/picturesub.cpp.i:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/picturesub.dir/build.make videocapture/CMakeFiles/picturesub.dir/src/picturesub.cpp.i
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/picturesub.dir/build.make videocapture/CMakeFiles/picturesub.dir/src/picturesub.cpp.i
 .PHONY : src/picturesub.cpp.i
 
 src/picturesub.s: src/picturesub.cpp.s
@@ -537,7 +387,7 @@ src/picturesub.s: src/picturesub.cpp.s
 
 # target to generate assembly for a file
 src/picturesub.cpp.s:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/picturesub.dir/build.make videocapture/CMakeFiles/picturesub.dir/src/picturesub.cpp.s
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/picturesub.dir/build.make videocapture/CMakeFiles/picturesub.dir/src/picturesub.cpp.s
 .PHONY : src/picturesub.cpp.s
 
 src/videocapture.o: src/videocapture.cpp.o
@@ -546,7 +396,7 @@ src/videocapture.o: src/videocapture.cpp.o
 
 # target to build an object file
 src/videocapture.cpp.o:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/videocapture.dir/build.make videocapture/CMakeFiles/videocapture.dir/src/videocapture.cpp.o
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/videocapture.dir/build.make videocapture/CMakeFiles/videocapture.dir/src/videocapture.cpp.o
 .PHONY : src/videocapture.cpp.o
 
 src/videocapture.i: src/videocapture.cpp.i
@@ -555,7 +405,7 @@ src/videocapture.i: src/videocapture.cpp.i
 
 # target to preprocess a source file
 src/videocapture.cpp.i:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/videocapture.dir/build.make videocapture/CMakeFiles/videocapture.dir/src/videocapture.cpp.i
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/videocapture.dir/build.make videocapture/CMakeFiles/videocapture.dir/src/videocapture.cpp.i
 .PHONY : src/videocapture.cpp.i
 
 src/videocapture.s: src/videocapture.cpp.s
@@ -564,7 +414,7 @@ src/videocapture.s: src/videocapture.cpp.s
 
 # target to generate assembly for a file
 src/videocapture.cpp.s:
-	cd /home/chris/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/videocapture.dir/build.make videocapture/CMakeFiles/videocapture.dir/src/videocapture.cpp.s
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f videocapture/CMakeFiles/videocapture.dir/build.make videocapture/CMakeFiles/videocapture.dir/src/videocapture.cpp.s
 .PHONY : src/videocapture.cpp.s
 
 # Help Target
@@ -573,29 +423,19 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... geometry_msgs_generate_messages_nodejs"
-	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... rebuild_cache"
-	@echo "... geometry_msgs_generate_messages_eus"
-	@echo "... geometry_msgs_generate_messages_py"
-	@echo "... sensor_msgs_generate_messages_cpp"
-	@echo "... sensor_msgs_generate_messages_lisp"
-	@echo "... sensor_msgs_generate_messages_py"
+	@echo "... picturesub"
 	@echo "... list_install_components"
-	@echo "... sensor_msgs_generate_messages_eus"
-	@echo "... geometry_msgs_generate_messages_cpp"
-	@echo "... sensor_msgs_generate_messages_nodejs"
-	@echo "... cannyproc"
-	@echo "... edit_cache"
-	@echo "... install/local"
 	@echo "... picturepub"
+	@echo "... install/strip"
+	@echo "... install/local"
+	@echo "... videocapture"
 	@echo "... cameraproc"
 	@echo "... test"
-	@echo "... install/strip"
-	@echo "... picturesub"
-	@echo "... linedetect"
-	@echo "... videocapture"
 	@echo "... install"
+	@echo "... linedetect"
+	@echo "... cannyproc"
+	@echo "... edit_cache"
 	@echo "... src/cameraproc.o"
 	@echo "... src/cameraproc.i"
 	@echo "... src/cameraproc.s"
@@ -625,6 +465,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/chris/learn_opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chrisliu/ROS/learn_opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

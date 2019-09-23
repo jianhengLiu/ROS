@@ -1,8 +1,8 @@
-prefix=/home/chris/learn_opencv/devel
+prefix=/home/chrisliu/ROS/learn_opencv/devel
 
 Name: videocapture
 Description: Description of videocapture
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/chris/learn_opencv/devel/lib 
+Libs: -L/home/chrisliu/ROS/learn_opencv/devel/lib 
 Requires: 

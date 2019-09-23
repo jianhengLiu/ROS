@@ -1,8 +1,8 @@
-# Install script for directory: /home/chris/learn_opencv/src/hello
+# Install script for directory: /home/chrisliu/ROS/learn_opencv/src/hello
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/chris/learn_opencv/install")
+  set(CMAKE_INSTALL_PREFIX "/home/chrisliu/ROS/learn_opencv/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/chris/learn_opencv/build/hello/catkin_generated/installspace/hello.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/chrisliu/ROS/learn_opencv/build/hello/catkin_generated/installspace/hello.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hello/cmake" TYPE FILE FILES
-    "/home/chris/learn_opencv/build/hello/catkin_generated/installspace/helloConfig.cmake"
-    "/home/chris/learn_opencv/build/hello/catkin_generated/installspace/helloConfig-version.cmake"
+    "/home/chrisliu/ROS/learn_opencv/build/hello/catkin_generated/installspace/helloConfig.cmake"
+    "/home/chrisliu/ROS/learn_opencv/build/hello/catkin_generated/installspace/helloConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hello" TYPE FILE FILES "/home/chris/learn_opencv/src/hello/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hello" TYPE FILE FILES "/home/chrisliu/ROS/learn_opencv/src/hello/package.xml")
 endif()
 

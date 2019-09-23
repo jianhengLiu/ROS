@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/chris/learn_opencv/src/videocapture/src/cameraproc.cpp
+/home/chrisliu/ROS/learn_opencv/src/videocapture/src/cameraproc.cpp
 cv_bridge/cv_bridge.h
 -
 image_transport/image_transport.h

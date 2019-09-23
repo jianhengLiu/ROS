@@ -1,8 +1,0 @@
-prefix=/home/chris/learn_opencv/install
-
-Name: marm_moveit_config
-Description: Description of marm_moveit_config
-Version: 0.3.0
-Cflags: 
-Libs: -L/home/chris/learn_opencv/install/lib 
-Requires: 

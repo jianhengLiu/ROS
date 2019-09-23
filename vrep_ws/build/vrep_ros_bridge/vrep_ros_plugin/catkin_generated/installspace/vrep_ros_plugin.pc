@@ -1,0 +1,8 @@
+prefix=/home/chrisliu/ROS/vrep_ws/install
+
+Name: vrep_ros_plugin
+Description: Description of vrep_ros_plugin
+Version: 1.0.0
+Cflags: -I/home/chrisliu/ROS/vrep_ws/install/include
+Libs: -L/home/chrisliu/ROS/vrep_ws/install/lib -lv_repExtRosBridge
+Requires: roscpp pluginlib

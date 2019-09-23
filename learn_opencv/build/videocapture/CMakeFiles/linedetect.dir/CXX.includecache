@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/chris/learn_opencv/src/videocapture/src/linedetect.cpp
+/home/chrisliu/ROS/learn_opencv/src/videocapture/src/linedetect.cpp
 ros/ros.h
 -
 iostream

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/linedetect.dir/src/linedetect.cpp.o"
-  "/home/chris/learn_opencv/devel/lib/videocapture/linedetect.pdb"
-  "/home/chris/learn_opencv/devel/lib/videocapture/linedetect"
+  "/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/linedetect.pdb"
+  "/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/linedetect"
 )
 
 # Per-language clean rules from dependency scanning.

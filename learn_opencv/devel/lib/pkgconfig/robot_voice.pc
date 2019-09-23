@@ -1,8 +1,0 @@
-prefix=/home/chris/learn_opencv/devel
-
-Name: robot_voice
-Description: Description of robot_voice
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/chris/learn_opencv/devel/lib 
-Requires: 

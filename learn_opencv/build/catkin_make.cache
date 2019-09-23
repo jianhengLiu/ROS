@@ -1,2 +1,2 @@
-hello:videocapture
--DCATKIN_DEVEL_PREFIX=/home/chris/learn_opencv/devel -DCMAKE_INSTALL_PREFIX=/home/chris/learn_opencv/install -G Unix Makefiles
+hello:image_pkg:videocapture
+-DCATKIN_DEVEL_PREFIX=/home/chrisliu/ROS/learn_opencv/devel -DCMAKE_INSTALL_PREFIX=/home/chrisliu/ROS/learn_opencv/install -G Unix Makefiles

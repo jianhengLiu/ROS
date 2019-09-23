@@ -1,8 +1,0 @@
-prefix=/home/chrisliu/ROS/HKUST_ws/install
-
-Name: plan_env
-Description: Description of plan_env
-Version: 0.0.0
-Cflags: -I/home/chrisliu/ROS/HKUST_ws/install/include
-Libs: -L/home/chrisliu/ROS/HKUST_ws/install/lib -lplan_env
-Requires: roscpp std_msgs

@@ -1,8 +1,0 @@
-prefix=/home/chrisliu/ROS/HKUST_ws/devel
-
-Name: traj_utils
-Description: Description of traj_utils
-Version: 0.0.0
-Cflags: -I/home/chrisliu/ROS/HKUST_ws/src/Fast-Planner/dyn_planner/traj_utils/include
-Libs: -L/home/chrisliu/ROS/HKUST_ws/devel/lib -ltraj_utils
-Requires: path_searching bspline_opt

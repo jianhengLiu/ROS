@@ -1,0 +1,8 @@
+prefix=/home/chrisliu/ROS/learn_opencv/install
+
+Name: image_pkg
+Description: Description of image_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/chrisliu/ROS/learn_opencv/install/lib 
+Requires: 

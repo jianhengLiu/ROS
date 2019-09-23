@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/learn_opencv/src
+CMAKE_SOURCE_DIR = /home/chrisliu/ROS/learn_opencv/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/learn_opencv/build
+CMAKE_BINARY_DIR = /home/chrisliu/ROS/learn_opencv/build
 
 # Include any dependencies generated for this target.
 include videocapture/CMakeFiles/videocapture.dir/depend.make
@@ -58,17 +58,17 @@ include videocapture/CMakeFiles/videocapture.dir/progress.make
 include videocapture/CMakeFiles/videocapture.dir/flags.make
 
 videocapture/CMakeFiles/videocapture.dir/src/videocapture.cpp.o: videocapture/CMakeFiles/videocapture.dir/flags.make
-videocapture/CMakeFiles/videocapture.dir/src/videocapture.cpp.o: /home/chris/learn_opencv/src/videocapture/src/videocapture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chris/learn_opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object videocapture/CMakeFiles/videocapture.dir/src/videocapture.cpp.o"
-	cd /home/chris/learn_opencv/build/videocapture && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/videocapture.dir/src/videocapture.cpp.o -c /home/chris/learn_opencv/src/videocapture/src/videocapture.cpp
+videocapture/CMakeFiles/videocapture.dir/src/videocapture.cpp.o: /home/chrisliu/ROS/learn_opencv/src/videocapture/src/videocapture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrisliu/ROS/learn_opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object videocapture/CMakeFiles/videocapture.dir/src/videocapture.cpp.o"
+	cd /home/chrisliu/ROS/learn_opencv/build/videocapture && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/videocapture.dir/src/videocapture.cpp.o -c /home/chrisliu/ROS/learn_opencv/src/videocapture/src/videocapture.cpp
 
 videocapture/CMakeFiles/videocapture.dir/src/videocapture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/videocapture.dir/src/videocapture.cpp.i"
-	cd /home/chris/learn_opencv/build/videocapture && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chris/learn_opencv/src/videocapture/src/videocapture.cpp > CMakeFiles/videocapture.dir/src/videocapture.cpp.i
+	cd /home/chrisliu/ROS/learn_opencv/build/videocapture && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrisliu/ROS/learn_opencv/src/videocapture/src/videocapture.cpp > CMakeFiles/videocapture.dir/src/videocapture.cpp.i
 
 videocapture/CMakeFiles/videocapture.dir/src/videocapture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/videocapture.dir/src/videocapture.cpp.s"
-	cd /home/chris/learn_opencv/build/videocapture && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chris/learn_opencv/src/videocapture/src/videocapture.cpp -o CMakeFiles/videocapture.dir/src/videocapture.cpp.s
+	cd /home/chrisliu/ROS/learn_opencv/build/videocapture && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrisliu/ROS/learn_opencv/src/videocapture/src/videocapture.cpp -o CMakeFiles/videocapture.dir/src/videocapture.cpp.s
 
 videocapture/CMakeFiles/videocapture.dir/src/videocapture.cpp.o.requires:
 
@@ -88,48 +88,48 @@ videocapture_OBJECTS = \
 # External object files for target videocapture
 videocapture_EXTERNAL_OBJECTS =
 
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: videocapture/CMakeFiles/videocapture.dir/src/videocapture.cpp.o
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: videocapture/CMakeFiles/videocapture.dir/build.make
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/libcv_bridge.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/libimage_transport.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/libclass_loader.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/libPocoFoundation.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/libroscpp.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/librosconsole.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/libroslib.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/librospack.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/librostime.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/libcpp_common.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/chris/learn_opencv/devel/lib/videocapture/videocapture: videocapture/CMakeFiles/videocapture.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chris/learn_opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/chris/learn_opencv/devel/lib/videocapture/videocapture"
-	cd /home/chris/learn_opencv/build/videocapture && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/videocapture.dir/link.txt --verbose=$(VERBOSE)
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: videocapture/CMakeFiles/videocapture.dir/src/videocapture.cpp.o
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: videocapture/CMakeFiles/videocapture.dir/build.make
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/libcv_bridge.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/libimage_transport.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/libclass_loader.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/libPocoFoundation.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/libroscpp.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/librosconsole.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/libroslib.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/librospack.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/librostime.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /opt/ros/kinetic/lib/libcpp_common.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture: videocapture/CMakeFiles/videocapture.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chrisliu/ROS/learn_opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture"
+	cd /home/chrisliu/ROS/learn_opencv/build/videocapture && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/videocapture.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-videocapture/CMakeFiles/videocapture.dir/build: /home/chris/learn_opencv/devel/lib/videocapture/videocapture
+videocapture/CMakeFiles/videocapture.dir/build: /home/chrisliu/ROS/learn_opencv/devel/lib/videocapture/videocapture
 
 .PHONY : videocapture/CMakeFiles/videocapture.dir/build
 
@@ -138,10 +138,10 @@ videocapture/CMakeFiles/videocapture.dir/requires: videocapture/CMakeFiles/video
 .PHONY : videocapture/CMakeFiles/videocapture.dir/requires
 
 videocapture/CMakeFiles/videocapture.dir/clean:
-	cd /home/chris/learn_opencv/build/videocapture && $(CMAKE_COMMAND) -P CMakeFiles/videocapture.dir/cmake_clean.cmake
+	cd /home/chrisliu/ROS/learn_opencv/build/videocapture && $(CMAKE_COMMAND) -P CMakeFiles/videocapture.dir/cmake_clean.cmake
 .PHONY : videocapture/CMakeFiles/videocapture.dir/clean
 
 videocapture/CMakeFiles/videocapture.dir/depend:
-	cd /home/chris/learn_opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/learn_opencv/src /home/chris/learn_opencv/src/videocapture /home/chris/learn_opencv/build /home/chris/learn_opencv/build/videocapture /home/chris/learn_opencv/build/videocapture/CMakeFiles/videocapture.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chrisliu/ROS/learn_opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chrisliu/ROS/learn_opencv/src /home/chrisliu/ROS/learn_opencv/src/videocapture /home/chrisliu/ROS/learn_opencv/build /home/chrisliu/ROS/learn_opencv/build/videocapture /home/chrisliu/ROS/learn_opencv/build/videocapture/CMakeFiles/videocapture.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : videocapture/CMakeFiles/videocapture.dir/depend
 

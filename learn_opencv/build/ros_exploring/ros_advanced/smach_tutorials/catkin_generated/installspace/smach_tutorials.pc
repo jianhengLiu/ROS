@@ -1,8 +1,0 @@
-prefix=/home/chris/learn_opencv/install
-
-Name: smach_tutorials
-Description: Description of smach_tutorials
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/chris/learn_opencv/install/lib 
-Requires: 

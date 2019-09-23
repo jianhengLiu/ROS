@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/chris/learn_opencv/src/hello/src/hello.cpp
+/home/chrisliu/ROS/learn_opencv/src/hello/src/hello.cpp
 ros/ros.h
 -
 
