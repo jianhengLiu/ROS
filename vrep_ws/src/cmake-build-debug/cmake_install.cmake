@@ -131,6 +131,8 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/gtest/cmake_install.cmake")
+  include("/home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/vrep_pkg/cmake_install.cmake")
+  include("/home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/keyboard/cmake_install.cmake")
 
 endif()
 

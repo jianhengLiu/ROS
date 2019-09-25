@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_92f7d/fast 
-/usr/bin/make -f CMakeFiles/cmTC_92f7d.dir/build.make CMakeFiles/cmTC_92f7d.dir/build
+Run Build Command(s):/usr/bin/make cmTC_6a892/fast 
+/usr/bin/make -f CMakeFiles/cmTC_6a892.dir/build.make CMakeFiles/cmTC_6a892.dir/build
 make[1]: Entering directory '/home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_92f7d.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_92f7d.dir/CheckSymbolExists.c.o   -c /home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_92f7d
-/home/chrisliu/software/clion-2019.2.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92f7d.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_92f7d.dir/CheckSymbolExists.c.o  -o cmTC_92f7d 
-CMakeFiles/cmTC_92f7d.dir/CheckSymbolExists.c.o：在函数‘main’中：
+Building C object CMakeFiles/cmTC_6a892.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6a892.dir/CheckSymbolExists.c.o   -c /home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6a892
+/home/chrisliu/software/clion-2019.2.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a892.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6a892.dir/CheckSymbolExists.c.o  -o cmTC_6a892 
+CMakeFiles/cmTC_6a892.dir/CheckSymbolExists.c.o：在函数‘main’中：
 CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_92f7d.dir/build.make:86: recipe for target 'cmTC_92f7d' failed
-make[1]: *** [cmTC_92f7d] Error 1
+CMakeFiles/cmTC_6a892.dir/build.make:86: recipe for target 'cmTC_6a892' failed
+make[1]: *** [cmTC_6a892] Error 1
 make[1]: Leaving directory '/home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_92f7d/fast' failed
-make: *** [cmTC_92f7d/fast] Error 2
+Makefile:121: recipe for target 'cmTC_6a892/fast' failed
+make: *** [cmTC_6a892/fast] Error 2
 
 File /home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,20 +36,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_29743/fast 
-/usr/bin/make -f CMakeFiles/cmTC_29743.dir/build.make CMakeFiles/cmTC_29743.dir/build
+Run Build Command(s):/usr/bin/make cmTC_d9235/fast 
+/usr/bin/make -f CMakeFiles/cmTC_d9235.dir/build.make CMakeFiles/cmTC_d9235.dir/build
 make[1]: Entering directory '/home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_29743.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_29743.dir/CheckFunctionExists.c.o   -c /home/chrisliu/software/clion-2019.2.1/bin/cmake/linux/share/cmake-3.14/Modules/CheckFunctionExists.c
-Linking C executable cmTC_29743
-/home/chrisliu/software/clion-2019.2.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29743.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_29743.dir/CheckFunctionExists.c.o  -o cmTC_29743 -lpthreads 
+Building C object CMakeFiles/cmTC_d9235.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d9235.dir/CheckFunctionExists.c.o   -c /home/chrisliu/software/clion-2019.2.1/bin/cmake/linux/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d9235
+/home/chrisliu/software/clion-2019.2.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9235.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_d9235.dir/CheckFunctionExists.c.o  -o cmTC_d9235 -lpthreads 
 /usr/bin/ld: 找不到 -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_29743.dir/build.make:86: recipe for target 'cmTC_29743' failed
-make[1]: *** [cmTC_29743] Error 1
+CMakeFiles/cmTC_d9235.dir/build.make:86: recipe for target 'cmTC_d9235' failed
+make[1]: *** [cmTC_d9235] Error 1
 make[1]: Leaving directory '/home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_29743/fast' failed
-make: *** [cmTC_29743/fast] Error 2
+Makefile:121: recipe for target 'cmTC_d9235/fast' failed
+make: *** [cmTC_d9235/fast] Error 2
 
 

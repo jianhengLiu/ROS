@@ -283,6 +283,19 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
+# Target rules for targets named histogram_local
+
+# Build rule for target.
+histogram_local: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 histogram_local
+.PHONY : histogram_local
+
+# fast build rule for target.
+histogram_local/fast:
+	$(MAKE) -f image_pkg/CMakeFiles/histogram_local.dir/build.make image_pkg/CMakeFiles/histogram_local.dir/build
+.PHONY : histogram_local/fast
+
+#=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_nodejs
 
 # Build rule for target.
@@ -294,19 +307,6 @@ rosgraph_msgs_generate_messages_nodejs: cmake_check_build_system
 rosgraph_msgs_generate_messages_nodejs/fast:
 	$(MAKE) -f image_pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make image_pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named histogram
-
-# Build rule for target.
-histogram: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 histogram
-.PHONY : histogram
-
-# fast build rule for target.
-histogram/fast:
-	$(MAKE) -f image_pkg/CMakeFiles/histogram.dir/build.make image_pkg/CMakeFiles/histogram.dir/build
-.PHONY : histogram/fast
 
 #=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_nodejs
@@ -385,6 +385,19 @@ sensor_msgs_generate_messages_cpp: cmake_check_build_system
 sensor_msgs_generate_messages_cpp/fast:
 	$(MAKE) -f image_pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make image_pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
 .PHONY : sensor_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named histogram_camera
+
+# Build rule for target.
+histogram_camera: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 histogram_camera
+.PHONY : histogram_camera
+
+# fast build rule for target.
+histogram_camera/fast:
+	$(MAKE) -f image_pkg/CMakeFiles/histogram_camera.dir/build.make image_pkg/CMakeFiles/histogram_camera.dir/build
+.PHONY : histogram_camera/fast
 
 #=============================================================================
 # Target rules for targets named sensor_msgs_generate_messages_lisp
@@ -733,14 +746,15 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... histogram_local"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
-	@echo "... histogram"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_eus"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... sensor_msgs_generate_messages_cpp"
+	@echo "... histogram_camera"
 	@echo "... sensor_msgs_generate_messages_lisp"
 	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_cpp"

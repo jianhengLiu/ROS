@@ -390,19 +390,21 @@ clean: gtest/gtest/CMakeFiles/gtest_main.dir/clean
 # Directory level rules for directory image_pkg
 
 # Convenience name for "all" pass in the directory.
-image_pkg/all: image_pkg/CMakeFiles/histogram.dir/all
+image_pkg/all: image_pkg/CMakeFiles/histogram_local.dir/all
+image_pkg/all: image_pkg/CMakeFiles/histogram_camera.dir/all
 
 .PHONY : image_pkg/all
 
 # Convenience name for "clean" pass in the directory.
+image_pkg/clean: image_pkg/CMakeFiles/histogram_local.dir/clean
 image_pkg/clean: image_pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
-image_pkg/clean: image_pkg/CMakeFiles/histogram.dir/clean
 image_pkg/clean: image_pkg/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
 image_pkg/clean: image_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 image_pkg/clean: image_pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
 image_pkg/clean: image_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 image_pkg/clean: image_pkg/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 image_pkg/clean: image_pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+image_pkg/clean: image_pkg/CMakeFiles/histogram_camera.dir/clean
 image_pkg/clean: image_pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
 image_pkg/clean: image_pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
 image_pkg/clean: image_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
@@ -428,6 +430,43 @@ image_pkg/clean: image_pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
 image_pkg/preinstall:
 
 .PHONY : image_pkg/preinstall
+
+#=============================================================================
+# Target rules for target image_pkg/CMakeFiles/histogram_local.dir
+
+# All Build rule for target.
+image_pkg/CMakeFiles/histogram_local.dir/all:
+	$(MAKE) -f image_pkg/CMakeFiles/histogram_local.dir/build.make image_pkg/CMakeFiles/histogram_local.dir/depend
+	$(MAKE) -f image_pkg/CMakeFiles/histogram_local.dir/build.make image_pkg/CMakeFiles/histogram_local.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrisliu/ROS/learn_opencv/build/CMakeFiles --progress-num=20,21 "Built target histogram_local"
+.PHONY : image_pkg/CMakeFiles/histogram_local.dir/all
+
+# Include target in all.
+all: image_pkg/CMakeFiles/histogram_local.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+image_pkg/CMakeFiles/histogram_local.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisliu/ROS/learn_opencv/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 image_pkg/CMakeFiles/histogram_local.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisliu/ROS/learn_opencv/build/CMakeFiles 0
+.PHONY : image_pkg/CMakeFiles/histogram_local.dir/rule
+
+# Convenience name for target.
+histogram_local: image_pkg/CMakeFiles/histogram_local.dir/rule
+
+.PHONY : histogram_local
+
+# clean rule for target.
+image_pkg/CMakeFiles/histogram_local.dir/clean:
+	$(MAKE) -f image_pkg/CMakeFiles/histogram_local.dir/build.make image_pkg/CMakeFiles/histogram_local.dir/clean
+.PHONY : image_pkg/CMakeFiles/histogram_local.dir/clean
+
+# clean rule for target.
+clean: image_pkg/CMakeFiles/histogram_local.dir/clean
+
+.PHONY : clean
 
 #=============================================================================
 # Target rules for target image_pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir
@@ -458,43 +497,6 @@ image_pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
 
 # clean rule for target.
 clean: image_pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target image_pkg/CMakeFiles/histogram.dir
-
-# All Build rule for target.
-image_pkg/CMakeFiles/histogram.dir/all:
-	$(MAKE) -f image_pkg/CMakeFiles/histogram.dir/build.make image_pkg/CMakeFiles/histogram.dir/depend
-	$(MAKE) -f image_pkg/CMakeFiles/histogram.dir/build.make image_pkg/CMakeFiles/histogram.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrisliu/ROS/learn_opencv/build/CMakeFiles --progress-num=18,19 "Built target histogram"
-.PHONY : image_pkg/CMakeFiles/histogram.dir/all
-
-# Include target in all.
-all: image_pkg/CMakeFiles/histogram.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-image_pkg/CMakeFiles/histogram.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisliu/ROS/learn_opencv/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 image_pkg/CMakeFiles/histogram.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisliu/ROS/learn_opencv/build/CMakeFiles 0
-.PHONY : image_pkg/CMakeFiles/histogram.dir/rule
-
-# Convenience name for target.
-histogram: image_pkg/CMakeFiles/histogram.dir/rule
-
-.PHONY : histogram
-
-# clean rule for target.
-image_pkg/CMakeFiles/histogram.dir/clean:
-	$(MAKE) -f image_pkg/CMakeFiles/histogram.dir/build.make image_pkg/CMakeFiles/histogram.dir/clean
-.PHONY : image_pkg/CMakeFiles/histogram.dir/clean
-
-# clean rule for target.
-clean: image_pkg/CMakeFiles/histogram.dir/clean
 
 .PHONY : clean
 
@@ -687,6 +689,43 @@ image_pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean:
 
 # clean rule for target.
 clean: image_pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target image_pkg/CMakeFiles/histogram_camera.dir
+
+# All Build rule for target.
+image_pkg/CMakeFiles/histogram_camera.dir/all:
+	$(MAKE) -f image_pkg/CMakeFiles/histogram_camera.dir/build.make image_pkg/CMakeFiles/histogram_camera.dir/depend
+	$(MAKE) -f image_pkg/CMakeFiles/histogram_camera.dir/build.make image_pkg/CMakeFiles/histogram_camera.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrisliu/ROS/learn_opencv/build/CMakeFiles --progress-num=18,19 "Built target histogram_camera"
+.PHONY : image_pkg/CMakeFiles/histogram_camera.dir/all
+
+# Include target in all.
+all: image_pkg/CMakeFiles/histogram_camera.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+image_pkg/CMakeFiles/histogram_camera.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisliu/ROS/learn_opencv/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 image_pkg/CMakeFiles/histogram_camera.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisliu/ROS/learn_opencv/build/CMakeFiles 0
+.PHONY : image_pkg/CMakeFiles/histogram_camera.dir/rule
+
+# Convenience name for target.
+histogram_camera: image_pkg/CMakeFiles/histogram_camera.dir/rule
+
+.PHONY : histogram_camera
+
+# clean rule for target.
+image_pkg/CMakeFiles/histogram_camera.dir/clean:
+	$(MAKE) -f image_pkg/CMakeFiles/histogram_camera.dir/build.make image_pkg/CMakeFiles/histogram_camera.dir/clean
+.PHONY : image_pkg/CMakeFiles/histogram_camera.dir/clean
+
+# clean rule for target.
+clean: image_pkg/CMakeFiles/histogram_camera.dir/clean
 
 .PHONY : clean
 
@@ -1394,7 +1433,7 @@ videocapture/CMakeFiles/picturesub.dir/all: image_pkg/CMakeFiles/rosgraph_msgs_g
 videocapture/CMakeFiles/picturesub.dir/all: image_pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
 	$(MAKE) -f videocapture/CMakeFiles/picturesub.dir/build.make videocapture/CMakeFiles/picturesub.dir/depend
 	$(MAKE) -f videocapture/CMakeFiles/picturesub.dir/build.make videocapture/CMakeFiles/picturesub.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrisliu/ROS/learn_opencv/build/CMakeFiles --progress-num=24,25 "Built target picturesub"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrisliu/ROS/learn_opencv/build/CMakeFiles --progress-num=26,27 "Built target picturesub"
 .PHONY : videocapture/CMakeFiles/picturesub.dir/all
 
 # Include target in all.
@@ -1455,7 +1494,7 @@ videocapture/CMakeFiles/picturepub.dir/all: image_pkg/CMakeFiles/rosgraph_msgs_g
 videocapture/CMakeFiles/picturepub.dir/all: image_pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
 	$(MAKE) -f videocapture/CMakeFiles/picturepub.dir/build.make videocapture/CMakeFiles/picturepub.dir/depend
 	$(MAKE) -f videocapture/CMakeFiles/picturepub.dir/build.make videocapture/CMakeFiles/picturepub.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrisliu/ROS/learn_opencv/build/CMakeFiles --progress-num=22,23 "Built target picturepub"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrisliu/ROS/learn_opencv/build/CMakeFiles --progress-num=24,25 "Built target picturepub"
 .PHONY : videocapture/CMakeFiles/picturepub.dir/all
 
 # Include target in all.
@@ -1516,7 +1555,7 @@ videocapture/CMakeFiles/videocapture.dir/all: image_pkg/CMakeFiles/rosgraph_msgs
 videocapture/CMakeFiles/videocapture.dir/all: image_pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
 	$(MAKE) -f videocapture/CMakeFiles/videocapture.dir/build.make videocapture/CMakeFiles/videocapture.dir/depend
 	$(MAKE) -f videocapture/CMakeFiles/videocapture.dir/build.make videocapture/CMakeFiles/videocapture.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrisliu/ROS/learn_opencv/build/CMakeFiles --progress-num=26,27 "Built target videocapture"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrisliu/ROS/learn_opencv/build/CMakeFiles --progress-num=28,29 "Built target videocapture"
 .PHONY : videocapture/CMakeFiles/videocapture.dir/all
 
 # Include target in all.
@@ -1638,7 +1677,7 @@ videocapture/CMakeFiles/linedetect.dir/all: image_pkg/CMakeFiles/rosgraph_msgs_g
 videocapture/CMakeFiles/linedetect.dir/all: image_pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
 	$(MAKE) -f videocapture/CMakeFiles/linedetect.dir/build.make videocapture/CMakeFiles/linedetect.dir/depend
 	$(MAKE) -f videocapture/CMakeFiles/linedetect.dir/build.make videocapture/CMakeFiles/linedetect.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrisliu/ROS/learn_opencv/build/CMakeFiles --progress-num=20,21 "Built target linedetect"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrisliu/ROS/learn_opencv/build/CMakeFiles --progress-num=22,23 "Built target linedetect"
 .PHONY : videocapture/CMakeFiles/linedetect.dir/all
 
 # Include target in all.

@@ -1,0 +1,8 @@
+prefix=/home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/devel
+
+Name: keyboard
+Description: Description of keyboard
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/devel/lib 
+Requires: 

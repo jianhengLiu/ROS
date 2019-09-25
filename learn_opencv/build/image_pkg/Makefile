@@ -68,17 +68,6 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -123,6 +112,17 @@ install/strip/fast: install/strip
 
 .PHONY : install/strip/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -166,6 +166,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+image_pkg/CMakeFiles/histogram_local.dir/rule:
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 image_pkg/CMakeFiles/histogram_local.dir/rule
+.PHONY : image_pkg/CMakeFiles/histogram_local.dir/rule
+
+# Convenience name for target.
+histogram_local: image_pkg/CMakeFiles/histogram_local.dir/rule
+
+.PHONY : histogram_local
+
+# fast build rule for target.
+histogram_local/fast:
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f image_pkg/CMakeFiles/histogram_local.dir/build.make image_pkg/CMakeFiles/histogram_local.dir/build
+.PHONY : histogram_local/fast
+
+# Convenience name for target.
 image_pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
 	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 image_pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 .PHONY : image_pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
@@ -179,21 +194,6 @@ rosgraph_msgs_generate_messages_nodejs: image_pkg/CMakeFiles/rosgraph_msgs_gener
 rosgraph_msgs_generate_messages_nodejs/fast:
 	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f image_pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make image_pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-image_pkg/CMakeFiles/histogram.dir/rule:
-	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 image_pkg/CMakeFiles/histogram.dir/rule
-.PHONY : image_pkg/CMakeFiles/histogram.dir/rule
-
-# Convenience name for target.
-histogram: image_pkg/CMakeFiles/histogram.dir/rule
-
-.PHONY : histogram
-
-# fast build rule for target.
-histogram/fast:
-	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f image_pkg/CMakeFiles/histogram.dir/build.make image_pkg/CMakeFiles/histogram.dir/build
-.PHONY : histogram/fast
 
 # Convenience name for target.
 image_pkg/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule:
@@ -284,6 +284,21 @@ sensor_msgs_generate_messages_cpp: image_pkg/CMakeFiles/sensor_msgs_generate_mes
 sensor_msgs_generate_messages_cpp/fast:
 	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f image_pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make image_pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
 .PHONY : sensor_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+image_pkg/CMakeFiles/histogram_camera.dir/rule:
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 image_pkg/CMakeFiles/histogram_camera.dir/rule
+.PHONY : image_pkg/CMakeFiles/histogram_camera.dir/rule
+
+# Convenience name for target.
+histogram_camera: image_pkg/CMakeFiles/histogram_camera.dir/rule
+
+.PHONY : histogram_camera
+
+# fast build rule for target.
+histogram_camera/fast:
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f image_pkg/CMakeFiles/histogram_camera.dir/build.make image_pkg/CMakeFiles/histogram_camera.dir/build
+.PHONY : histogram_camera/fast
 
 # Convenience name for target.
 image_pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
@@ -555,32 +570,59 @@ roscpp_generate_messages_nodejs/fast:
 	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f image_pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make image_pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
-src/histogram.o: src/histogram.cpp.o
+src/histogram_camera.o: src/histogram_camera.cpp.o
 
-.PHONY : src/histogram.o
+.PHONY : src/histogram_camera.o
 
 # target to build an object file
-src/histogram.cpp.o:
-	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f image_pkg/CMakeFiles/histogram.dir/build.make image_pkg/CMakeFiles/histogram.dir/src/histogram.cpp.o
-.PHONY : src/histogram.cpp.o
+src/histogram_camera.cpp.o:
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f image_pkg/CMakeFiles/histogram_camera.dir/build.make image_pkg/CMakeFiles/histogram_camera.dir/src/histogram_camera.cpp.o
+.PHONY : src/histogram_camera.cpp.o
 
-src/histogram.i: src/histogram.cpp.i
+src/histogram_camera.i: src/histogram_camera.cpp.i
 
-.PHONY : src/histogram.i
+.PHONY : src/histogram_camera.i
 
 # target to preprocess a source file
-src/histogram.cpp.i:
-	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f image_pkg/CMakeFiles/histogram.dir/build.make image_pkg/CMakeFiles/histogram.dir/src/histogram.cpp.i
-.PHONY : src/histogram.cpp.i
+src/histogram_camera.cpp.i:
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f image_pkg/CMakeFiles/histogram_camera.dir/build.make image_pkg/CMakeFiles/histogram_camera.dir/src/histogram_camera.cpp.i
+.PHONY : src/histogram_camera.cpp.i
 
-src/histogram.s: src/histogram.cpp.s
+src/histogram_camera.s: src/histogram_camera.cpp.s
 
-.PHONY : src/histogram.s
+.PHONY : src/histogram_camera.s
 
 # target to generate assembly for a file
-src/histogram.cpp.s:
-	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f image_pkg/CMakeFiles/histogram.dir/build.make image_pkg/CMakeFiles/histogram.dir/src/histogram.cpp.s
-.PHONY : src/histogram.cpp.s
+src/histogram_camera.cpp.s:
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f image_pkg/CMakeFiles/histogram_camera.dir/build.make image_pkg/CMakeFiles/histogram_camera.dir/src/histogram_camera.cpp.s
+.PHONY : src/histogram_camera.cpp.s
+
+src/histogram_local.o: src/histogram_local.cpp.o
+
+.PHONY : src/histogram_local.o
+
+# target to build an object file
+src/histogram_local.cpp.o:
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f image_pkg/CMakeFiles/histogram_local.dir/build.make image_pkg/CMakeFiles/histogram_local.dir/src/histogram_local.cpp.o
+.PHONY : src/histogram_local.cpp.o
+
+src/histogram_local.i: src/histogram_local.cpp.i
+
+.PHONY : src/histogram_local.i
+
+# target to preprocess a source file
+src/histogram_local.cpp.i:
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f image_pkg/CMakeFiles/histogram_local.dir/build.make image_pkg/CMakeFiles/histogram_local.dir/src/histogram_local.cpp.i
+.PHONY : src/histogram_local.cpp.i
+
+src/histogram_local.s: src/histogram_local.cpp.s
+
+.PHONY : src/histogram_local.s
+
+# target to generate assembly for a file
+src/histogram_local.cpp.s:
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f image_pkg/CMakeFiles/histogram_local.dir/build.make image_pkg/CMakeFiles/histogram_local.dir/src/histogram_local.cpp.s
+.PHONY : src/histogram_local.cpp.s
 
 # Help Target
 help:
@@ -589,19 +631,20 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... install/local"
 	@echo "... install/strip"
+	@echo "... rebuild_cache"
+	@echo "... histogram_local"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
-	@echo "... histogram"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_eus"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... sensor_msgs_generate_messages_cpp"
+	@echo "... histogram_camera"
 	@echo "... sensor_msgs_generate_messages_lisp"
 	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_cpp"
@@ -621,9 +664,12 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_nodejs"
-	@echo "... src/histogram.o"
-	@echo "... src/histogram.i"
-	@echo "... src/histogram.s"
+	@echo "... src/histogram_camera.o"
+	@echo "... src/histogram_camera.i"
+	@echo "... src/histogram_camera.s"
+	@echo "... src/histogram_local.o"
+	@echo "... src/histogram_local.i"
+	@echo "... src/histogram_local.s"
 .PHONY : help
 
 

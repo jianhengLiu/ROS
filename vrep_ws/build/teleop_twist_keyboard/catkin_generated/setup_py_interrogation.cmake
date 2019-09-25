@@ -1,0 +1,6 @@
+set(teleop_twist_keyboard_SETUP_PY_VERSION "0.6.2")
+set(teleop_twist_keyboard_SETUP_PY_SCRIPTS "")
+set(teleop_twist_keyboard_SETUP_PY_PACKAGES "teleop_twist_keyboard")
+set(teleop_twist_keyboard_SETUP_PY_PACKAGE_DIRS "teleop_twist_keyboard")
+set(teleop_twist_keyboard_SETUP_PY_MODULES "")
+set(teleop_twist_keyboard_SETUP_PY_MODULE_DIRS "")

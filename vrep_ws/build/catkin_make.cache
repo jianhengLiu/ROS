@@ -1,2 +1,2 @@
-vrep_ros_bridge/camera_handler:vrep_ros_bridge/contact_handler:vrep_ros_bridge/drawing_handler:vrep_ros_bridge/force_sensor_handler:vrep_ros_bridge/imu_handler:vrep_ros_bridge/manipulator_handler:vrep_ros_bridge/quadrotor_handler:vrep_ros_bridge/rigid_body_handler:vrep_ros_bridge/vrep_ros_bridge:vrep_ros_bridge/vrep_ros_plugin
--DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/chrisliu/ROS/vrep_ws/devel -DCMAKE_INSTALL_PREFIX=/home/chrisliu/ROS/vrep_ws/install -G Unix Makefiles
+keyboard:vrep_pkg
+-DCATKIN_DEVEL_PREFIX=/home/chrisliu/ROS/vrep_ws/devel -DCMAKE_INSTALL_PREFIX=/home/chrisliu/ROS/vrep_ws/install -G Unix Makefiles

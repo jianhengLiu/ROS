@@ -28,9 +28,16 @@ include_directories(
  ${catkin_INCLUDE_DIRS}
 )
 
-add_executable(histogram
-        src/histogram.cpp
+add_executable(histogram_local
+        src/histogram_local.cpp
         )
-target_link_libraries(histogram
+target_link_libraries(histogram_local
+        ${catkin_LIBRARIES}
+        ${OpenCV_LIBS})
+
+add_executable(histogram_camera
+        src/histogram_camera.cpp
+        )
+target_link_libraries(histogram_camera
         ${catkin_LIBRARIES}
         ${OpenCV_LIBS})
