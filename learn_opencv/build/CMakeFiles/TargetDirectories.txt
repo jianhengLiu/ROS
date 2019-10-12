@@ -33,6 +33,7 @@
 /home/chrisliu/ROS/learn_opencv/build/image_pkg/CMakeFiles/test.dir
 /home/chrisliu/ROS/learn_opencv/build/image_pkg/CMakeFiles/install/local.dir
 /home/chrisliu/ROS/learn_opencv/build/image_pkg/CMakeFiles/install/strip.dir
+/home/chrisliu/ROS/learn_opencv/build/image_pkg/CMakeFiles/filter.dir
 /home/chrisliu/ROS/learn_opencv/build/image_pkg/CMakeFiles/rebuild_cache.dir
 /home/chrisliu/ROS/learn_opencv/build/image_pkg/CMakeFiles/histogram_local.dir
 /home/chrisliu/ROS/learn_opencv/build/image_pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir

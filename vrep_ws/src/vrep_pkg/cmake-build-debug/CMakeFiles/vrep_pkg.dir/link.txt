@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libvrep_pkg.so -o devel/lib/libvrep_pkg.so CMakeFiles/vrep_pkg.dir/src/FourWheelControl.cpp.o 

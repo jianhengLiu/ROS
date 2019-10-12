@@ -30,6 +30,7 @@
 /home/chrisliu/ROS/learn_opencv/src/cmake-build-debug/gtest/gtest/CMakeFiles/rebuild_cache.dir
 /home/chrisliu/ROS/learn_opencv/src/cmake-build-debug/image_pkg/CMakeFiles/install/strip.dir
 /home/chrisliu/ROS/learn_opencv/src/cmake-build-debug/image_pkg/CMakeFiles/install/local.dir
+/home/chrisliu/ROS/learn_opencv/src/cmake-build-debug/image_pkg/CMakeFiles/filter.dir
 /home/chrisliu/ROS/learn_opencv/src/cmake-build-debug/image_pkg/CMakeFiles/histogram_local.dir
 /home/chrisliu/ROS/learn_opencv/src/cmake-build-debug/image_pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
 /home/chrisliu/ROS/learn_opencv/src/cmake-build-debug/image_pkg/CMakeFiles/install.dir

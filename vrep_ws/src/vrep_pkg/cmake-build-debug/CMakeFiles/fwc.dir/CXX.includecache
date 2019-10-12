@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/chrisliu/ROS/vrep_ws/src/vrep_pkg/src/./fwc.h
-
 /home/chrisliu/ROS/vrep_ws/src/vrep_pkg/src/FourWheelControl.cpp
 ./fwc.h
-/home/chrisliu/ROS/vrep_ws/src/vrep_pkg/src/./fwc.h
+/home/chrisliu/ROS/vrep_ws/src/vrep_pkg/src/fwc.h
 math.h
 -
+
+/home/chrisliu/ROS/vrep_ws/src/vrep_pkg/src/fwc.h
 

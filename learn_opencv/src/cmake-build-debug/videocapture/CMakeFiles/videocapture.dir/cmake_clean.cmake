@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/videocapture.dir/src/videocapture.cpp.o"
-  "../devel/lib/videocapture/videocapture.pdb"
   "../devel/lib/videocapture/videocapture"
+  "../devel/lib/videocapture/videocapture.pdb"
+  "CMakeFiles/videocapture.dir/src/videocapture.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

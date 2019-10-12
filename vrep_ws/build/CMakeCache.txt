@@ -351,6 +351,12 @@ rostime_DIR:PATH=/opt/ros/kinetic/share/rostime/cmake
 std_msgs_DIR:PATH=/opt/ros/kinetic/share/std_msgs/cmake
 
 //Value Computed by CMake
+teleop_BINARY_DIR:STATIC=/home/chrisliu/ROS/vrep_ws/build/teleop
+
+//Value Computed by CMake
+teleop_SOURCE_DIR:STATIC=/home/chrisliu/ROS/vrep_ws/src/teleop
+
+//Value Computed by CMake
 teleop_twist_keyboard_BINARY_DIR:STATIC=/home/chrisliu/ROS/vrep_ws/build/teleop_twist_keyboard
 
 //Value Computed by CMake
@@ -467,7 +473,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

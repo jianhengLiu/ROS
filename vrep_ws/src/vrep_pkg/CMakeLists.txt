@@ -55,6 +55,12 @@ target_link_libraries(steerwheel
         fwc
         )
 
+add_executable(omniwheel src/omniwheel.cpp)
+target_link_libraries(omniwheel
+        ${catkin_LIBRARIES}
+        fwc
+        )
+
 #############
 ## Install ##
 #############

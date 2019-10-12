@@ -1,5 +1,6 @@
 /home/chrisliu/ROS/vrep_ws/src/vrep_pkg/cmake-build-debug/CMakeFiles/install/strip.dir
 /home/chrisliu/ROS/vrep_ws/src/vrep_pkg/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/chrisliu/ROS/vrep_ws/src/vrep_pkg/cmake-build-debug/CMakeFiles/omniwheel.dir
 /home/chrisliu/ROS/vrep_ws/src/vrep_pkg/cmake-build-debug/CMakeFiles/bubblerob.dir
 /home/chrisliu/ROS/vrep_ws/src/vrep_pkg/cmake-build-debug/CMakeFiles/fwc.dir
 /home/chrisliu/ROS/vrep_ws/src/vrep_pkg/cmake-build-debug/CMakeFiles/geometry_msgs_generate_messages_py.dir

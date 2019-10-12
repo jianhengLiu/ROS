@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/picturesub.dir/src/picturesub.cpp.o"
-  "../devel/lib/videocapture/picturesub.pdb"
   "../devel/lib/videocapture/picturesub"
+  "../devel/lib/videocapture/picturesub.pdb"
+  "CMakeFiles/picturesub.dir/src/picturesub.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

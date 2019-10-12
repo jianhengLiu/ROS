@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cannyproc.dir/src/cannyproc.cpp.o"
-  "../devel/lib/videocapture/cannyproc.pdb"
   "../devel/lib/videocapture/cannyproc"
+  "../devel/lib/videocapture/cannyproc.pdb"
+  "CMakeFiles/cannyproc.dir/src/cannyproc.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

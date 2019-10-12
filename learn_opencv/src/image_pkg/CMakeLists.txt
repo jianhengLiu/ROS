@@ -41,3 +41,10 @@ add_executable(histogram_camera
 target_link_libraries(histogram_camera
         ${catkin_LIBRARIES}
         ${OpenCV_LIBS})
+
+add_executable(filter
+        src/filter.cpp
+        )
+target_link_libraries(filter
+        ${catkin_LIBRARIES}
+        ${OpenCV_LIBS})

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cameraproc.dir/src/cameraproc.cpp.o"
-  "../devel/lib/videocapture/cameraproc.pdb"
   "../devel/lib/videocapture/cameraproc"
+  "../devel/lib/videocapture/cameraproc.pdb"
+  "CMakeFiles/cameraproc.dir/src/cameraproc.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

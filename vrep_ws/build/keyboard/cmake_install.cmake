@@ -48,6 +48,6 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/keyboard" TYPE PROGRAM FILES "/home/chrisliu/ROS/vrep_ws/src/keyboard/src/keyboard.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/keyboard" TYPE PROGRAM FILES "/home/chrisliu/ROS/vrep_ws/src/keyboard/src/tele_keyboard.py")
 endif()
 

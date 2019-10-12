@@ -166,6 +166,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+image_pkg/CMakeFiles/filter.dir/rule:
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 image_pkg/CMakeFiles/filter.dir/rule
+.PHONY : image_pkg/CMakeFiles/filter.dir/rule
+
+# Convenience name for target.
+filter: image_pkg/CMakeFiles/filter.dir/rule
+
+.PHONY : filter
+
+# fast build rule for target.
+filter/fast:
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f image_pkg/CMakeFiles/filter.dir/build.make image_pkg/CMakeFiles/filter.dir/build
+.PHONY : filter/fast
+
+# Convenience name for target.
 image_pkg/CMakeFiles/histogram_local.dir/rule:
 	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f CMakeFiles/Makefile2 image_pkg/CMakeFiles/histogram_local.dir/rule
 .PHONY : image_pkg/CMakeFiles/histogram_local.dir/rule
@@ -570,6 +585,33 @@ roscpp_generate_messages_nodejs/fast:
 	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f image_pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make image_pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
+src/filter.o: src/filter.cpp.o
+
+.PHONY : src/filter.o
+
+# target to build an object file
+src/filter.cpp.o:
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f image_pkg/CMakeFiles/filter.dir/build.make image_pkg/CMakeFiles/filter.dir/src/filter.cpp.o
+.PHONY : src/filter.cpp.o
+
+src/filter.i: src/filter.cpp.i
+
+.PHONY : src/filter.i
+
+# target to preprocess a source file
+src/filter.cpp.i:
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f image_pkg/CMakeFiles/filter.dir/build.make image_pkg/CMakeFiles/filter.dir/src/filter.cpp.i
+.PHONY : src/filter.cpp.i
+
+src/filter.s: src/filter.cpp.s
+
+.PHONY : src/filter.s
+
+# target to generate assembly for a file
+src/filter.cpp.s:
+	cd /home/chrisliu/ROS/learn_opencv/build && $(MAKE) -f image_pkg/CMakeFiles/filter.dir/build.make image_pkg/CMakeFiles/filter.dir/src/filter.cpp.s
+.PHONY : src/filter.cpp.s
+
 src/histogram_camera.o: src/histogram_camera.cpp.o
 
 .PHONY : src/histogram_camera.o
@@ -635,6 +677,7 @@ help:
 	@echo "... test"
 	@echo "... install/local"
 	@echo "... install/strip"
+	@echo "... filter"
 	@echo "... rebuild_cache"
 	@echo "... histogram_local"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
@@ -664,6 +707,9 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_nodejs"
+	@echo "... src/filter.o"
+	@echo "... src/filter.i"
+	@echo "... src/filter.s"
 	@echo "... src/histogram_camera.o"
 	@echo "... src/histogram_camera.i"
 	@echo "... src/histogram_camera.s"

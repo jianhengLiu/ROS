@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/histogram_camera.dir/src/histogram_camera.cpp.o"
-  "../devel/lib/image_pkg/histogram_camera.pdb"
   "../devel/lib/image_pkg/histogram_camera"
+  "../devel/lib/image_pkg/histogram_camera.pdb"
+  "CMakeFiles/histogram_camera.dir/src/histogram_camera.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/picturepub.dir/src/picturepub.cpp.o"
-  "../devel/lib/videocapture/picturepub.pdb"
   "../devel/lib/videocapture/picturepub"
+  "../devel/lib/videocapture/picturepub.pdb"
+  "CMakeFiles/picturepub.dir/src/picturepub.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

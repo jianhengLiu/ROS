@@ -283,6 +283,19 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
+# Target rules for targets named filter
+
+# Build rule for target.
+filter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 filter
+.PHONY : filter
+
+# fast build rule for target.
+filter/fast:
+	$(MAKE) -f image_pkg/CMakeFiles/filter.dir/build.make image_pkg/CMakeFiles/filter.dir/build
+.PHONY : filter/fast
+
+#=============================================================================
 # Target rules for targets named histogram_local
 
 # Build rule for target.
@@ -746,6 +759,7 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... filter"
 	@echo "... histogram_local"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_nodejs"
