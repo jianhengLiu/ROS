@@ -48,3 +48,10 @@ add_executable(filter
 target_link_libraries(filter
         ${catkin_LIBRARIES}
         ${OpenCV_LIBS})
+
+add_executable(jiesi
+        src/jiesi.cpp
+        )
+target_link_libraries(jiesi
+        ${catkin_LIBRARIES}
+        ${OpenCV_LIBS})
