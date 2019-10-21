@@ -1,2 +1,2 @@
-keyboard:teleop:vrep_pkg
+keyboard:vrep_pkg
 -DCATKIN_DEVEL_PREFIX=/home/chrisliu/ROS/vrep_ws/devel -DCMAKE_INSTALL_PREFIX=/home/chrisliu/ROS/vrep_ws/install -G Unix Makefiles

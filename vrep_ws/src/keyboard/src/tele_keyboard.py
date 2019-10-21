@@ -41,15 +41,15 @@ LIN_VEL_STEP_SIZE = 30
 ANG_VEL_STEP_SIZE = 0.5
 
 msg = """
-Control Your TurtleBot3!
+Control Your Omniwheel Car!
 ---------------------------
 Moving around:
         w
    a    s    d
         x
-w/x : increase/decrease linear velocity (Burger : ~ 0.22, Waffle and Waffle Pi : ~ 0.26)
+w/s : increase/decrease linear velocity (Burger : ~ 0.22, Waffle and Waffle Pi : ~ 0.26)
 a/d : increase/decrease angular velocity (Burger : ~ 2.84, Waffle and Waffle Pi : ~ 1.82)
-space key, s : force stop
+space key, x : force stop
 CTRL-C to quit
 """
 

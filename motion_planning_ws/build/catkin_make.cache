@@ -1,0 +1,2 @@
+grid_path_searcher:rviz_plugins:waypoint_generator
+-DCATKIN_DEVEL_PREFIX=/home/chrisliu/ROS/motion_planning_ws/devel -DCMAKE_INSTALL_PREFIX=/home/chrisliu/ROS/motion_planning_ws/install -G Unix Makefiles

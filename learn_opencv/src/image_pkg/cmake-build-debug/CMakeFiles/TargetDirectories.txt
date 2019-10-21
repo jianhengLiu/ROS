@@ -1,6 +1,7 @@
 /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles/install/strip.dir
 /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles/install.dir
 /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles/list_install_components.dir
+/home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles/geometry_msgs_generate_messages_py.dir
 /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles/sensor_msgs_generate_messages_eus.dir
 /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
@@ -20,7 +21,6 @@
 /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles/clean_test_results.dir
 /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir
 /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles/roscpp_generate_messages_lisp.dir
-/home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles/install/local.dir
 /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
 /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles/doxygen.dir
@@ -39,6 +39,7 @@
 /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles/histogram_local.dir
 /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles/std_msgs_generate_messages_py.dir
 /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles/filter.dir
+/home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles/edge_detect.dir
 /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/gtest/CMakeFiles/install/strip.dir
 /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/gtest/CMakeFiles/install.dir
 /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/gtest/CMakeFiles/install/local.dir

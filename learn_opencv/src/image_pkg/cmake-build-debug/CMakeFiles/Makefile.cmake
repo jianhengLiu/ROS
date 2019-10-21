@@ -244,6 +244,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/histogram_local.dir/DependInfo.cmake"
   "CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake"
   "CMakeFiles/filter.dir/DependInfo.cmake"
+  "CMakeFiles/edge_detect.dir/DependInfo.cmake"
   "gtest/CMakeFiles/gmock_main.dir/DependInfo.cmake"
   "gtest/CMakeFiles/gmock.dir/DependInfo.cmake"
   "gtest/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"

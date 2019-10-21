@@ -66,7 +66,7 @@ int main(int argc, char **argv) {
         if (frIn.empty()) {
             break;
         }
-//        frIn = imread("/home/chrisliu/ROS/learn_opencv/src/image_pkg/image/jiaozhun.jpg");//当前帧图片
+//        frIn = imread("sjiaozhun.jpg");//当前帧图片
         frIn = frIn(cv::Rect(0, 0, frIn.cols / 2, frIn.rows));//截取 zed 的左目图片
         cvtColor(frIn, frIn, CV_RGB2GRAY);
 

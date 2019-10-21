@@ -1,0 +1,135 @@
+//
+// Created by chrisliu on 2019/10/19.
+//
+
+#include "ros/ros.h"
+#include <iostream>
+#include <opencv2/core.hpp>
+#include <opencv2/opencv.hpp>
+#include <opencv2/imgproc.hpp>
+#include <algorithm>
+
+using namespace std;
+using namespace cv;
+
+int main(int argc, char **argv) {
+//    VideoCapture capture;
+//    capture.open(0);//打开相机
+
+
+    ROS_WARN("*****START");
+    ros::init(argc, argv, "histogram");//初始化ROS节点
+    ros::NodeHandle n;
+
+//    if (!capture.isOpened())
+//    {
+//        printf("摄像头没有正常打开，重新插拔工控机上当摄像头\n");
+//        return 0;
+//    }
+    //读图测试
+
+    while (ros::ok()) {
+        Mat frame;//当前帧图片
+//        capture.read(frame);
+//        if(frame.empty())
+//        {
+//            break;
+//        }
+
+        frame = imread("/home/chrisliu/ROS/learn_opencv/src/image_pkg/image/chessboard.jpg", IMREAD_GRAYSCALE);
+//        frame = frame(cv::Rect(0, 0, frIn.cols / 2, frIn.rows));//截取 zed 的左目图片
+        int rows = frame.rows;
+        int cols = frame.cols;
+        for (int y = 0; y < rows; y++)
+            for (int x = 0; x < cols; x++) {
+                if (frame.at<uchar>(y, x) < 125)
+                    frame.at<uchar>(y, x) = 0;
+                else
+                    frame.at<uchar>(y, x) = 255;
+            }
+        imshow("chessboard", frame);
+        Mat gaussin_blur;
+        GaussianBlur(frame, gaussin_blur, Size(5, 5), 0);
+        imshow("gaussin_blur", gaussin_blur);
+
+        Mat grad_sobel;
+        int sobel_x[2][2] = {{-1, 1},
+                             {-1, 1}};
+        int sobel_y[2][2] = {{-1, -1},
+                             {1,  1}};
+        //边界扩展
+//        copyMakeBorder(gaussin_blur, grad_sobel, 1, 1, 1, 1, BORDER_CONSTANT, Scalar::all(255));
+        Mat grad_x = Mat::zeros(rows, cols, CV_8UC1);
+        Mat grad_y = Mat::zeros(rows, cols, CV_8UC1);
+        Mat theta = Mat::zeros(rows, cols, CV_32FC1);
+        Mat grad = Mat::zeros(rows, cols, CV_8UC1);
+        for (int y = 0; y < rows; y++)
+            for (int x = 0; x < cols; x++) {
+                for (int i = 0; i < 2; i++)
+                    for (int j = 0; j < 2; j++) {
+                        grad_x.at<uchar>(y, x) += gaussin_blur.at<uchar>(y + j, x + i) * sobel_x[j][i];
+                        grad_y.at<uchar>(y, x) += gaussin_blur.at<uchar>(y + j, x + i) * sobel_y[j][i];
+                    }
+//                cout << (int) grad_x.at<uchar>(y, x) << endl;
+                theta.at<float>(y, x) = atan2((float) grad_y.at<uchar>(y, x), (float) grad_x.at<uchar>(y, x));
+                grad.at<uchar>(y, x) = abs(grad_x.at<uchar>(y, x)) + abs(grad_y.at<uchar>(y, x));
+            }
+//        cout << (int) grad_x.at<uchar>(150, 197) << endl;
+        imshow("grad_x", grad_x);
+        imshow("grad_y", grad_y);
+        imshow("grad", grad);
+
+        Mat suppresion = Mat::zeros(rows, cols, CV_8UC1);
+        for (int y = 0; y < rows; y++)
+            for (int x = 0; x < cols; x++) {
+                float angle = theta.at<float>(y, x);
+                int grad_temp = grad.at<uchar>(y, x);
+                if ((angle > 0 && angle <= M_PI / 4) ||
+                    (angle <= -1 * M_PI / 4 && angle > -1 * M_PI)) {
+                    if (grad_temp < grad.at<uchar>(y - 1, x - 1) || grad_temp < grad.at<uchar>(y + 1, x + 1)) {
+                        suppresion.at<uchar>(y, x) = 0;
+                    } else
+                        suppresion.at<uchar>(y, x) = grad_temp;
+                } else {
+                    if (grad_temp < grad.at<uchar>(y - 1, x + 1) || grad_temp < grad.at<uchar>(y + 1, x - 1)) {
+                        suppresion.at<uchar>(y, x) = 0;
+                    } else
+                        suppresion.at<uchar>(y, x) = grad_temp;
+                }
+            }
+        imshow("suppresion", suppresion);
+
+        int threshold_low = 85;
+        int threshold_high = 170;
+        Mat NH = Mat::zeros(rows, cols, CV_8UC1);
+        Mat NL = Mat::zeros(rows, cols, CV_8UC1);
+        for (int y = 0; y < rows; y++)
+            for (int x = 0; x < cols; x++) {
+                int temp = suppresion.at<uchar>(y, x);
+                if (temp > threshold_low && temp <= threshold_high)
+                    NL.at<uchar>(y, x) = temp;
+                if (temp > threshold_high)
+                    NH.at<uchar>(y, x) = temp;
+
+            }
+
+        for (int y = 1; y < rows-1; y++)
+            for (int x = 1; x < cols-1; x++) {
+                if (suppresion.at<uchar>(y, x) != 0) {
+                    for (int i = 0; i < 3; i++)
+                        for (int j = 0; j < 3; j++) {
+                            if (NL.at<uchar>(y - 1 + j, x - 1 + i) != 0)
+                                NH.at<uchar>(y - 1 + j, x - 1 + i) = NL.at<uchar>(y - 1 + j, x - 1 + i);
+                        }
+                }
+            }
+        imshow("NH", NH);
+        ros::spinOnce();
+//		loop_rate.sleep();
+        waitKey(5);
+
+    }
+    return 0;
+}
+
+

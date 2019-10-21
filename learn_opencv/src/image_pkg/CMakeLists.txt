@@ -55,3 +55,10 @@ add_executable(jiesi
 target_link_libraries(jiesi
         ${catkin_LIBRARIES}
         ${OpenCV_LIBS})
+
+add_executable(edge_detect
+        src/edge_detect.cpp
+        )
+target_link_libraries(edge_detect
+        ${catkin_LIBRARIES}
+        ${OpenCV_LIBS})

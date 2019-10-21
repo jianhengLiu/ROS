@@ -90,6 +90,17 @@ list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/home/chrisliu/software/clion-2019.2.1/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
@@ -111,17 +122,6 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/chrisliu/software/clion-2019.2.1/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target install/local
 install/local: preinstall
@@ -610,6 +610,19 @@ filter/fast:
 .PHONY : filter/fast
 
 #=============================================================================
+# Target rules for targets named edge_detect
+
+# Build rule for target.
+edge_detect: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 edge_detect
+.PHONY : edge_detect
+
+# fast build rule for target.
+edge_detect/fast:
+	$(MAKE) -f CMakeFiles/edge_detect.dir/build.make CMakeFiles/edge_detect.dir/build
+.PHONY : edge_detect/fast
+
+#=============================================================================
 # Target rules for targets named gmock_main
 
 # Build rule for target.
@@ -660,6 +673,33 @@ gtest: cmake_check_build_system
 gtest/fast:
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest.dir/build.make gtest/gtest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
+
+src/edge_detect.o: src/edge_detect.cpp.o
+
+.PHONY : src/edge_detect.o
+
+# target to build an object file
+src/edge_detect.cpp.o:
+	$(MAKE) -f CMakeFiles/edge_detect.dir/build.make CMakeFiles/edge_detect.dir/src/edge_detect.cpp.o
+.PHONY : src/edge_detect.cpp.o
+
+src/edge_detect.i: src/edge_detect.cpp.i
+
+.PHONY : src/edge_detect.i
+
+# target to preprocess a source file
+src/edge_detect.cpp.i:
+	$(MAKE) -f CMakeFiles/edge_detect.dir/build.make CMakeFiles/edge_detect.dir/src/edge_detect.cpp.i
+.PHONY : src/edge_detect.cpp.i
+
+src/edge_detect.s: src/edge_detect.cpp.s
+
+.PHONY : src/edge_detect.s
+
+# target to generate assembly for a file
+src/edge_detect.cpp.s:
+	$(MAKE) -f CMakeFiles/edge_detect.dir/build.make CMakeFiles/edge_detect.dir/src/edge_detect.cpp.s
+.PHONY : src/edge_detect.cpp.s
 
 src/filter.o: src/filter.cpp.o
 
@@ -778,6 +818,7 @@ help:
 	@echo "... install/strip"
 	@echo "... install"
 	@echo "... list_install_components"
+	@echo "... edit_cache"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... sensor_msgs_generate_messages_eus"
 	@echo "... sensor_msgs_generate_messages_cpp"
@@ -797,7 +838,6 @@ help:
 	@echo "... clean_test_results"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_lisp"
-	@echo "... edit_cache"
 	@echo "... install/local"
 	@echo "... sensor_msgs_generate_messages_lisp"
 	@echo "... doxygen"
@@ -816,10 +856,14 @@ help:
 	@echo "... histogram_local"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... filter"
+	@echo "... edge_detect"
 	@echo "... gmock_main"
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... src/edge_detect.o"
+	@echo "... src/edge_detect.i"
+	@echo "... src/edge_detect.s"
 	@echo "... src/filter.o"
 	@echo "... src/filter.i"
 	@echo "... src/filter.s"
