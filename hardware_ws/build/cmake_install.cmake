@@ -32,12 +32,7 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-# Is this installation the result of a crosscompile?
-if(NOT DEFINED CMAKE_CROSSCOMPILING)
-  set(CMAKE_CROSSCOMPILING "FALSE")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   
       if (NOT EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}")
         file(MAKE_DIRECTORY "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}")
@@ -47,7 +42,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
    "/home/chrisliu/ROS/hardware_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
@@ -59,7 +54,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 file(INSTALL DESTINATION "/home/chrisliu/ROS/hardware_ws/install" TYPE PROGRAM FILES "/home/chrisliu/ROS/hardware_ws/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
    "/home/chrisliu/ROS/hardware_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
@@ -71,7 +66,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 file(INSTALL DESTINATION "/home/chrisliu/ROS/hardware_ws/install" TYPE PROGRAM FILES "/home/chrisliu/ROS/hardware_ws/build/catkin_generated/installspace/env.sh")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
    "/home/chrisliu/ROS/hardware_ws/install/setup.bash;/home/chrisliu/ROS/hardware_ws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
@@ -86,7 +81,7 @@ file(INSTALL DESTINATION "/home/chrisliu/ROS/hardware_ws/install" TYPE FILE FILE
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
    "/home/chrisliu/ROS/hardware_ws/install/setup.sh;/home/chrisliu/ROS/hardware_ws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
@@ -101,7 +96,7 @@ file(INSTALL DESTINATION "/home/chrisliu/ROS/hardware_ws/install" TYPE FILE FILE
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
    "/home/chrisliu/ROS/hardware_ws/install/setup.zsh;/home/chrisliu/ROS/hardware_ws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
@@ -116,7 +111,7 @@ file(INSTALL DESTINATION "/home/chrisliu/ROS/hardware_ws/install" TYPE FILE FILE
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
    "/home/chrisliu/ROS/hardware_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
@@ -132,6 +127,15 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/chrisliu/ROS/hardware_ws/build/realsense-ros/realsense2_description/cmake_install.cmake")
   include("/home/chrisliu/ROS/hardware_ws/build/realsense-ros/realsense2_camera/cmake_install.cmake")
+  include("/home/chrisliu/ROS/hardware_ws/build/zed-ros-wrapper/examples/zed_ar_track_alvar_example/cmake_install.cmake")
+  include("/home/chrisliu/ROS/hardware_ws/build/zed-ros-wrapper/tutorials/zed_depth_sub_tutorial/cmake_install.cmake")
+  include("/home/chrisliu/ROS/hardware_ws/build/zed-ros-wrapper/zed_display_rviz/cmake_install.cmake")
+  include("/home/chrisliu/ROS/hardware_ws/build/zed-ros-wrapper/examples/zed_nodelet_example/cmake_install.cmake")
+  include("/home/chrisliu/ROS/hardware_ws/build/zed-ros-wrapper/zed_ros/cmake_install.cmake")
+  include("/home/chrisliu/ROS/hardware_ws/build/zed-ros-wrapper/examples/zed_rtabmap_example/cmake_install.cmake")
+  include("/home/chrisliu/ROS/hardware_ws/build/zed-ros-wrapper/tutorials/zed_tracking_sub_tutorial/cmake_install.cmake")
+  include("/home/chrisliu/ROS/hardware_ws/build/zed-ros-wrapper/tutorials/zed_video_sub_tutorial/cmake_install.cmake")
+  include("/home/chrisliu/ROS/hardware_ws/build/zed-ros-wrapper/zed_wrapper/cmake_install.cmake")
 
 endif()
 

@@ -167,8 +167,7 @@ void hough_line(Mat input) {
     waitKey();
 }
 
-void hough_round(Mat round)
-{
+void hough_round(Mat round) {
     int rows = round.rows;
     int cols = round.cols;
     Canny(round, round, 85, 170);
@@ -202,38 +201,22 @@ void hough_round(Mat round)
 }
 
 int main(int argc, char **argv) {
-//    VideoCapture capture;
-//    capture.open(0);//打开相机
-
-
     ROS_WARN("*****START");
     ros::init(argc, argv, "histogram");//初始化ROS节点
     ros::NodeHandle n;
 
-//    if (!capture.isOpened())
-//    {
-//        printf("摄像头没有正常打开，重新插拔工控机上当摄像头\n");
-//        return 0;
-//    }
-    //读图测试
-
     while (ros::ok()) {
         Mat frame;//当前帧图片
-//        capture.read(frame);
-//        if(frame.empty())
-//        {
-//            break;
-//        }
 
-//        frame = imread("/home/chrisliu/ROS/learn_opencv/src/image_pkg/image/chessboard.jpg", IMREAD_GRAYSCALE);
-//        frame = frame(cv::Rect(0, 0, frIn.cols / 2, frIn.rows));//截取 zed 的左目图片
-//        edgedetect_canny(frame);
+        frame = imread("/home/chrisliu/ROS/learn_opencv/src/image_pkg/image/chessboard.jpg", IMREAD_GRAYSCALE);
+        edgedetect_canny(frame);
 
         Mat road = imread("/home/chrisliu/ROS/learn_opencv/src/image_pkg/image/road.jpg", IMREAD_GRAYSCALE);
         hough_line(road);
 
-//        Mat round = imread("/home/chrisliu/ROS/learn_opencv/src/image_pkg/image/round.jpg", IMREAD_GRAYSCALE);
-//        hough_round(round);
+        Mat round = imread("/home/chrisliu/ROS/learn_opencv/src/image_pkg/image/round.jpg", IMREAD_GRAYSCALE);
+        hough_round(round);
+
         ros::spinOnce();
 //		loop_rate.sleep();
         waitKey(5);
