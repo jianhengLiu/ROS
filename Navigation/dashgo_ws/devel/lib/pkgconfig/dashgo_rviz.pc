@@ -1,8 +1,8 @@
-prefix=/home/zdh/dashgo_ws/devel
+prefix=/home/chrisliu/ROS/Navigation/dashgo_ws/devel
 
 Name: dashgo_rviz
 Description: Description of dashgo_rviz
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/zdh/dashgo_ws/devel/lib 
+Libs: -L/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib 
 Requires: 

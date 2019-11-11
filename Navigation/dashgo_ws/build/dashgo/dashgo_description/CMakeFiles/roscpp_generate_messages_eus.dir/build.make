@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zdh/dashgo_ws/src
+CMAKE_SOURCE_DIR = /home/chrisliu/ROS/Navigation/dashgo_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zdh/dashgo_ws/build
+CMAKE_BINARY_DIR = /home/chrisliu/ROS/Navigation/dashgo_ws/build
 
 # Utility rule file for roscpp_generate_messages_eus.
 
@@ -63,10 +63,10 @@ dashgo/dashgo_description/CMakeFiles/roscpp_generate_messages_eus.dir/build: ros
 .PHONY : dashgo/dashgo_description/CMakeFiles/roscpp_generate_messages_eus.dir/build
 
 dashgo/dashgo_description/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
-	cd /home/zdh/dashgo_ws/build/dashgo/dashgo_description && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/dashgo_description && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : dashgo/dashgo_description/CMakeFiles/roscpp_generate_messages_eus.dir/clean
 
 dashgo/dashgo_description/CMakeFiles/roscpp_generate_messages_eus.dir/depend:
-	cd /home/zdh/dashgo_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zdh/dashgo_ws/src /home/zdh/dashgo_ws/src/dashgo/dashgo_description /home/zdh/dashgo_ws/build /home/zdh/dashgo_ws/build/dashgo/dashgo_description /home/zdh/dashgo_ws/build/dashgo/dashgo_description/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chrisliu/ROS/Navigation/dashgo_ws/src /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/dashgo_description /home/chrisliu/ROS/Navigation/dashgo_ws/build /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/dashgo_description /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/dashgo_description/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dashgo/dashgo_description/CMakeFiles/roscpp_generate_messages_eus.dir/depend
 

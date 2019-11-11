@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zdh/dashgo_ws/src
+CMAKE_SOURCE_DIR = /home/chrisliu/ROS/Navigation/dashgo_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zdh/dashgo_ws/build
+CMAKE_BINARY_DIR = /home/chrisliu/ROS/Navigation/dashgo_ws/build
 
 # Utility rule file for std_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ dashgo/dashgo_description/CMakeFiles/std_msgs_generate_messages_cpp.dir/build: s
 .PHONY : dashgo/dashgo_description/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 
 dashgo/dashgo_description/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
-	cd /home/zdh/dashgo_ws/build/dashgo/dashgo_description && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/dashgo_description && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : dashgo/dashgo_description/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 
 dashgo/dashgo_description/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend:
-	cd /home/zdh/dashgo_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zdh/dashgo_ws/src /home/zdh/dashgo_ws/src/dashgo/dashgo_description /home/zdh/dashgo_ws/build /home/zdh/dashgo_ws/build/dashgo/dashgo_description /home/zdh/dashgo_ws/build/dashgo/dashgo_description/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chrisliu/ROS/Navigation/dashgo_ws/src /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/dashgo_description /home/chrisliu/ROS/Navigation/dashgo_ws/build /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/dashgo_description /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/dashgo_description/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dashgo/dashgo_description/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
 

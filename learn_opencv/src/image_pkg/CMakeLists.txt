@@ -62,3 +62,10 @@ add_executable(edge_detect
 target_link_libraries(edge_detect
         ${catkin_LIBRARIES}
         ${OpenCV_LIBS})
+
+add_executable(rgb_detect
+        src/rgb_detect.cpp
+        )
+target_link_libraries(rgb_detect
+        ${catkin_LIBRARIES}
+        ${OpenCV_LIBS})

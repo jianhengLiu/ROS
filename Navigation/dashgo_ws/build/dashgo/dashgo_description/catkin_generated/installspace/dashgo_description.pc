@@ -1,8 +1,8 @@
-prefix=/home/zdh/dashgo_ws/install
+prefix=/home/chrisliu/ROS/Navigation/dashgo_ws/install
 
 Name: dashgo_description
 Description: Description of dashgo_description
 Version: 2.1.0
 Cflags: 
-Libs: -L/home/zdh/dashgo_ws/install/lib 
+Libs: -L/home/chrisliu/ROS/Navigation/dashgo_ws/install/lib 
 Requires: 

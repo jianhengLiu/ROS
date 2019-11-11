@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zdh/dashgo_ws/src
+CMAKE_SOURCE_DIR = /home/chrisliu/ROS/Navigation/dashgo_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zdh/dashgo_ws/build
+CMAKE_BINARY_DIR = /home/chrisliu/ROS/Navigation/dashgo_ws/build
 
 # Include any dependencies generated for this target.
 include dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/depend.make
@@ -57,114 +57,18 @@ include dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/prog
 # Include the compile flags for this target's objects.
 include dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/flags.make
 
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/flags.make
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o: /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/Transport.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zdh/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o -c /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/Transport.cpp
-
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.i"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/Transport.cpp > CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.i
-
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.s"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/Transport.cpp -o CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.s
-
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o.requires:
-
-.PHONY : dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o.requires
-
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o.provides: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o.requires
-	$(MAKE) -f dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/build.make dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o.provides.build
-.PHONY : dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o.provides
-
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o.provides.build: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o
-
-
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/flags.make
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o: /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/usb/UsbTransport.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zdh/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o -c /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/usb/UsbTransport.cpp
-
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.i"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/usb/UsbTransport.cpp > CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.i
-
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.s"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/usb/UsbTransport.cpp -o CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.s
-
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o.requires:
-
-.PHONY : dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o.requires
-
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o.provides: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o.requires
-	$(MAKE) -f dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/build.make dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o.provides.build
-.PHONY : dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o.provides
-
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o.provides.build: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o
-
-
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/flags.make
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o: /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/usb/UsbLocation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zdh/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o -c /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/usb/UsbLocation.cpp
-
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.i"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/usb/UsbLocation.cpp > CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.i
-
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.s"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/usb/UsbLocation.cpp -o CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.s
-
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o.requires:
-
-.PHONY : dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o.requires
-
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o.provides: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o.requires
-	$(MAKE) -f dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/build.make dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o.provides.build
-.PHONY : dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o.provides
-
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o.provides.build: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o
-
-
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/flags.make
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o: /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/DataPacket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zdh/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o -c /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/DataPacket.cpp
-
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.i"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/DataPacket.cpp > CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.i
-
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.s"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/DataPacket.cpp -o CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.s
-
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o.requires:
-
-.PHONY : dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o.requires
-
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o.provides: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o.requires
-	$(MAKE) -f dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/build.make dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o.provides.build
-.PHONY : dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o.provides
-
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o.provides.build: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o
-
-
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/ControlPacket.cpp.o: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/flags.make
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/ControlPacket.cpp.o: /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/ControlPacket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zdh/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/ControlPacket.cpp.o"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ltme01_sdk.dir/Sources/src/ControlPacket.cpp.o -c /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/ControlPacket.cpp
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/ControlPacket.cpp.o: /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/ControlPacket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrisliu/ROS/Navigation/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/ControlPacket.cpp.o"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ltme01_sdk.dir/Sources/src/ControlPacket.cpp.o -c /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/ControlPacket.cpp
 
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/ControlPacket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ltme01_sdk.dir/Sources/src/ControlPacket.cpp.i"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/ControlPacket.cpp > CMakeFiles/ltme01_sdk.dir/Sources/src/ControlPacket.cpp.i
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/ControlPacket.cpp > CMakeFiles/ltme01_sdk.dir/Sources/src/ControlPacket.cpp.i
 
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/ControlPacket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ltme01_sdk.dir/Sources/src/ControlPacket.cpp.s"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/ControlPacket.cpp -o CMakeFiles/ltme01_sdk.dir/Sources/src/ControlPacket.cpp.s
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/ControlPacket.cpp -o CMakeFiles/ltme01_sdk.dir/Sources/src/ControlPacket.cpp.s
 
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/ControlPacket.cpp.o.requires:
 
@@ -177,42 +81,18 @@ dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/ControlPacket.cpp.o.provides.build: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/ControlPacket.cpp.o
 
 
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/flags.make
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o: /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/Device.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zdh/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o -c /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/Device.cpp
-
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.i"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/Device.cpp > CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.i
-
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.s"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/Device.cpp -o CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.s
-
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o.requires:
-
-.PHONY : dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o.requires
-
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o.provides: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o.requires
-	$(MAKE) -f dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/build.make dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o.provides.build
-.PHONY : dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o.provides
-
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o.provides.build: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o
-
-
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbHotplugNotifier.cpp.o: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/flags.make
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbHotplugNotifier.cpp.o: /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/util/UsbHotplugNotifier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zdh/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbHotplugNotifier.cpp.o"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbHotplugNotifier.cpp.o -c /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/util/UsbHotplugNotifier.cpp
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbHotplugNotifier.cpp.o: /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/util/UsbHotplugNotifier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrisliu/ROS/Navigation/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbHotplugNotifier.cpp.o"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbHotplugNotifier.cpp.o -c /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/util/UsbHotplugNotifier.cpp
 
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbHotplugNotifier.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbHotplugNotifier.cpp.i"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/util/UsbHotplugNotifier.cpp > CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbHotplugNotifier.cpp.i
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/util/UsbHotplugNotifier.cpp > CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbHotplugNotifier.cpp.i
 
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbHotplugNotifier.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbHotplugNotifier.cpp.s"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/util/UsbHotplugNotifier.cpp -o CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbHotplugNotifier.cpp.s
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/util/UsbHotplugNotifier.cpp -o CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbHotplugNotifier.cpp.s
 
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbHotplugNotifier.cpp.o.requires:
 
@@ -226,17 +106,17 @@ dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/
 
 
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbDeviceManager.cpp.o: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/flags.make
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbDeviceManager.cpp.o: /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/util/UsbDeviceManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zdh/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbDeviceManager.cpp.o"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbDeviceManager.cpp.o -c /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/util/UsbDeviceManager.cpp
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbDeviceManager.cpp.o: /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/util/UsbDeviceManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrisliu/ROS/Navigation/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbDeviceManager.cpp.o"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbDeviceManager.cpp.o -c /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/util/UsbDeviceManager.cpp
 
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbDeviceManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbDeviceManager.cpp.i"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/util/UsbDeviceManager.cpp > CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbDeviceManager.cpp.i
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/util/UsbDeviceManager.cpp > CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbDeviceManager.cpp.i
 
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbDeviceManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbDeviceManager.cpp.s"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/util/UsbDeviceManager.cpp -o CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbDeviceManager.cpp.s
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/util/UsbDeviceManager.cpp -o CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbDeviceManager.cpp.s
 
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbDeviceManager.cpp.o.requires:
 
@@ -249,55 +129,175 @@ dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbDeviceManager.cpp.o.provides.build: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbDeviceManager.cpp.o
 
 
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/flags.make
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o: /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/DataPacket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrisliu/ROS/Navigation/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o -c /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/DataPacket.cpp
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.i"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/DataPacket.cpp > CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.i
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.s"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/DataPacket.cpp -o CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.s
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o.requires:
+
+.PHONY : dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o.requires
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o.provides: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o.requires
+	$(MAKE) -f dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/build.make dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o.provides.build
+.PHONY : dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o.provides
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o.provides.build: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o
+
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/flags.make
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o: /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/Device.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrisliu/ROS/Navigation/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o -c /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/Device.cpp
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.i"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/Device.cpp > CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.i
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.s"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/Device.cpp -o CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.s
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o.requires:
+
+.PHONY : dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o.requires
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o.provides: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o.requires
+	$(MAKE) -f dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/build.make dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o.provides.build
+.PHONY : dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o.provides
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o.provides.build: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o
+
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/flags.make
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o: /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/Transport.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrisliu/ROS/Navigation/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o -c /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/Transport.cpp
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.i"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/Transport.cpp > CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.i
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.s"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/Transport.cpp -o CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.s
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o.requires:
+
+.PHONY : dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o.requires
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o.provides: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o.requires
+	$(MAKE) -f dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/build.make dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o.provides.build
+.PHONY : dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o.provides
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o.provides.build: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o
+
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/flags.make
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o: /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/usb/UsbLocation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrisliu/ROS/Navigation/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o -c /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/usb/UsbLocation.cpp
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.i"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/usb/UsbLocation.cpp > CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.i
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.s"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/usb/UsbLocation.cpp -o CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.s
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o.requires:
+
+.PHONY : dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o.requires
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o.provides: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o.requires
+	$(MAKE) -f dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/build.make dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o.provides.build
+.PHONY : dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o.provides
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o.provides.build: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o
+
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/flags.make
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o: /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/usb/UsbTransport.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrisliu/ROS/Navigation/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o -c /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/usb/UsbTransport.cpp
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.i"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/usb/UsbTransport.cpp > CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.i
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.s"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/src/usb/UsbTransport.cpp -o CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.s
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o.requires:
+
+.PHONY : dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o.requires
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o.provides: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o.requires
+	$(MAKE) -f dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/build.make dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o.provides.build
+.PHONY : dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o.provides
+
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o.provides.build: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o
+
+
 # Object files for target ltme01_sdk
 ltme01_sdk_OBJECTS = \
-"CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o" \
-"CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o" \
-"CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o" \
-"CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o" \
 "CMakeFiles/ltme01_sdk.dir/Sources/src/ControlPacket.cpp.o" \
-"CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o" \
 "CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbHotplugNotifier.cpp.o" \
-"CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbDeviceManager.cpp.o"
+"CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbDeviceManager.cpp.o" \
+"CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o" \
+"CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o" \
+"CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o" \
+"CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o" \
+"CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o"
 
 # External object files for target ltme01_sdk
 ltme01_sdk_EXTERNAL_OBJECTS =
 
-/home/zdh/dashgo_ws/devel/lib/ltme01_sdk.a: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o
-/home/zdh/dashgo_ws/devel/lib/ltme01_sdk.a: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o
-/home/zdh/dashgo_ws/devel/lib/ltme01_sdk.a: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o
-/home/zdh/dashgo_ws/devel/lib/ltme01_sdk.a: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o
-/home/zdh/dashgo_ws/devel/lib/ltme01_sdk.a: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/ControlPacket.cpp.o
-/home/zdh/dashgo_ws/devel/lib/ltme01_sdk.a: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o
-/home/zdh/dashgo_ws/devel/lib/ltme01_sdk.a: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbHotplugNotifier.cpp.o
-/home/zdh/dashgo_ws/devel/lib/ltme01_sdk.a: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbDeviceManager.cpp.o
-/home/zdh/dashgo_ws/devel/lib/ltme01_sdk.a: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/build.make
-/home/zdh/dashgo_ws/devel/lib/ltme01_sdk.a: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zdh/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library /home/zdh/dashgo_ws/devel/lib/ltme01_sdk.a"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && $(CMAKE_COMMAND) -P CMakeFiles/ltme01_sdk.dir/cmake_clean_target.cmake
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ltme01_sdk.dir/link.txt --verbose=$(VERBOSE)
+/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/ltme01_sdk.a: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/ControlPacket.cpp.o
+/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/ltme01_sdk.a: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbHotplugNotifier.cpp.o
+/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/ltme01_sdk.a: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbDeviceManager.cpp.o
+/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/ltme01_sdk.a: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o
+/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/ltme01_sdk.a: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o
+/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/ltme01_sdk.a: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o
+/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/ltme01_sdk.a: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o
+/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/ltme01_sdk.a: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o
+/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/ltme01_sdk.a: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/build.make
+/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/ltme01_sdk.a: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chrisliu/ROS/Navigation/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library /home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/ltme01_sdk.a"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && $(CMAKE_COMMAND) -P CMakeFiles/ltme01_sdk.dir/cmake_clean_target.cmake
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ltme01_sdk.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/build: /home/zdh/dashgo_ws/devel/lib/ltme01_sdk.a
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/build: /home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/ltme01_sdk.a
 
 .PHONY : dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/build
 
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/requires: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o.requires
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/requires: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o.requires
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/requires: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o.requires
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/requires: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o.requires
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/requires: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/ControlPacket.cpp.o.requires
-dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/requires: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o.requires
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/requires: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbHotplugNotifier.cpp.o.requires
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/requires: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/util/UsbDeviceManager.cpp.o.requires
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/requires: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/DataPacket.cpp.o.requires
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/requires: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Device.cpp.o.requires
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/requires: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/Transport.cpp.o.requires
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/requires: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbLocation.cpp.o.requires
+dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/requires: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/Sources/src/usb/UsbTransport.cpp.o.requires
 
 .PHONY : dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/requires
 
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/clean:
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && $(CMAKE_COMMAND) -P CMakeFiles/ltme01_sdk.dir/cmake_clean.cmake
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && $(CMAKE_COMMAND) -P CMakeFiles/ltme01_sdk.dir/cmake_clean.cmake
 .PHONY : dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/clean
 
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/depend:
-	cd /home/zdh/dashgo_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zdh/dashgo_ws/src /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk /home/zdh/dashgo_ws/build /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chrisliu/ROS/Navigation/dashgo_ws/src /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk /home/chrisliu/ROS/Navigation/dashgo_ws/build /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/ltme01_sdk.dir/depend
 

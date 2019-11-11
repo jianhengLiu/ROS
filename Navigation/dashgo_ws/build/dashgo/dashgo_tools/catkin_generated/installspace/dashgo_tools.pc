@@ -1,8 +1,8 @@
-prefix=/home/zdh/dashgo_ws/install
+prefix=/home/chrisliu/ROS/Navigation/dashgo_ws/install
 
 Name: dashgo_tools
 Description: Description of dashgo_tools
 Version: 0.0.0
-Cflags: -I/home/zdh/dashgo_ws/install/include
-Libs: -L/home/zdh/dashgo_ws/install/lib 
+Cflags: -I/home/chrisliu/ROS/Navigation/dashgo_ws/install/include
+Libs: -L/home/chrisliu/ROS/Navigation/dashgo_ws/install/lib 
 Requires: actionlib_msgs

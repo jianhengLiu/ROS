@@ -1,13 +1,13 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dashgo_tools_generate_messages_py"
-  "/home/zdh/dashgo_ws/devel/lib/python2.7/dist-packages/dashgo_tools/msg/_check_msgActionGoal.py"
-  "/home/zdh/dashgo_ws/devel/lib/python2.7/dist-packages/dashgo_tools/msg/_check_msgActionFeedback.py"
-  "/home/zdh/dashgo_ws/devel/lib/python2.7/dist-packages/dashgo_tools/msg/_check_msgAction.py"
-  "/home/zdh/dashgo_ws/devel/lib/python2.7/dist-packages/dashgo_tools/msg/_check_msgFeedback.py"
-  "/home/zdh/dashgo_ws/devel/lib/python2.7/dist-packages/dashgo_tools/msg/_check_msgActionResult.py"
-  "/home/zdh/dashgo_ws/devel/lib/python2.7/dist-packages/dashgo_tools/msg/_check_msgGoal.py"
-  "/home/zdh/dashgo_ws/devel/lib/python2.7/dist-packages/dashgo_tools/msg/_check_msgResult.py"
-  "/home/zdh/dashgo_ws/devel/lib/python2.7/dist-packages/dashgo_tools/msg/__init__.py"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/python2.7/dist-packages/dashgo_tools/msg/_check_msgGoal.py"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/python2.7/dist-packages/dashgo_tools/msg/_check_msgAction.py"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/python2.7/dist-packages/dashgo_tools/msg/_check_msgResult.py"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/python2.7/dist-packages/dashgo_tools/msg/_check_msgActionGoal.py"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/python2.7/dist-packages/dashgo_tools/msg/_check_msgFeedback.py"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/python2.7/dist-packages/dashgo_tools/msg/_check_msgActionResult.py"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/python2.7/dist-packages/dashgo_tools/msg/_check_msgActionFeedback.py"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/python2.7/dist-packages/dashgo_tools/msg/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

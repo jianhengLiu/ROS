@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dashgo_driver_generate_messages_py"
-  "/home/zdh/dashgo_ws/devel/lib/python2.7/dist-packages/dashgo_driver/srv/_SrvInt32.py"
-  "/home/zdh/dashgo_ws/devel/lib/python2.7/dist-packages/dashgo_driver/srv/__init__.py"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/python2.7/dist-packages/dashgo_driver/srv/_SrvInt32.py"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/python2.7/dist-packages/dashgo_driver/srv/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

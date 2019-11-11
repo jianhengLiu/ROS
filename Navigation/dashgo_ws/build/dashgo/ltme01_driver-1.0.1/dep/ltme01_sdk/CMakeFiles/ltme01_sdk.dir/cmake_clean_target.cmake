@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "/home/zdh/dashgo_ws/devel/lib/ltme01_sdk.a"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/ltme01_sdk.a"
 )

@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"ltme01_driver\"
 
-CXX_INCLUDES = -I/home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/include/public -I/home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/include/private -I/home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb-1.0.21/include 
+CXX_INCLUDES = -I/home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/include/public -I/home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/include/private -I/home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb-1.0.21/include 
 

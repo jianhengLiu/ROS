@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dashgo_driver_generate_messages_eus"
-  "/home/zdh/dashgo_ws/devel/share/roseus/ros/dashgo_driver/srv/SrvInt32.l"
-  "/home/zdh/dashgo_ws/devel/share/roseus/ros/dashgo_driver/manifest.l"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/share/roseus/ros/dashgo_driver/srv/SrvInt32.l"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/share/roseus/ros/dashgo_driver/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

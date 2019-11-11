@@ -1,8 +1,8 @@
-# Install script for directory: /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk
+# Install script for directory: /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/zdh/dashgo_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/chrisliu/ROS/Navigation/dashgo_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

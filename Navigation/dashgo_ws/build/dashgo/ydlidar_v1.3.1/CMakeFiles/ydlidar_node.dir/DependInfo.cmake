@@ -4,12 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zdh/dashgo_ws/src/dashgo/ydlidar_v1.3.1/sdk/src/CYdLidar.cpp" "/home/zdh/dashgo_ws/build/dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.o"
-  "/home/zdh/dashgo_ws/src/dashgo/ydlidar_v1.3.1/sdk/src/impl/unix/unix_serial.cpp" "/home/zdh/dashgo_ws/build/dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_serial.cpp.o"
-  "/home/zdh/dashgo_ws/src/dashgo/ydlidar_v1.3.1/sdk/src/impl/unix/unix_timer.cpp" "/home/zdh/dashgo_ws/build/dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_timer.cpp.o"
-  "/home/zdh/dashgo_ws/src/dashgo/ydlidar_v1.3.1/sdk/src/serial.cpp" "/home/zdh/dashgo_ws/build/dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o"
-  "/home/zdh/dashgo_ws/src/dashgo/ydlidar_v1.3.1/sdk/src/ydlidar_driver.cpp" "/home/zdh/dashgo_ws/build/dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o"
-  "/home/zdh/dashgo_ws/src/dashgo/ydlidar_v1.3.1/src/ydlidar_node.cpp" "/home/zdh/dashgo_ws/build/dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/src/ydlidar_node.cpp.o"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ydlidar_v1.3.1/src/ydlidar_node.cpp" "/home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/src/ydlidar_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -24,9 +19,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
-  "/home/zdh/dashgo_ws/src/dashgo/ydlidar_v1.3.1/src"
-  "/home/zdh/dashgo_ws/src/dashgo/ydlidar_v1.3.1/sdk/include"
-  "/home/zdh/dashgo_ws/src/dashgo/ydlidar_v1.3.1/sdk/src"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ydlidar_v1.3.1/src"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ydlidar_v1.3.1/sdk/include"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ydlidar_v1.3.1/sdk/src"
   )
 
 # Targets to which this target links.

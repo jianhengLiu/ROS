@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dashgo_driver_generate_messages_cpp"
-  "/home/zdh/dashgo_ws/devel/include/dashgo_driver/SrvInt32.h"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/include/dashgo_driver/SrvInt32.h"
 )
 
 # Per-language clean rules from dependency scanning.

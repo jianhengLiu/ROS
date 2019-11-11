@@ -519,6 +519,19 @@ histogram_camera/fast:
 .PHONY : histogram_camera/fast
 
 #=============================================================================
+# Target rules for targets named rgb_detect
+
+# Build rule for target.
+rgb_detect: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rgb_detect
+.PHONY : rgb_detect
+
+# fast build rule for target.
+rgb_detect/fast:
+	$(MAKE) -f CMakeFiles/rgb_detect.dir/build.make CMakeFiles/rgb_detect.dir/build
+.PHONY : rgb_detect/fast
+
+#=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_cpp
 
 # Build rule for target.
@@ -809,6 +822,33 @@ src/jiesi.cpp.s:
 	$(MAKE) -f CMakeFiles/jiesi.dir/build.make CMakeFiles/jiesi.dir/src/jiesi.cpp.s
 .PHONY : src/jiesi.cpp.s
 
+src/rgb_detect.o: src/rgb_detect.cpp.o
+
+.PHONY : src/rgb_detect.o
+
+# target to build an object file
+src/rgb_detect.cpp.o:
+	$(MAKE) -f CMakeFiles/rgb_detect.dir/build.make CMakeFiles/rgb_detect.dir/src/rgb_detect.cpp.o
+.PHONY : src/rgb_detect.cpp.o
+
+src/rgb_detect.i: src/rgb_detect.cpp.i
+
+.PHONY : src/rgb_detect.i
+
+# target to preprocess a source file
+src/rgb_detect.cpp.i:
+	$(MAKE) -f CMakeFiles/rgb_detect.dir/build.make CMakeFiles/rgb_detect.dir/src/rgb_detect.cpp.i
+.PHONY : src/rgb_detect.cpp.i
+
+src/rgb_detect.s: src/rgb_detect.cpp.s
+
+.PHONY : src/rgb_detect.s
+
+# target to generate assembly for a file
+src/rgb_detect.cpp.s:
+	$(MAKE) -f CMakeFiles/rgb_detect.dir/build.make CMakeFiles/rgb_detect.dir/src/rgb_detect.cpp.s
+.PHONY : src/rgb_detect.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -819,13 +859,13 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... edit_cache"
+	@echo "... test"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... sensor_msgs_generate_messages_eus"
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_lisp"
-	@echo "... test"
 	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... tests"
 	@echo "... rebuild_cache"
@@ -849,6 +889,7 @@ help:
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... histogram_camera"
+	@echo "... rgb_detect"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_eus"
 	@echo "... jiesi"
@@ -876,6 +917,9 @@ help:
 	@echo "... src/jiesi.o"
 	@echo "... src/jiesi.i"
 	@echo "... src/jiesi.s"
+	@echo "... src/rgb_detect.o"
+	@echo "... src/rgb_detect.i"
+	@echo "... src/rgb_detect.s"
 .PHONY : help
 
 

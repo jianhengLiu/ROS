@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ltme01_driver_node.dir/src/device_notifier.cpp.o"
   "CMakeFiles/ltme01_driver_node.dir/src/lidar_driver.cpp.o"
-  "/home/zdh/dashgo_ws/devel/lib/ltme01_driver/ltme01_driver_node.pdb"
-  "/home/zdh/dashgo_ws/devel/lib/ltme01_driver/ltme01_driver_node"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/ltme01_driver/ltme01_driver_node.pdb"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/ltme01_driver/ltme01_driver_node"
 )
 
 # Per-language clean rules from dependency scanning.

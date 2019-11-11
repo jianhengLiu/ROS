@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/get_scan_data.dir/src/get_scan_data.cpp.o"
-  "/home/zdh/dashgo_ws/devel/lib/dashgo_tools/get_scan_data.pdb"
-  "/home/zdh/dashgo_ws/devel/lib/dashgo_tools/get_scan_data"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/dashgo_tools/get_scan_data.pdb"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/dashgo_tools/get_scan_data"
 )
 
 # Per-language clean rules from dependency scanning.

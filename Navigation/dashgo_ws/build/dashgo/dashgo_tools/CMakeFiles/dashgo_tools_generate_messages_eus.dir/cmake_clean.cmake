@@ -1,13 +1,13 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dashgo_tools_generate_messages_eus"
-  "/home/zdh/dashgo_ws/devel/share/roseus/ros/dashgo_tools/msg/check_msgActionGoal.l"
-  "/home/zdh/dashgo_ws/devel/share/roseus/ros/dashgo_tools/msg/check_msgActionFeedback.l"
-  "/home/zdh/dashgo_ws/devel/share/roseus/ros/dashgo_tools/msg/check_msgAction.l"
-  "/home/zdh/dashgo_ws/devel/share/roseus/ros/dashgo_tools/msg/check_msgFeedback.l"
-  "/home/zdh/dashgo_ws/devel/share/roseus/ros/dashgo_tools/msg/check_msgActionResult.l"
-  "/home/zdh/dashgo_ws/devel/share/roseus/ros/dashgo_tools/msg/check_msgGoal.l"
-  "/home/zdh/dashgo_ws/devel/share/roseus/ros/dashgo_tools/msg/check_msgResult.l"
-  "/home/zdh/dashgo_ws/devel/share/roseus/ros/dashgo_tools/manifest.l"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/share/roseus/ros/dashgo_tools/msg/check_msgGoal.l"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/share/roseus/ros/dashgo_tools/msg/check_msgAction.l"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/share/roseus/ros/dashgo_tools/msg/check_msgResult.l"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/share/roseus/ros/dashgo_tools/msg/check_msgActionGoal.l"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/share/roseus/ros/dashgo_tools/msg/check_msgFeedback.l"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/share/roseus/ros/dashgo_tools/msg/check_msgActionResult.l"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/share/roseus/ros/dashgo_tools/msg/check_msgActionFeedback.l"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/share/roseus/ros/dashgo_tools/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

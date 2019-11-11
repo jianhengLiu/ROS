@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zdh/dashgo_ws/src/dashgo/dashgo_tools/src/get_scan_data.cpp" "/home/zdh/dashgo_ws/build/dashgo/dashgo_tools/CMakeFiles/get_scan_data.dir/src/get_scan_data.cpp.o"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/dashgo_tools/src/get_scan_data.cpp" "/home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/dashgo_tools/CMakeFiles/get_scan_data.dir/src/get_scan_data.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/zdh/dashgo_ws/devel/include"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

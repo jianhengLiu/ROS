@@ -1,8 +1,8 @@
-prefix=/home/zdh/dashgo_ws/devel
+prefix=/home/chrisliu/ROS/Navigation/dashgo_ws/devel
 
 Name: ltme01_driver
 Description: Description of ltme01_driver
 Version: 1.0.1
 Cflags: 
-Libs: -L/home/zdh/dashgo_ws/devel/lib 
+Libs: -L/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib 
 Requires: 

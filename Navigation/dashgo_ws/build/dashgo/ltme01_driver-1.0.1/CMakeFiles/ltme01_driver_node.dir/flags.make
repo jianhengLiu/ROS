@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"ltme01_driver\"
 
-CXX_INCLUDES = -I/home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/include -I/home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/include/public 
+CXX_INCLUDES = -I/home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/include -I/home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/Sources/include/public 
 

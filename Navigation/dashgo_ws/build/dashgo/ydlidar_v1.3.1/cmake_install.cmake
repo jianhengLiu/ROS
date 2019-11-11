@@ -1,8 +1,8 @@
-# Install script for directory: /home/zdh/dashgo_ws/src/dashgo/ydlidar_v1.3.1
+# Install script for directory: /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ydlidar_v1.3.1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/zdh/dashgo_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/chrisliu/ROS/Navigation/dashgo_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,18 +33,18 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zdh/dashgo_ws/build/dashgo/ydlidar_v1.3.1/catkin_generated/installspace/ydlidar.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ydlidar_v1.3.1/catkin_generated/installspace/ydlidar.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ydlidar/cmake" TYPE FILE FILES
-    "/home/zdh/dashgo_ws/build/dashgo/ydlidar_v1.3.1/catkin_generated/installspace/ydlidarConfig.cmake"
-    "/home/zdh/dashgo_ws/build/dashgo/ydlidar_v1.3.1/catkin_generated/installspace/ydlidarConfig-version.cmake"
+    "/home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ydlidar_v1.3.1/catkin_generated/installspace/ydlidarConfig.cmake"
+    "/home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ydlidar_v1.3.1/catkin_generated/installspace/ydlidarConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ydlidar" TYPE FILE FILES "/home/zdh/dashgo_ws/src/dashgo/ydlidar_v1.3.1/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ydlidar" TYPE FILE FILES "/home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ydlidar_v1.3.1/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -54,7 +54,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ydlidar/ydlidar_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ydlidar" TYPE EXECUTABLE FILES "/home/zdh/dashgo_ws/devel/lib/ydlidar/ydlidar_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ydlidar" TYPE EXECUTABLE FILES "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/ydlidar/ydlidar_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ydlidar/ydlidar_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ydlidar/ydlidar_node")
     file(RPATH_CHANGE
@@ -74,7 +74,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ydlidar/ydlidar_client"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ydlidar" TYPE EXECUTABLE FILES "/home/zdh/dashgo_ws/devel/lib/ydlidar/ydlidar_client")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ydlidar" TYPE EXECUTABLE FILES "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/lib/ydlidar/ydlidar_client")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ydlidar/ydlidar_client" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ydlidar/ydlidar_client")
     file(RPATH_CHANGE
@@ -89,9 +89,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ydlidar" TYPE DIRECTORY FILES
-    "/home/zdh/dashgo_ws/src/dashgo/ydlidar_v1.3.1/launch"
-    "/home/zdh/dashgo_ws/src/dashgo/ydlidar_v1.3.1/startup"
-    "/home/zdh/dashgo_ws/src/dashgo/ydlidar_v1.3.1/sdk"
+    "/home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ydlidar_v1.3.1/launch"
+    "/home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ydlidar_v1.3.1/startup"
+    "/home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ydlidar_v1.3.1/sdk"
     USE_SOURCE_PERMISSIONS)
 endif()
 

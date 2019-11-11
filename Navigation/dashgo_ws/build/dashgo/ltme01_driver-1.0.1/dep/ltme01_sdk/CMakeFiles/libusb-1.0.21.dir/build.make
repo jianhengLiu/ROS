@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zdh/dashgo_ws/src
+CMAKE_SOURCE_DIR = /home/chrisliu/ROS/Navigation/dashgo_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zdh/dashgo_ws/build
+CMAKE_BINARY_DIR = /home/chrisliu/ROS/Navigation/dashgo_ws/build
 
 # Utility rule file for libusb-1.0.21.
 
@@ -64,52 +64,52 @@ dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/libusb-1.0.21-complete: das
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/libusb-1.0.21-complete: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-configure
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/libusb-1.0.21-complete: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-build
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/libusb-1.0.21-complete: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zdh/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'libusb-1.0.21'"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/cmake -E make_directory /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/cmake -E touch /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/libusb-1.0.21-complete
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/cmake -E touch /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrisliu/ROS/Navigation/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'libusb-1.0.21'"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/cmake -E make_directory /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/cmake -E touch /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/libusb-1.0.21-complete
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/cmake -E touch /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-done
 
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-install: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zdh/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing install step for 'libusb-1.0.21'"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-build && make install
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-build && /usr/bin/cmake -E touch /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrisliu/ROS/Navigation/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing install step for 'libusb-1.0.21'"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-build && make install
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-build && /usr/bin/cmake -E touch /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-install
 
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zdh/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'libusb-1.0.21'"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/cmake -E make_directory /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/cmake -E make_directory /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-build
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/cmake -E make_directory /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/cmake -E make_directory /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/tmp
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/cmake -E make_directory /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/cmake -E make_directory /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/cmake -E touch /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrisliu/ROS/Navigation/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'libusb-1.0.21'"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/cmake -E make_directory /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/cmake -E make_directory /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-build
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/cmake -E make_directory /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/cmake -E make_directory /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/tmp
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/cmake -E make_directory /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/cmake -E make_directory /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/cmake -E touch /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-mkdir
 
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-download: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zdh/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'libusb-1.0.21'"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/cmake -E echo_append
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/cmake -E touch /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrisliu/ROS/Navigation/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'libusb-1.0.21'"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/cmake -E echo_append
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/cmake -E touch /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-download
 
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-update: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zdh/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'libusb-1.0.21'"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/cmake -E echo_append
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/cmake -E touch /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-update
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrisliu/ROS/Navigation/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'libusb-1.0.21'"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/cmake -E echo_append
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && /usr/bin/cmake -E touch /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-update
 
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-patch: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zdh/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Performing patch step for 'libusb-1.0.21'"
-	cd /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21 && bash -c "! [ -x /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/configure ] && chmod +x /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/configure || :"
-	cd /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21 && /usr/bin/cmake -E touch /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrisliu/ROS/Navigation/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Performing patch step for 'libusb-1.0.21'"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21 && bash -c "! [ -x /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/configure ] && chmod +x /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/configure || :"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21 && /usr/bin/cmake -E touch /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-patch
 
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-configure: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/tmp/libusb-1.0.21-cfgcmd.txt
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-configure: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-update
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-configure: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zdh/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'libusb-1.0.21'"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-build && /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/configure CFLAGS=-fPIC --prefix=/home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb-1.0.21 --enable-shared=no --enable-static=yes
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-build && /usr/bin/cmake -E touch /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrisliu/ROS/Navigation/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'libusb-1.0.21'"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-build && /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/configure CFLAGS=-fPIC --prefix=/home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb-1.0.21 --enable-shared=no --enable-static=yes
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-build && /usr/bin/cmake -E touch /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-configure
 
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-build: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zdh/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'libusb-1.0.21'"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-build && bash -c "(make check &> /dev/null || touch /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/aclocal.m4 /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/Makefile.in /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/configure /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/config.h.in) && make"
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-build && /usr/bin/cmake -E touch /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrisliu/ROS/Navigation/dashgo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'libusb-1.0.21'"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-build && bash -c "(make check &> /dev/null || touch /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/aclocal.m4 /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/Makefile.in /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/configure /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/config.h.in) && make"
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-build && /usr/bin/cmake -E touch /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-stamp/libusb-1.0.21-build
 
 libusb-1.0.21: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/libusb-1.0.21
 libusb-1.0.21: dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/libusb-1.0.21-complete
@@ -130,10 +130,10 @@ dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/libusb-1.0.21.dir/build: li
 .PHONY : dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/libusb-1.0.21.dir/build
 
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/libusb-1.0.21.dir/clean:
-	cd /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && $(CMAKE_COMMAND) -P CMakeFiles/libusb-1.0.21.dir/cmake_clean.cmake
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk && $(CMAKE_COMMAND) -P CMakeFiles/libusb-1.0.21.dir/cmake_clean.cmake
 .PHONY : dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/libusb-1.0.21.dir/clean
 
 dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/libusb-1.0.21.dir/depend:
-	cd /home/zdh/dashgo_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zdh/dashgo_ws/src /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk /home/zdh/dashgo_ws/build /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/libusb-1.0.21.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chrisliu/ROS/Navigation/dashgo_ws/src /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk /home/chrisliu/ROS/Navigation/dashgo_ws/build /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/libusb-1.0.21.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/libusb-1.0.21.dir/depend
 

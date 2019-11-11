@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-deb
 
 # The main recursive "all" target.
 all: CMakeFiles/histogram_camera.dir/all
+all: CMakeFiles/rgb_detect.dir/all
 all: CMakeFiles/jiesi.dir/all
 all: CMakeFiles/histogram_local.dir/all
 all: CMakeFiles/filter.dir/all
@@ -90,6 +91,7 @@ clean: CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
 clean: CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
 clean: CMakeFiles/roscpp_generate_messages_eus.dir/clean
 clean: CMakeFiles/histogram_camera.dir/clean
+clean: CMakeFiles/rgb_detect.dir/clean
 clean: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 clean: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 clean: CMakeFiles/jiesi.dir/clean
@@ -835,6 +837,33 @@ histogram_camera: CMakeFiles/histogram_camera.dir/rule
 CMakeFiles/histogram_camera.dir/clean:
 	$(MAKE) -f CMakeFiles/histogram_camera.dir/build.make CMakeFiles/histogram_camera.dir/clean
 .PHONY : CMakeFiles/histogram_camera.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/rgb_detect.dir
+
+# All Build rule for target.
+CMakeFiles/rgb_detect.dir/all:
+	$(MAKE) -f CMakeFiles/rgb_detect.dir/build.make CMakeFiles/rgb_detect.dir/depend
+	$(MAKE) -f CMakeFiles/rgb_detect.dir/build.make CMakeFiles/rgb_detect.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target rgb_detect"
+.PHONY : CMakeFiles/rgb_detect.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/rgb_detect.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/rgb_detect.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/rgb_detect.dir/rule
+
+# Convenience name for target.
+rgb_detect: CMakeFiles/rgb_detect.dir/rule
+
+.PHONY : rgb_detect
+
+# clean rule for target.
+CMakeFiles/rgb_detect.dir/clean:
+	$(MAKE) -f CMakeFiles/rgb_detect.dir/build.make CMakeFiles/rgb_detect.dir/clean
+.PHONY : CMakeFiles/rgb_detect.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir

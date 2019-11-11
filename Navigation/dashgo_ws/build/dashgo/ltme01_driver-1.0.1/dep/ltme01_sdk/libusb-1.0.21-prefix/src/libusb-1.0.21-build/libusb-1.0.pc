@@ -1,4 +1,4 @@
-prefix=/home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb-1.0.21
+prefix=/home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb-1.0.21
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/zdh/dashgo_ws/src/dashgo/dashgo_driver/srv/SrvInt32.srv"
+services_str = "/home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/dashgo_driver/srv/SrvInt32.srv"
 pkg_name = "dashgo_driver"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

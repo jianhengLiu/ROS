@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb-1.0.21/lib'
+libdir='/home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb-1.0.21/lib'

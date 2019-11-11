@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dashgo_tools_generate_messages_lisp"
-  "/home/zdh/dashgo_ws/devel/share/common-lisp/ros/dashgo_tools/msg/check_msgActionGoal.lisp"
-  "/home/zdh/dashgo_ws/devel/share/common-lisp/ros/dashgo_tools/msg/check_msgActionFeedback.lisp"
-  "/home/zdh/dashgo_ws/devel/share/common-lisp/ros/dashgo_tools/msg/check_msgAction.lisp"
-  "/home/zdh/dashgo_ws/devel/share/common-lisp/ros/dashgo_tools/msg/check_msgFeedback.lisp"
-  "/home/zdh/dashgo_ws/devel/share/common-lisp/ros/dashgo_tools/msg/check_msgActionResult.lisp"
-  "/home/zdh/dashgo_ws/devel/share/common-lisp/ros/dashgo_tools/msg/check_msgGoal.lisp"
-  "/home/zdh/dashgo_ws/devel/share/common-lisp/ros/dashgo_tools/msg/check_msgResult.lisp"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/share/common-lisp/ros/dashgo_tools/msg/check_msgGoal.lisp"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/share/common-lisp/ros/dashgo_tools/msg/check_msgAction.lisp"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/share/common-lisp/ros/dashgo_tools/msg/check_msgResult.lisp"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/share/common-lisp/ros/dashgo_tools/msg/check_msgActionGoal.lisp"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/share/common-lisp/ros/dashgo_tools/msg/check_msgFeedback.lisp"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/share/common-lisp/ros/dashgo_tools/msg/check_msgActionResult.lisp"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/share/common-lisp/ros/dashgo_tools/msg/check_msgActionFeedback.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

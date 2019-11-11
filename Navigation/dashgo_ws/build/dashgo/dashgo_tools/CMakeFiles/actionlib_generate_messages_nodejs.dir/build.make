@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zdh/dashgo_ws/src
+CMAKE_SOURCE_DIR = /home/chrisliu/ROS/Navigation/dashgo_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zdh/dashgo_ws/build
+CMAKE_BINARY_DIR = /home/chrisliu/ROS/Navigation/dashgo_ws/build
 
 # Utility rule file for actionlib_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ dashgo/dashgo_tools/CMakeFiles/actionlib_generate_messages_nodejs.dir/build: act
 .PHONY : dashgo/dashgo_tools/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
 
 dashgo/dashgo_tools/CMakeFiles/actionlib_generate_messages_nodejs.dir/clean:
-	cd /home/zdh/dashgo_ws/build/dashgo/dashgo_tools && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/dashgo_tools && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : dashgo/dashgo_tools/CMakeFiles/actionlib_generate_messages_nodejs.dir/clean
 
 dashgo/dashgo_tools/CMakeFiles/actionlib_generate_messages_nodejs.dir/depend:
-	cd /home/zdh/dashgo_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zdh/dashgo_ws/src /home/zdh/dashgo_ws/src/dashgo/dashgo_tools /home/zdh/dashgo_ws/build /home/zdh/dashgo_ws/build/dashgo/dashgo_tools /home/zdh/dashgo_ws/build/dashgo/dashgo_tools/CMakeFiles/actionlib_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chrisliu/ROS/Navigation/dashgo_ws/src /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/dashgo_tools /home/chrisliu/ROS/Navigation/dashgo_ws/build /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/dashgo_tools /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/dashgo_tools/CMakeFiles/actionlib_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dashgo/dashgo_tools/CMakeFiles/actionlib_generate_messages_nodejs.dir/depend
 

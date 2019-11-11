@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zdh/dashgo_ws/src
+CMAKE_SOURCE_DIR = /home/chrisliu/ROS/Navigation/dashgo_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zdh/dashgo_ws/build
+CMAKE_BINARY_DIR = /home/chrisliu/ROS/Navigation/dashgo_ws/build
 
 # Utility rule file for dashgo_driver_geneus.
 
@@ -63,10 +63,10 @@ dashgo/dashgo_driver/CMakeFiles/dashgo_driver_geneus.dir/build: dashgo_driver_ge
 .PHONY : dashgo/dashgo_driver/CMakeFiles/dashgo_driver_geneus.dir/build
 
 dashgo/dashgo_driver/CMakeFiles/dashgo_driver_geneus.dir/clean:
-	cd /home/zdh/dashgo_ws/build/dashgo/dashgo_driver && $(CMAKE_COMMAND) -P CMakeFiles/dashgo_driver_geneus.dir/cmake_clean.cmake
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/dashgo_driver && $(CMAKE_COMMAND) -P CMakeFiles/dashgo_driver_geneus.dir/cmake_clean.cmake
 .PHONY : dashgo/dashgo_driver/CMakeFiles/dashgo_driver_geneus.dir/clean
 
 dashgo/dashgo_driver/CMakeFiles/dashgo_driver_geneus.dir/depend:
-	cd /home/zdh/dashgo_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zdh/dashgo_ws/src /home/zdh/dashgo_ws/src/dashgo/dashgo_driver /home/zdh/dashgo_ws/build /home/zdh/dashgo_ws/build/dashgo/dashgo_driver /home/zdh/dashgo_ws/build/dashgo/dashgo_driver/CMakeFiles/dashgo_driver_geneus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chrisliu/ROS/Navigation/dashgo_ws/src /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/dashgo_driver /home/chrisliu/ROS/Navigation/dashgo_ws/build /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/dashgo_driver /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/dashgo_driver/CMakeFiles/dashgo_driver_geneus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dashgo/dashgo_driver/CMakeFiles/dashgo_driver_geneus.dir/depend
 

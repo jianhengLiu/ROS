@@ -13,7 +13,7 @@
 # PARTICULAR PURPOSE.
 
 
-VPATH = /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/doc
+VPATH = /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/doc
 am__is_gnu_make = test -n '$(MAKEFILE_LIST)' && test -n '$(MAKELEVEL)'
 am__make_running_with_option = \
   case $${target_option-} in \
@@ -112,15 +112,15 @@ am__can_run_installinfo = \
   esac
 am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
-ACLOCAL = ${SHELL} /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/missing aclocal-1.14
+ACLOCAL = ${SHELL} /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/missing aclocal-1.14
 AMTAR = $${TAR-tar}
 AM_CFLAGS =  -std=gnu99 -Wall -Wundef -Wunused -Wstrict-prototypes -Werror-implicit-function-declaration -Wno-pointer-sign -Wshadow -pthread -fvisibility=hidden
 AM_DEFAULT_VERBOSITY = 0
 AR = ar
-AUTOCONF = ${SHELL} /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/missing autoconf
-AUTOHEADER = ${SHELL} /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/missing autoheader
-AUTOMAKE = ${SHELL} /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/missing automake-1.14
-AWK = mawk
+AUTOCONF = ${SHELL} /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/missing autoconf
+AUTOHEADER = ${SHELL} /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/missing autoheader
+AUTOMAKE = ${SHELL} /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/missing automake-1.14
+AWK = gawk
 CC = gcc
 CCDEPMODE = depmode=gcc3
 CFLAGS = -fPIC
@@ -157,7 +157,7 @@ LIPO =
 LN_S = ln -s
 LTLDFLAGS = -version-info 1:0:1 -no-undefined
 LTLIBOBJS = 
-MAKEINFO = ${SHELL} /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/missing makeinfo
+MAKEINFO = ${SHELL} /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/missing makeinfo
 MANIFEST_TOOL = :
 MKDIR_P = /bin/mkdir -p
 NM = /usr/bin/nm -B
@@ -190,10 +190,10 @@ STRIP = strip
 USE_UDEV = 
 USE_USBDK = 
 VERSION = 1.0.21
-abs_builddir = /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-build/doc
-abs_srcdir = /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/doc
-abs_top_builddir = /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-build
-abs_top_srcdir = /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21
+abs_builddir = /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-build/doc
+abs_srcdir = /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/doc
+abs_top_builddir = /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/src/libusb-1.0.21-build
+abs_top_srcdir = /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21
 ac_ct_AR = ar
 ac_ct_CC = gcc
 ac_ct_CXX = g++
@@ -223,7 +223,7 @@ host_vendor = unknown
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/install-sh
+install_sh = ${SHELL} /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -232,17 +232,17 @@ mandir = ${datarootdir}/man
 mkdir_p = $(MKDIR_P)
 oldincludedir = /usr/include
 pdfdir = ${docdir}
-prefix = /home/zdh/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb-1.0.21
+prefix = /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb-1.0.21
 program_transform_name = s,x,x,
 psdir = ${docdir}
 sbindir = ${exec_prefix}/sbin
 sharedstatedir = ${prefix}/com
-srcdir = /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/doc
+srcdir = /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21/doc
 sysconfdir = ${prefix}/etc
 target_alias = 
 top_build_prefix = ../
 top_builddir = ..
-top_srcdir = /home/zdh/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21
+top_srcdir = /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/ThirdParty/libusb/linux/libusb-1.0.21
 EXTRA_DIST = doxygen.cfg.in
 all: all-am
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dashgo_driver_generate_messages_lisp"
-  "/home/zdh/dashgo_ws/devel/share/common-lisp/ros/dashgo_driver/srv/SrvInt32.lisp"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/share/common-lisp/ros/dashgo_driver/srv/SrvInt32.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

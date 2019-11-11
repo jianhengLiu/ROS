@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zdh/dashgo_ws/src
+CMAKE_SOURCE_DIR = /home/chrisliu/ROS/Navigation/dashgo_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zdh/dashgo_ws/build
+CMAKE_BINARY_DIR = /home/chrisliu/ROS/Navigation/dashgo_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/zdh/dashgo_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/zdh/dashgo_ws/build/CMakeFiles /home/zdh/dashgo_ws/build/dashgo/ydlidar_v1.3.1/CMakeFiles/progress.marks
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dashgo/ydlidar_v1.3.1/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zdh/dashgo_ws/build/CMakeFiles 0
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chrisliu/ROS/Navigation/dashgo_ws/build/CMakeFiles /home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ydlidar_v1.3.1/CMakeFiles/progress.marks
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dashgo/ydlidar_v1.3.1/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisliu/ROS/Navigation/dashgo_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dashgo/ydlidar_v1.3.1/clean
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dashgo/ydlidar_v1.3.1/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dashgo/ydlidar_v1.3.1/preinstall
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dashgo/ydlidar_v1.3.1/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dashgo/ydlidar_v1.3.1/preinstall
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dashgo/ydlidar_v1.3.1/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/zdh/dashgo_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/rule:
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/rule
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/rule
 .PHONY : dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ ydlidar_node: dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/rule
 
 # fast build rule for target.
 ydlidar_node/fast:
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build
 .PHONY : ydlidar_node/fast
 
 # Convenience name for target.
 dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/rule:
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/rule
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/rule
 .PHONY : dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/rule
 
 # Convenience name for target.
@@ -192,143 +192,8 @@ ydlidar_client: dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/rule
 
 # fast build rule for target.
 ydlidar_client/fast:
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/build
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/build
 .PHONY : ydlidar_client/fast
-
-sdk/src/CYdLidar.o: sdk/src/CYdLidar.cpp.o
-
-.PHONY : sdk/src/CYdLidar.o
-
-# target to build an object file
-sdk/src/CYdLidar.cpp.o:
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.o
-.PHONY : sdk/src/CYdLidar.cpp.o
-
-sdk/src/CYdLidar.i: sdk/src/CYdLidar.cpp.i
-
-.PHONY : sdk/src/CYdLidar.i
-
-# target to preprocess a source file
-sdk/src/CYdLidar.cpp.i:
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.i
-.PHONY : sdk/src/CYdLidar.cpp.i
-
-sdk/src/CYdLidar.s: sdk/src/CYdLidar.cpp.s
-
-.PHONY : sdk/src/CYdLidar.s
-
-# target to generate assembly for a file
-sdk/src/CYdLidar.cpp.s:
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.s
-.PHONY : sdk/src/CYdLidar.cpp.s
-
-sdk/src/impl/unix/unix_serial.o: sdk/src/impl/unix/unix_serial.cpp.o
-
-.PHONY : sdk/src/impl/unix/unix_serial.o
-
-# target to build an object file
-sdk/src/impl/unix/unix_serial.cpp.o:
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_serial.cpp.o
-.PHONY : sdk/src/impl/unix/unix_serial.cpp.o
-
-sdk/src/impl/unix/unix_serial.i: sdk/src/impl/unix/unix_serial.cpp.i
-
-.PHONY : sdk/src/impl/unix/unix_serial.i
-
-# target to preprocess a source file
-sdk/src/impl/unix/unix_serial.cpp.i:
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_serial.cpp.i
-.PHONY : sdk/src/impl/unix/unix_serial.cpp.i
-
-sdk/src/impl/unix/unix_serial.s: sdk/src/impl/unix/unix_serial.cpp.s
-
-.PHONY : sdk/src/impl/unix/unix_serial.s
-
-# target to generate assembly for a file
-sdk/src/impl/unix/unix_serial.cpp.s:
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_serial.cpp.s
-.PHONY : sdk/src/impl/unix/unix_serial.cpp.s
-
-sdk/src/impl/unix/unix_timer.o: sdk/src/impl/unix/unix_timer.cpp.o
-
-.PHONY : sdk/src/impl/unix/unix_timer.o
-
-# target to build an object file
-sdk/src/impl/unix/unix_timer.cpp.o:
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_timer.cpp.o
-.PHONY : sdk/src/impl/unix/unix_timer.cpp.o
-
-sdk/src/impl/unix/unix_timer.i: sdk/src/impl/unix/unix_timer.cpp.i
-
-.PHONY : sdk/src/impl/unix/unix_timer.i
-
-# target to preprocess a source file
-sdk/src/impl/unix/unix_timer.cpp.i:
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_timer.cpp.i
-.PHONY : sdk/src/impl/unix/unix_timer.cpp.i
-
-sdk/src/impl/unix/unix_timer.s: sdk/src/impl/unix/unix_timer.cpp.s
-
-.PHONY : sdk/src/impl/unix/unix_timer.s
-
-# target to generate assembly for a file
-sdk/src/impl/unix/unix_timer.cpp.s:
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_timer.cpp.s
-.PHONY : sdk/src/impl/unix/unix_timer.cpp.s
-
-sdk/src/serial.o: sdk/src/serial.cpp.o
-
-.PHONY : sdk/src/serial.o
-
-# target to build an object file
-sdk/src/serial.cpp.o:
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o
-.PHONY : sdk/src/serial.cpp.o
-
-sdk/src/serial.i: sdk/src/serial.cpp.i
-
-.PHONY : sdk/src/serial.i
-
-# target to preprocess a source file
-sdk/src/serial.cpp.i:
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.i
-.PHONY : sdk/src/serial.cpp.i
-
-sdk/src/serial.s: sdk/src/serial.cpp.s
-
-.PHONY : sdk/src/serial.s
-
-# target to generate assembly for a file
-sdk/src/serial.cpp.s:
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.s
-.PHONY : sdk/src/serial.cpp.s
-
-sdk/src/ydlidar_driver.o: sdk/src/ydlidar_driver.cpp.o
-
-.PHONY : sdk/src/ydlidar_driver.o
-
-# target to build an object file
-sdk/src/ydlidar_driver.cpp.o:
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o
-.PHONY : sdk/src/ydlidar_driver.cpp.o
-
-sdk/src/ydlidar_driver.i: sdk/src/ydlidar_driver.cpp.i
-
-.PHONY : sdk/src/ydlidar_driver.i
-
-# target to preprocess a source file
-sdk/src/ydlidar_driver.cpp.i:
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.i
-.PHONY : sdk/src/ydlidar_driver.cpp.i
-
-sdk/src/ydlidar_driver.s: sdk/src/ydlidar_driver.cpp.s
-
-.PHONY : sdk/src/ydlidar_driver.s
-
-# target to generate assembly for a file
-sdk/src/ydlidar_driver.cpp.s:
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.s
-.PHONY : sdk/src/ydlidar_driver.cpp.s
 
 src/ydlidar_client.o: src/ydlidar_client.cpp.o
 
@@ -336,7 +201,7 @@ src/ydlidar_client.o: src/ydlidar_client.cpp.o
 
 # target to build an object file
 src/ydlidar_client.cpp.o:
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.o
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.o
 .PHONY : src/ydlidar_client.cpp.o
 
 src/ydlidar_client.i: src/ydlidar_client.cpp.i
@@ -345,7 +210,7 @@ src/ydlidar_client.i: src/ydlidar_client.cpp.i
 
 # target to preprocess a source file
 src/ydlidar_client.cpp.i:
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.i
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.i
 .PHONY : src/ydlidar_client.cpp.i
 
 src/ydlidar_client.s: src/ydlidar_client.cpp.s
@@ -354,7 +219,7 @@ src/ydlidar_client.s: src/ydlidar_client.cpp.s
 
 # target to generate assembly for a file
 src/ydlidar_client.cpp.s:
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.s
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.s
 .PHONY : src/ydlidar_client.cpp.s
 
 src/ydlidar_node.o: src/ydlidar_node.cpp.o
@@ -363,7 +228,7 @@ src/ydlidar_node.o: src/ydlidar_node.cpp.o
 
 # target to build an object file
 src/ydlidar_node.cpp.o:
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/src/ydlidar_node.cpp.o
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/src/ydlidar_node.cpp.o
 .PHONY : src/ydlidar_node.cpp.o
 
 src/ydlidar_node.i: src/ydlidar_node.cpp.i
@@ -372,7 +237,7 @@ src/ydlidar_node.i: src/ydlidar_node.cpp.i
 
 # target to preprocess a source file
 src/ydlidar_node.cpp.i:
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/src/ydlidar_node.cpp.i
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/src/ydlidar_node.cpp.i
 .PHONY : src/ydlidar_node.cpp.i
 
 src/ydlidar_node.s: src/ydlidar_node.cpp.s
@@ -381,7 +246,7 @@ src/ydlidar_node.s: src/ydlidar_node.cpp.s
 
 # target to generate assembly for a file
 src/ydlidar_node.cpp.s:
-	cd /home/zdh/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/src/ydlidar_node.cpp.s
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build && $(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/src/ydlidar_node.cpp.s
 .PHONY : src/ydlidar_node.cpp.s
 
 # Help Target
@@ -399,21 +264,6 @@ help:
 	@echo "... ydlidar_client"
 	@echo "... install/local"
 	@echo "... install/strip"
-	@echo "... sdk/src/CYdLidar.o"
-	@echo "... sdk/src/CYdLidar.i"
-	@echo "... sdk/src/CYdLidar.s"
-	@echo "... sdk/src/impl/unix/unix_serial.o"
-	@echo "... sdk/src/impl/unix/unix_serial.i"
-	@echo "... sdk/src/impl/unix/unix_serial.s"
-	@echo "... sdk/src/impl/unix/unix_timer.o"
-	@echo "... sdk/src/impl/unix/unix_timer.i"
-	@echo "... sdk/src/impl/unix/unix_timer.s"
-	@echo "... sdk/src/serial.o"
-	@echo "... sdk/src/serial.i"
-	@echo "... sdk/src/serial.s"
-	@echo "... sdk/src/ydlidar_driver.o"
-	@echo "... sdk/src/ydlidar_driver.i"
-	@echo "... sdk/src/ydlidar_driver.s"
 	@echo "... src/ydlidar_client.o"
 	@echo "... src/ydlidar_client.i"
 	@echo "... src/ydlidar_client.s"
@@ -431,6 +281,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/zdh/dashgo_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chrisliu/ROS/Navigation/dashgo_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/zdh/dashgo_ws/src/dashgo/dashgo_nav
+# Install script for directory: /home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/dashgo_nav
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/zdh/dashgo_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/chrisliu/ROS/Navigation/dashgo_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zdh/dashgo_ws/build/dashgo/dashgo_nav/catkin_generated/installspace/dashgo_nav.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/dashgo_nav/catkin_generated/installspace/dashgo_nav.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dashgo_nav/cmake" TYPE FILE FILES
-    "/home/zdh/dashgo_ws/build/dashgo/dashgo_nav/catkin_generated/installspace/dashgo_navConfig.cmake"
-    "/home/zdh/dashgo_ws/build/dashgo/dashgo_nav/catkin_generated/installspace/dashgo_navConfig-version.cmake"
+    "/home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/dashgo_nav/catkin_generated/installspace/dashgo_navConfig.cmake"
+    "/home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/dashgo_nav/catkin_generated/installspace/dashgo_navConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dashgo_nav" TYPE FILE FILES "/home/zdh/dashgo_ws/src/dashgo/dashgo_nav/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dashgo_nav" TYPE FILE FILES "/home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/dashgo_nav/package.xml")
 endif()
 
