@@ -51,3 +51,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/keyboard" TYPE PROGRAM FILES "/home/chrisliu/ROS/vrep_ws/src/keyboard/src/tele_keyboard.py")
 endif()
 
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/keyboard" TYPE PROGRAM FILES "/home/chrisliu/ROS/vrep_ws/src/keyboard/src/keyboard_steeringwheel.py")
+endif()
+

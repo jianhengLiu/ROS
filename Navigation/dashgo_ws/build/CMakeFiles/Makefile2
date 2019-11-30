@@ -3280,6 +3280,100 @@ clean: dashgo/dashgo_tools/CMakeFiles/dashgo_tools_gennodejs.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory dashgo/ydlidar_v1.3.1
+
+# Convenience name for "all" pass in the directory.
+dashgo/ydlidar_v1.3.1/all: dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/all
+dashgo/ydlidar_v1.3.1/all: dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/all
+
+.PHONY : dashgo/ydlidar_v1.3.1/all
+
+# Convenience name for "clean" pass in the directory.
+dashgo/ydlidar_v1.3.1/clean: dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/clean
+dashgo/ydlidar_v1.3.1/clean: dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/clean
+
+.PHONY : dashgo/ydlidar_v1.3.1/clean
+
+# Convenience name for "preinstall" pass in the directory.
+dashgo/ydlidar_v1.3.1/preinstall:
+
+.PHONY : dashgo/ydlidar_v1.3.1/preinstall
+
+#=============================================================================
+# Target rules for target dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir
+
+# All Build rule for target.
+dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/all:
+	$(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/depend
+	$(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrisliu/ROS/Navigation/dashgo_ws/build/CMakeFiles --progress-num=80,81 "Built target ydlidar_node"
+.PHONY : dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/all
+
+# Include target in all.
+all: dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisliu/ROS/Navigation/dashgo_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisliu/ROS/Navigation/dashgo_ws/build/CMakeFiles 0
+.PHONY : dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/rule
+
+# Convenience name for target.
+ydlidar_node: dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/rule
+
+.PHONY : ydlidar_node
+
+# clean rule for target.
+dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/clean:
+	$(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/clean
+.PHONY : dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/clean
+
+# clean rule for target.
+clean: dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir
+
+# All Build rule for target.
+dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/all:
+	$(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/depend
+	$(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrisliu/ROS/Navigation/dashgo_ws/build/CMakeFiles --progress-num=78,79 "Built target ydlidar_client"
+.PHONY : dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/all
+
+# Include target in all.
+all: dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisliu/ROS/Navigation/dashgo_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisliu/ROS/Navigation/dashgo_ws/build/CMakeFiles 0
+.PHONY : dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/rule
+
+# Convenience name for target.
+ydlidar_client: dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/rule
+
+.PHONY : ydlidar_client
+
+# clean rule for target.
+dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/clean:
+	$(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/clean
+.PHONY : dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/clean
+
+# clean rule for target.
+clean: dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

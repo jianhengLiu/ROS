@@ -24,6 +24,7 @@
 /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles/install/local.dir
 /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
 /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles/doxygen.dir
+/home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles/parking.dir
 /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles/std_msgs_generate_messages_eus.dir
 /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir
 /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles/rosgraph_msgs_generate_messages_py.dir

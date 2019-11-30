@@ -283,6 +283,19 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
+# Target rules for targets named steerwheel
+
+# Build rule for target.
+steerwheel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 steerwheel
+.PHONY : steerwheel
+
+# fast build rule for target.
+steerwheel/fast:
+	$(MAKE) -f vrep_pkg/CMakeFiles/steerwheel.dir/build.make vrep_pkg/CMakeFiles/steerwheel.dir/build
+.PHONY : steerwheel/fast
+
+#=============================================================================
 # Target rules for targets named omniwheel
 
 # Build rule for target.
@@ -296,17 +309,17 @@ omniwheel/fast:
 .PHONY : omniwheel/fast
 
 #=============================================================================
-# Target rules for targets named steerwheel
+# Target rules for targets named bubblerob
 
 # Build rule for target.
-steerwheel: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 steerwheel
-.PHONY : steerwheel
+bubblerob: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bubblerob
+.PHONY : bubblerob
 
 # fast build rule for target.
-steerwheel/fast:
-	$(MAKE) -f vrep_pkg/CMakeFiles/steerwheel.dir/build.make vrep_pkg/CMakeFiles/steerwheel.dir/build
-.PHONY : steerwheel/fast
+bubblerob/fast:
+	$(MAKE) -f vrep_pkg/CMakeFiles/bubblerob.dir/build.make vrep_pkg/CMakeFiles/bubblerob.dir/build
+.PHONY : bubblerob/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_py
@@ -478,19 +491,6 @@ roscpp_generate_messages_nodejs/fast:
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 #=============================================================================
-# Target rules for targets named bubblerob
-
-# Build rule for target.
-bubblerob: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 bubblerob
-.PHONY : bubblerob
-
-# fast build rule for target.
-bubblerob/fast:
-	$(MAKE) -f vrep_pkg/CMakeFiles/bubblerob.dir/build.make vrep_pkg/CMakeFiles/bubblerob.dir/build
-.PHONY : bubblerob/fast
-
-#=============================================================================
 # Target rules for targets named std_msgs_generate_messages_nodejs
 
 # Build rule for target.
@@ -594,6 +594,19 @@ fwc/fast:
 	$(MAKE) -f vrep_pkg/CMakeFiles/fwc.dir/build.make vrep_pkg/CMakeFiles/fwc.dir/build
 .PHONY : fwc/fast
 
+#=============================================================================
+# Target rules for targets named steeringwheel
+
+# Build rule for target.
+steeringwheel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 steeringwheel
+.PHONY : steeringwheel
+
+# fast build rule for target.
+steeringwheel/fast:
+	$(MAKE) -f vrep_pkg/CMakeFiles/steeringwheel.dir/build.make vrep_pkg/CMakeFiles/steeringwheel.dir/build
+.PHONY : steeringwheel/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -616,8 +629,9 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... omniwheel"
 	@echo "... steerwheel"
+	@echo "... omniwheel"
+	@echo "... bubblerob"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... rosgraph_msgs_generate_messages_eus"
@@ -631,7 +645,6 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_nodejs"
-	@echo "... bubblerob"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_eus"
@@ -640,6 +653,7 @@ help:
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... fwc"
+	@echo "... steeringwheel"
 .PHONY : help
 
 

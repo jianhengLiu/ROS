@@ -69,3 +69,10 @@ add_executable(rgb_detect
 target_link_libraries(rgb_detect
         ${catkin_LIBRARIES}
         ${OpenCV_LIBS})
+
+add_executable(parking
+        src/parking.cpp
+        )
+target_link_libraries(parking
+        ${catkin_LIBRARIES}
+        ${OpenCV_LIBS})

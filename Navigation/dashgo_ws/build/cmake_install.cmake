@@ -132,6 +132,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/dashgo_rviz/cmake_install.cmake")
   include("/home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ltme01_driver-1.0.1/cmake_install.cmake")
   include("/home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/dashgo_tools/cmake_install.cmake")
+  include("/home/chrisliu/ROS/Navigation/dashgo_ws/build/dashgo/ydlidar_v1.3.1/cmake_install.cmake")
 
 endif()
 

@@ -26,6 +26,7 @@ catkin_package(
 include_directories(
         # include
         ${catkin_INCLUDE_DIRS}
+	${CMAKE_CURRENT_SOURCE_DIR}/include
 )
 
 ## Declare a C++ library
@@ -33,6 +34,11 @@ include_directories(
    src/FourWheelControl.cpp
  )
 
+add_library(steeringwheel
+        include/steeringwheel.h
+        src/steeringwheel.cpp)
+target_link_libraries(steeringwheel
+        ${catkin_LIBRARIES})
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
 ## either from message generation or dynamic reconfigure
@@ -49,18 +55,17 @@ target_link_libraries(bubblerob
 
         )
 
-add_executable(steerwheel src/steering_wheel.cpp)
-target_link_libraries(steerwheel
-        ${catkin_LIBRARIES}
-        fwc
-        )
-
 add_executable(omniwheel src/omniwheel.cpp)
 target_link_libraries(omniwheel
         ${catkin_LIBRARIES}
         fwc
         )
 
+add_executable(steerwheel src/steeringwheel_ros.cpp)
+target_link_libraries(steerwheel
+        ${catkin_LIBRARIES}
+        steeringwheel
+        )
 #############
 ## Install ##
 #############

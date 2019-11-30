@@ -166,6 +166,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+vrep_pkg/CMakeFiles/steerwheel.dir/rule:
+	cd /home/chrisliu/ROS/vrep_ws/build && $(MAKE) -f CMakeFiles/Makefile2 vrep_pkg/CMakeFiles/steerwheel.dir/rule
+.PHONY : vrep_pkg/CMakeFiles/steerwheel.dir/rule
+
+# Convenience name for target.
+steerwheel: vrep_pkg/CMakeFiles/steerwheel.dir/rule
+
+.PHONY : steerwheel
+
+# fast build rule for target.
+steerwheel/fast:
+	cd /home/chrisliu/ROS/vrep_ws/build && $(MAKE) -f vrep_pkg/CMakeFiles/steerwheel.dir/build.make vrep_pkg/CMakeFiles/steerwheel.dir/build
+.PHONY : steerwheel/fast
+
+# Convenience name for target.
 vrep_pkg/CMakeFiles/omniwheel.dir/rule:
 	cd /home/chrisliu/ROS/vrep_ws/build && $(MAKE) -f CMakeFiles/Makefile2 vrep_pkg/CMakeFiles/omniwheel.dir/rule
 .PHONY : vrep_pkg/CMakeFiles/omniwheel.dir/rule
@@ -181,19 +196,19 @@ omniwheel/fast:
 .PHONY : omniwheel/fast
 
 # Convenience name for target.
-vrep_pkg/CMakeFiles/steerwheel.dir/rule:
-	cd /home/chrisliu/ROS/vrep_ws/build && $(MAKE) -f CMakeFiles/Makefile2 vrep_pkg/CMakeFiles/steerwheel.dir/rule
-.PHONY : vrep_pkg/CMakeFiles/steerwheel.dir/rule
+vrep_pkg/CMakeFiles/bubblerob.dir/rule:
+	cd /home/chrisliu/ROS/vrep_ws/build && $(MAKE) -f CMakeFiles/Makefile2 vrep_pkg/CMakeFiles/bubblerob.dir/rule
+.PHONY : vrep_pkg/CMakeFiles/bubblerob.dir/rule
 
 # Convenience name for target.
-steerwheel: vrep_pkg/CMakeFiles/steerwheel.dir/rule
+bubblerob: vrep_pkg/CMakeFiles/bubblerob.dir/rule
 
-.PHONY : steerwheel
+.PHONY : bubblerob
 
 # fast build rule for target.
-steerwheel/fast:
-	cd /home/chrisliu/ROS/vrep_ws/build && $(MAKE) -f vrep_pkg/CMakeFiles/steerwheel.dir/build.make vrep_pkg/CMakeFiles/steerwheel.dir/build
-.PHONY : steerwheel/fast
+bubblerob/fast:
+	cd /home/chrisliu/ROS/vrep_ws/build && $(MAKE) -f vrep_pkg/CMakeFiles/bubblerob.dir/build.make vrep_pkg/CMakeFiles/bubblerob.dir/build
+.PHONY : bubblerob/fast
 
 # Convenience name for target.
 vrep_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
@@ -391,21 +406,6 @@ roscpp_generate_messages_nodejs/fast:
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 # Convenience name for target.
-vrep_pkg/CMakeFiles/bubblerob.dir/rule:
-	cd /home/chrisliu/ROS/vrep_ws/build && $(MAKE) -f CMakeFiles/Makefile2 vrep_pkg/CMakeFiles/bubblerob.dir/rule
-.PHONY : vrep_pkg/CMakeFiles/bubblerob.dir/rule
-
-# Convenience name for target.
-bubblerob: vrep_pkg/CMakeFiles/bubblerob.dir/rule
-
-.PHONY : bubblerob
-
-# fast build rule for target.
-bubblerob/fast:
-	cd /home/chrisliu/ROS/vrep_ws/build && $(MAKE) -f vrep_pkg/CMakeFiles/bubblerob.dir/build.make vrep_pkg/CMakeFiles/bubblerob.dir/build
-.PHONY : bubblerob/fast
-
-# Convenience name for target.
 vrep_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
 	cd /home/chrisliu/ROS/vrep_ws/build && $(MAKE) -f CMakeFiles/Makefile2 vrep_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 .PHONY : vrep_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
@@ -525,6 +525,21 @@ fwc/fast:
 	cd /home/chrisliu/ROS/vrep_ws/build && $(MAKE) -f vrep_pkg/CMakeFiles/fwc.dir/build.make vrep_pkg/CMakeFiles/fwc.dir/build
 .PHONY : fwc/fast
 
+# Convenience name for target.
+vrep_pkg/CMakeFiles/steeringwheel.dir/rule:
+	cd /home/chrisliu/ROS/vrep_ws/build && $(MAKE) -f CMakeFiles/Makefile2 vrep_pkg/CMakeFiles/steeringwheel.dir/rule
+.PHONY : vrep_pkg/CMakeFiles/steeringwheel.dir/rule
+
+# Convenience name for target.
+steeringwheel: vrep_pkg/CMakeFiles/steeringwheel.dir/rule
+
+.PHONY : steeringwheel
+
+# fast build rule for target.
+steeringwheel/fast:
+	cd /home/chrisliu/ROS/vrep_ws/build && $(MAKE) -f vrep_pkg/CMakeFiles/steeringwheel.dir/build.make vrep_pkg/CMakeFiles/steeringwheel.dir/build
+.PHONY : steeringwheel/fast
+
 src/BubbleRob.o: src/BubbleRob.cpp.o
 
 .PHONY : src/BubbleRob.o
@@ -606,32 +621,59 @@ src/omniwheel.cpp.s:
 	cd /home/chrisliu/ROS/vrep_ws/build && $(MAKE) -f vrep_pkg/CMakeFiles/omniwheel.dir/build.make vrep_pkg/CMakeFiles/omniwheel.dir/src/omniwheel.cpp.s
 .PHONY : src/omniwheel.cpp.s
 
-src/steering_wheel.o: src/steering_wheel.cpp.o
+src/steeringwheel.o: src/steeringwheel.cpp.o
 
-.PHONY : src/steering_wheel.o
+.PHONY : src/steeringwheel.o
 
 # target to build an object file
-src/steering_wheel.cpp.o:
-	cd /home/chrisliu/ROS/vrep_ws/build && $(MAKE) -f vrep_pkg/CMakeFiles/steerwheel.dir/build.make vrep_pkg/CMakeFiles/steerwheel.dir/src/steering_wheel.cpp.o
-.PHONY : src/steering_wheel.cpp.o
+src/steeringwheel.cpp.o:
+	cd /home/chrisliu/ROS/vrep_ws/build && $(MAKE) -f vrep_pkg/CMakeFiles/steeringwheel.dir/build.make vrep_pkg/CMakeFiles/steeringwheel.dir/src/steeringwheel.cpp.o
+.PHONY : src/steeringwheel.cpp.o
 
-src/steering_wheel.i: src/steering_wheel.cpp.i
+src/steeringwheel.i: src/steeringwheel.cpp.i
 
-.PHONY : src/steering_wheel.i
+.PHONY : src/steeringwheel.i
 
 # target to preprocess a source file
-src/steering_wheel.cpp.i:
-	cd /home/chrisliu/ROS/vrep_ws/build && $(MAKE) -f vrep_pkg/CMakeFiles/steerwheel.dir/build.make vrep_pkg/CMakeFiles/steerwheel.dir/src/steering_wheel.cpp.i
-.PHONY : src/steering_wheel.cpp.i
+src/steeringwheel.cpp.i:
+	cd /home/chrisliu/ROS/vrep_ws/build && $(MAKE) -f vrep_pkg/CMakeFiles/steeringwheel.dir/build.make vrep_pkg/CMakeFiles/steeringwheel.dir/src/steeringwheel.cpp.i
+.PHONY : src/steeringwheel.cpp.i
 
-src/steering_wheel.s: src/steering_wheel.cpp.s
+src/steeringwheel.s: src/steeringwheel.cpp.s
 
-.PHONY : src/steering_wheel.s
+.PHONY : src/steeringwheel.s
 
 # target to generate assembly for a file
-src/steering_wheel.cpp.s:
-	cd /home/chrisliu/ROS/vrep_ws/build && $(MAKE) -f vrep_pkg/CMakeFiles/steerwheel.dir/build.make vrep_pkg/CMakeFiles/steerwheel.dir/src/steering_wheel.cpp.s
-.PHONY : src/steering_wheel.cpp.s
+src/steeringwheel.cpp.s:
+	cd /home/chrisliu/ROS/vrep_ws/build && $(MAKE) -f vrep_pkg/CMakeFiles/steeringwheel.dir/build.make vrep_pkg/CMakeFiles/steeringwheel.dir/src/steeringwheel.cpp.s
+.PHONY : src/steeringwheel.cpp.s
+
+src/steeringwheel_ros.o: src/steeringwheel_ros.cpp.o
+
+.PHONY : src/steeringwheel_ros.o
+
+# target to build an object file
+src/steeringwheel_ros.cpp.o:
+	cd /home/chrisliu/ROS/vrep_ws/build && $(MAKE) -f vrep_pkg/CMakeFiles/steerwheel.dir/build.make vrep_pkg/CMakeFiles/steerwheel.dir/src/steeringwheel_ros.cpp.o
+.PHONY : src/steeringwheel_ros.cpp.o
+
+src/steeringwheel_ros.i: src/steeringwheel_ros.cpp.i
+
+.PHONY : src/steeringwheel_ros.i
+
+# target to preprocess a source file
+src/steeringwheel_ros.cpp.i:
+	cd /home/chrisliu/ROS/vrep_ws/build && $(MAKE) -f vrep_pkg/CMakeFiles/steerwheel.dir/build.make vrep_pkg/CMakeFiles/steerwheel.dir/src/steeringwheel_ros.cpp.i
+.PHONY : src/steeringwheel_ros.cpp.i
+
+src/steeringwheel_ros.s: src/steeringwheel_ros.cpp.s
+
+.PHONY : src/steeringwheel_ros.s
+
+# target to generate assembly for a file
+src/steeringwheel_ros.cpp.s:
+	cd /home/chrisliu/ROS/vrep_ws/build && $(MAKE) -f vrep_pkg/CMakeFiles/steerwheel.dir/build.make vrep_pkg/CMakeFiles/steerwheel.dir/src/steeringwheel_ros.cpp.s
+.PHONY : src/steeringwheel_ros.cpp.s
 
 # Help Target
 help:
@@ -646,8 +688,9 @@ help:
 	@echo "... test"
 	@echo "... install/local"
 	@echo "... install/strip"
-	@echo "... omniwheel"
 	@echo "... steerwheel"
+	@echo "... omniwheel"
+	@echo "... bubblerob"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... rosgraph_msgs_generate_messages_eus"
@@ -661,7 +704,6 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_nodejs"
-	@echo "... bubblerob"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_eus"
@@ -670,6 +712,7 @@ help:
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... fwc"
+	@echo "... steeringwheel"
 	@echo "... src/BubbleRob.o"
 	@echo "... src/BubbleRob.i"
 	@echo "... src/BubbleRob.s"
@@ -679,9 +722,12 @@ help:
 	@echo "... src/omniwheel.o"
 	@echo "... src/omniwheel.i"
 	@echo "... src/omniwheel.s"
-	@echo "... src/steering_wheel.o"
-	@echo "... src/steering_wheel.i"
-	@echo "... src/steering_wheel.s"
+	@echo "... src/steeringwheel.o"
+	@echo "... src/steeringwheel.i"
+	@echo "... src/steeringwheel.s"
+	@echo "... src/steeringwheel_ros.o"
+	@echo "... src/steeringwheel_ros.i"
+	@echo "... src/steeringwheel_ros.s"
 .PHONY : help
 
 

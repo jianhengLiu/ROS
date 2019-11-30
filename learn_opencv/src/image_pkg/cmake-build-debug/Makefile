@@ -415,6 +415,19 @@ doxygen/fast:
 .PHONY : doxygen/fast
 
 #=============================================================================
+# Target rules for targets named parking
+
+# Build rule for target.
+parking: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 parking
+.PHONY : parking
+
+# fast build rule for target.
+parking/fast:
+	$(MAKE) -f CMakeFiles/parking.dir/build.make CMakeFiles/parking.dir/build
+.PHONY : parking/fast
+
+#=============================================================================
 # Target rules for targets named std_msgs_generate_messages_eus
 
 # Build rule for target.
@@ -822,6 +835,33 @@ src/jiesi.cpp.s:
 	$(MAKE) -f CMakeFiles/jiesi.dir/build.make CMakeFiles/jiesi.dir/src/jiesi.cpp.s
 .PHONY : src/jiesi.cpp.s
 
+src/parking.o: src/parking.cpp.o
+
+.PHONY : src/parking.o
+
+# target to build an object file
+src/parking.cpp.o:
+	$(MAKE) -f CMakeFiles/parking.dir/build.make CMakeFiles/parking.dir/src/parking.cpp.o
+.PHONY : src/parking.cpp.o
+
+src/parking.i: src/parking.cpp.i
+
+.PHONY : src/parking.i
+
+# target to preprocess a source file
+src/parking.cpp.i:
+	$(MAKE) -f CMakeFiles/parking.dir/build.make CMakeFiles/parking.dir/src/parking.cpp.i
+.PHONY : src/parking.cpp.i
+
+src/parking.s: src/parking.cpp.s
+
+.PHONY : src/parking.s
+
+# target to generate assembly for a file
+src/parking.cpp.s:
+	$(MAKE) -f CMakeFiles/parking.dir/build.make CMakeFiles/parking.dir/src/parking.cpp.s
+.PHONY : src/parking.cpp.s
+
 src/rgb_detect.o: src/rgb_detect.cpp.o
 
 .PHONY : src/rgb_detect.o
@@ -881,6 +921,7 @@ help:
 	@echo "... install/local"
 	@echo "... sensor_msgs_generate_messages_lisp"
 	@echo "... doxygen"
+	@echo "... parking"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_py"
@@ -917,6 +958,9 @@ help:
 	@echo "... src/jiesi.o"
 	@echo "... src/jiesi.i"
 	@echo "... src/jiesi.s"
+	@echo "... src/parking.o"
+	@echo "... src/parking.i"
+	@echo "... src/parking.s"
 	@echo "... src/rgb_detect.o"
 	@echo "... src/rgb_detect.i"
 	@echo "... src/rgb_detect.s"

@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/chrisliu/ROS/vrep_ws/src/vrep_pkg/src/fwc.h
+/home/chrisliu/ROS/vrep_ws/src/vrep_pkg/include/steeringwheel.h
 
-/home/chrisliu/ROS/vrep_ws/src/vrep_pkg/src/steering_wheel.cpp
+/home/chrisliu/ROS/vrep_ws/src/vrep_pkg/src/steeringwheel_ros.cpp
 ros/ros.h
 /home/chrisliu/ROS/vrep_ws/src/vrep_pkg/src/ros/ros.h
 iostream
 -
 algorithm
 -
-fwc.h
-/home/chrisliu/ROS/vrep_ws/src/vrep_pkg/src/fwc.h
+steeringwheel.h
+/home/chrisliu/ROS/vrep_ws/src/vrep_pkg/src/steeringwheel.h
 std_msgs/Float32.h
 -
 geometry_msgs/Twist.h

@@ -57,38 +57,38 @@ include vrep_pkg/CMakeFiles/steerwheel.dir/progress.make
 # Include the compile flags for this target's objects.
 include vrep_pkg/CMakeFiles/steerwheel.dir/flags.make
 
-vrep_pkg/CMakeFiles/steerwheel.dir/src/steering_wheel.cpp.o: vrep_pkg/CMakeFiles/steerwheel.dir/flags.make
-vrep_pkg/CMakeFiles/steerwheel.dir/src/steering_wheel.cpp.o: /home/chrisliu/ROS/vrep_ws/src/vrep_pkg/src/steering_wheel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrisliu/ROS/vrep_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object vrep_pkg/CMakeFiles/steerwheel.dir/src/steering_wheel.cpp.o"
-	cd /home/chrisliu/ROS/vrep_ws/build/vrep_pkg && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/steerwheel.dir/src/steering_wheel.cpp.o -c /home/chrisliu/ROS/vrep_ws/src/vrep_pkg/src/steering_wheel.cpp
+vrep_pkg/CMakeFiles/steerwheel.dir/src/steeringwheel_ros.cpp.o: vrep_pkg/CMakeFiles/steerwheel.dir/flags.make
+vrep_pkg/CMakeFiles/steerwheel.dir/src/steeringwheel_ros.cpp.o: /home/chrisliu/ROS/vrep_ws/src/vrep_pkg/src/steeringwheel_ros.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrisliu/ROS/vrep_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object vrep_pkg/CMakeFiles/steerwheel.dir/src/steeringwheel_ros.cpp.o"
+	cd /home/chrisliu/ROS/vrep_ws/build/vrep_pkg && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/steerwheel.dir/src/steeringwheel_ros.cpp.o -c /home/chrisliu/ROS/vrep_ws/src/vrep_pkg/src/steeringwheel_ros.cpp
 
-vrep_pkg/CMakeFiles/steerwheel.dir/src/steering_wheel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/steerwheel.dir/src/steering_wheel.cpp.i"
-	cd /home/chrisliu/ROS/vrep_ws/build/vrep_pkg && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrisliu/ROS/vrep_ws/src/vrep_pkg/src/steering_wheel.cpp > CMakeFiles/steerwheel.dir/src/steering_wheel.cpp.i
+vrep_pkg/CMakeFiles/steerwheel.dir/src/steeringwheel_ros.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/steerwheel.dir/src/steeringwheel_ros.cpp.i"
+	cd /home/chrisliu/ROS/vrep_ws/build/vrep_pkg && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrisliu/ROS/vrep_ws/src/vrep_pkg/src/steeringwheel_ros.cpp > CMakeFiles/steerwheel.dir/src/steeringwheel_ros.cpp.i
 
-vrep_pkg/CMakeFiles/steerwheel.dir/src/steering_wheel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/steerwheel.dir/src/steering_wheel.cpp.s"
-	cd /home/chrisliu/ROS/vrep_ws/build/vrep_pkg && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrisliu/ROS/vrep_ws/src/vrep_pkg/src/steering_wheel.cpp -o CMakeFiles/steerwheel.dir/src/steering_wheel.cpp.s
+vrep_pkg/CMakeFiles/steerwheel.dir/src/steeringwheel_ros.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/steerwheel.dir/src/steeringwheel_ros.cpp.s"
+	cd /home/chrisliu/ROS/vrep_ws/build/vrep_pkg && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrisliu/ROS/vrep_ws/src/vrep_pkg/src/steeringwheel_ros.cpp -o CMakeFiles/steerwheel.dir/src/steeringwheel_ros.cpp.s
 
-vrep_pkg/CMakeFiles/steerwheel.dir/src/steering_wheel.cpp.o.requires:
+vrep_pkg/CMakeFiles/steerwheel.dir/src/steeringwheel_ros.cpp.o.requires:
 
-.PHONY : vrep_pkg/CMakeFiles/steerwheel.dir/src/steering_wheel.cpp.o.requires
+.PHONY : vrep_pkg/CMakeFiles/steerwheel.dir/src/steeringwheel_ros.cpp.o.requires
 
-vrep_pkg/CMakeFiles/steerwheel.dir/src/steering_wheel.cpp.o.provides: vrep_pkg/CMakeFiles/steerwheel.dir/src/steering_wheel.cpp.o.requires
-	$(MAKE) -f vrep_pkg/CMakeFiles/steerwheel.dir/build.make vrep_pkg/CMakeFiles/steerwheel.dir/src/steering_wheel.cpp.o.provides.build
-.PHONY : vrep_pkg/CMakeFiles/steerwheel.dir/src/steering_wheel.cpp.o.provides
+vrep_pkg/CMakeFiles/steerwheel.dir/src/steeringwheel_ros.cpp.o.provides: vrep_pkg/CMakeFiles/steerwheel.dir/src/steeringwheel_ros.cpp.o.requires
+	$(MAKE) -f vrep_pkg/CMakeFiles/steerwheel.dir/build.make vrep_pkg/CMakeFiles/steerwheel.dir/src/steeringwheel_ros.cpp.o.provides.build
+.PHONY : vrep_pkg/CMakeFiles/steerwheel.dir/src/steeringwheel_ros.cpp.o.provides
 
-vrep_pkg/CMakeFiles/steerwheel.dir/src/steering_wheel.cpp.o.provides.build: vrep_pkg/CMakeFiles/steerwheel.dir/src/steering_wheel.cpp.o
+vrep_pkg/CMakeFiles/steerwheel.dir/src/steeringwheel_ros.cpp.o.provides.build: vrep_pkg/CMakeFiles/steerwheel.dir/src/steeringwheel_ros.cpp.o
 
 
 # Object files for target steerwheel
 steerwheel_OBJECTS = \
-"CMakeFiles/steerwheel.dir/src/steering_wheel.cpp.o"
+"CMakeFiles/steerwheel.dir/src/steeringwheel_ros.cpp.o"
 
 # External object files for target steerwheel
 steerwheel_EXTERNAL_OBJECTS =
 
-/home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: vrep_pkg/CMakeFiles/steerwheel.dir/src/steering_wheel.cpp.o
+/home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: vrep_pkg/CMakeFiles/steerwheel.dir/src/steeringwheel_ros.cpp.o
 /home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: vrep_pkg/CMakeFiles/steerwheel.dir/build.make
 /home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: /opt/ros/kinetic/lib/libroscpp.so
 /home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
@@ -109,7 +109,26 @@ steerwheel_EXTERNAL_OBJECTS =
 /home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 /home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: /usr/lib/x86_64-linux-gnu/libpthread.so
 /home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: /home/chrisliu/ROS/vrep_ws/devel/lib/libfwc.so
+/home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: /home/chrisliu/ROS/vrep_ws/devel/lib/libsteeringwheel.so
+/home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: /opt/ros/kinetic/lib/libroscpp.so
+/home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: /opt/ros/kinetic/lib/librosconsole.so
+/home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: /opt/ros/kinetic/lib/librostime.so
+/home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: /opt/ros/kinetic/lib/libcpp_common.so
+/home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
 /home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel: vrep_pkg/CMakeFiles/steerwheel.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chrisliu/ROS/vrep_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel"
 	cd /home/chrisliu/ROS/vrep_ws/build/vrep_pkg && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/steerwheel.dir/link.txt --verbose=$(VERBOSE)
@@ -119,7 +138,7 @@ vrep_pkg/CMakeFiles/steerwheel.dir/build: /home/chrisliu/ROS/vrep_ws/devel/lib/v
 
 .PHONY : vrep_pkg/CMakeFiles/steerwheel.dir/build
 
-vrep_pkg/CMakeFiles/steerwheel.dir/requires: vrep_pkg/CMakeFiles/steerwheel.dir/src/steering_wheel.cpp.o.requires
+vrep_pkg/CMakeFiles/steerwheel.dir/requires: vrep_pkg/CMakeFiles/steerwheel.dir/src/steeringwheel_ros.cpp.o.requires
 
 .PHONY : vrep_pkg/CMakeFiles/steerwheel.dir/requires
 

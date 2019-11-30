@@ -1322,6 +1322,32 @@ dashgo_tools_gennodejs/fast:
 	$(MAKE) -f dashgo/dashgo_tools/CMakeFiles/dashgo_tools_gennodejs.dir/build.make dashgo/dashgo_tools/CMakeFiles/dashgo_tools_gennodejs.dir/build
 .PHONY : dashgo_tools_gennodejs/fast
 
+#=============================================================================
+# Target rules for targets named ydlidar_node
+
+# Build rule for target.
+ydlidar_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ydlidar_node
+.PHONY : ydlidar_node
+
+# fast build rule for target.
+ydlidar_node/fast:
+	$(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/build
+.PHONY : ydlidar_node/fast
+
+#=============================================================================
+# Target rules for targets named ydlidar_client
+
+# Build rule for target.
+ydlidar_client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ydlidar_client
+.PHONY : ydlidar_client
+
+# fast build rule for target.
+ydlidar_client/fast:
+	$(MAKE) -f dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/build.make dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/build
+.PHONY : ydlidar_client/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1424,6 +1450,8 @@ help:
 	@echo "... dashgo_tools_geneus"
 	@echo "... dashgo_tools_generate_messages_lisp"
 	@echo "... dashgo_tools_gennodejs"
+	@echo "... ydlidar_node"
+	@echo "... ydlidar_client"
 .PHONY : help
 
 

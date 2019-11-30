@@ -313,7 +313,7 @@ void object_detect(Mat input) {
         Color = colorAnalyse(colorAny);
     }
     imshow("input", input);
-    velocity_control(Color);
+//    velocity_control(Color);
 //    cout << Color[0]<< endl;
 }
 
@@ -331,7 +331,6 @@ int main(int argc, char **argv) {
     }
 
     Mat frame; //当前帧
-
 
     namedWindow("HSV_spilt");
     createTrackbar("H_max", "HSV_spilt", &Hmax_Value, H_maxValue, on_Trackbar);

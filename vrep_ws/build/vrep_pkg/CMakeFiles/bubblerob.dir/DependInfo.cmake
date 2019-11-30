@@ -19,6 +19,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "/home/chrisliu/ROS/vrep_ws/src/vrep_pkg/include"
   )
 
 # Targets to which this target links.

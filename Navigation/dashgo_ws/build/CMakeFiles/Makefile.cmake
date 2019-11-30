@@ -32,6 +32,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "dashgo/ltme01_driver-1.0.1/catkin_generated/ordered_paths.cmake"
   "dashgo/ltme01_driver-1.0.1/catkin_generated/package.cmake"
   "dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/libusb-1.0.21-prefix/tmp/libusb-1.0.21-cfgcmd.txt.in"
+  "dashgo/ydlidar_v1.3.1/catkin_generated/ordered_paths.cmake"
+  "dashgo/ydlidar_v1.3.1/catkin_generated/package.cmake"
   "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/share/dashgo_driver/cmake/dashgo_driver-msg-paths.cmake"
   "/home/chrisliu/ROS/Navigation/dashgo_ws/devel/share/dashgo_tools/cmake/dashgo_tools-msg-paths.cmake"
   "/home/chrisliu/ROS/Navigation/dashgo_ws/src/CMakeLists.txt"
@@ -51,6 +53,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeLists.txt"
   "/home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/linux.cmake"
   "/home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ltme01_driver-1.0.1/package.xml"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ydlidar_v1.3.1/CMakeLists.txt"
+  "/home/chrisliu/ROS/Navigation/dashgo_ws/src/dashgo/ydlidar_v1.3.1/package.xml"
   "/opt/ros/kinetic/share/actionlib/cmake/actionlib-msg-extras.cmake"
   "/opt/ros/kinetic/share/actionlib/cmake/actionlibConfig-version.cmake"
   "/opt/ros/kinetic/share/actionlib/cmake/actionlibConfig.cmake"
@@ -269,6 +273,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "dashgo/ltme01_driver-1.0.1/CMakeFiles/CMakeDirectoryInformation.cmake"
   "dashgo/ltme01_driver-1.0.1/dep/ltme01_sdk/CMakeFiles/CMakeDirectoryInformation.cmake"
   "dashgo/dashgo_tools/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "dashgo/ydlidar_v1.3.1/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -362,4 +367,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "dashgo/dashgo_tools/CMakeFiles/dashgo_tools_geneus.dir/DependInfo.cmake"
   "dashgo/dashgo_tools/CMakeFiles/dashgo_tools_generate_messages_lisp.dir/DependInfo.cmake"
   "dashgo/dashgo_tools/CMakeFiles/dashgo_tools_gennodejs.dir/DependInfo.cmake"
+  "dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_node.dir/DependInfo.cmake"
+  "dashgo/ydlidar_v1.3.1/CMakeFiles/ydlidar_client.dir/DependInfo.cmake"
   )

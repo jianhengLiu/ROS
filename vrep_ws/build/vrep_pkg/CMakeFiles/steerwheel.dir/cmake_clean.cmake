@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/steerwheel.dir/src/steering_wheel.cpp.o"
+  "CMakeFiles/steerwheel.dir/src/steeringwheel_ros.cpp.o"
   "/home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel.pdb"
   "/home/chrisliu/ROS/vrep_ws/devel/lib/vrep_pkg/steerwheel"
 )
