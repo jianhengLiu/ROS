@@ -7,3 +7,4 @@
 subdirs(gtest)
 subdirs(vrep_pkg)
 subdirs(keyboard)
+subdirs(quadcopter)

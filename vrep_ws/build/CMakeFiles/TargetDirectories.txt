@@ -67,3 +67,10 @@
 /home/chrisliu/ROS/vrep_ws/build/keyboard/CMakeFiles/install/local.dir
 /home/chrisliu/ROS/vrep_ws/build/keyboard/CMakeFiles/test.dir
 /home/chrisliu/ROS/vrep_ws/build/keyboard/CMakeFiles/edit_cache.dir
+/home/chrisliu/ROS/vrep_ws/build/quadcopter/CMakeFiles/list_install_components.dir
+/home/chrisliu/ROS/vrep_ws/build/quadcopter/CMakeFiles/install.dir
+/home/chrisliu/ROS/vrep_ws/build/quadcopter/CMakeFiles/rebuild_cache.dir
+/home/chrisliu/ROS/vrep_ws/build/quadcopter/CMakeFiles/install/strip.dir
+/home/chrisliu/ROS/vrep_ws/build/quadcopter/CMakeFiles/install/local.dir
+/home/chrisliu/ROS/vrep_ws/build/quadcopter/CMakeFiles/test.dir
+/home/chrisliu/ROS/vrep_ws/build/quadcopter/CMakeFiles/edit_cache.dir

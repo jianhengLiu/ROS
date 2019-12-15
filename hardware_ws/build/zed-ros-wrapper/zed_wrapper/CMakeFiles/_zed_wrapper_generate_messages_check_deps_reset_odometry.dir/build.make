@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/chrisliu/ROS/hardware_ws/build
 include zed-ros-wrapper/zed_wrapper/CMakeFiles/_zed_wrapper_generate_messages_check_deps_reset_odometry.dir/progress.make
 
 zed-ros-wrapper/zed_wrapper/CMakeFiles/_zed_wrapper_generate_messages_check_deps_reset_odometry:
-	cd /home/chrisliu/ROS/hardware_ws/build/zed-ros-wrapper/zed_wrapper && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py zed_wrapper /home/chrisliu/ROS/hardware_ws/src/zed-ros-wrapper/zed_wrapper/srv/reset_odometry.srv 
+	cd /home/chrisliu/ROS/hardware_ws/build/zed-ros-wrapper/zed_wrapper && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py zed_wrapper /home/chrisliu/ROS/hardware_ws/src/zed-ros-wrapper/zed_wrapper/srv/reset_odometry.srv 
 
 _zed_wrapper_generate_messages_check_deps_reset_odometry: zed-ros-wrapper/zed_wrapper/CMakeFiles/_zed_wrapper_generate_messages_check_deps_reset_odometry
 _zed_wrapper_generate_messages_check_deps_reset_odometry: zed-ros-wrapper/zed_wrapper/CMakeFiles/_zed_wrapper_generate_messages_check_deps_reset_odometry.dir/build.make

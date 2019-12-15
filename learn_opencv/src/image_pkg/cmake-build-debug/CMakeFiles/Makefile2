@@ -53,9 +53,12 @@ CMAKE_BINARY_DIR = /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-deb
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/h_parking.dir/all
+all: CMakeFiles/humanfollow.dir/all
 all: CMakeFiles/parking.dir/all
 all: CMakeFiles/histogram_camera.dir/all
 all: CMakeFiles/rgb_detect.dir/all
+all: CMakeFiles/sketlon.dir/all
 all: CMakeFiles/jiesi.dir/all
 all: CMakeFiles/histogram_local.dir/all
 all: CMakeFiles/filter.dir/all
@@ -65,6 +68,7 @@ all: gtest/all
 .PHONY : all
 
 # The main recursive "clean" target.
+clean: CMakeFiles/h_parking.dir/clean
 clean: CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 clean: CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
 clean: CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
@@ -77,6 +81,7 @@ clean: CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
 clean: CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 clean: CMakeFiles/roscpp_generate_messages_py.dir/clean
 clean: CMakeFiles/download_extra_data.dir/clean
+clean: CMakeFiles/humanfollow.dir/clean
 clean: CMakeFiles/run_tests.dir/clean
 clean: CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 clean: CMakeFiles/clean_test_results.dir/clean
@@ -95,6 +100,7 @@ clean: CMakeFiles/roscpp_generate_messages_eus.dir/clean
 clean: CMakeFiles/histogram_camera.dir/clean
 clean: CMakeFiles/rgb_detect.dir/clean
 clean: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+clean: CMakeFiles/sketlon.dir/clean
 clean: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 clean: CMakeFiles/jiesi.dir/clean
 clean: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
@@ -110,6 +116,33 @@ clean: gtest/clean
 preinstall: gtest/preinstall
 
 .PHONY : preinstall
+
+#=============================================================================
+# Target rules for target CMakeFiles/h_parking.dir
+
+# All Build rule for target.
+CMakeFiles/h_parking.dir/all:
+	$(MAKE) -f CMakeFiles/h_parking.dir/build.make CMakeFiles/h_parking.dir/depend
+	$(MAKE) -f CMakeFiles/h_parking.dir/build.make CMakeFiles/h_parking.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target h_parking"
+.PHONY : CMakeFiles/h_parking.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/h_parking.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/h_parking.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/h_parking.dir/rule
+
+# Convenience name for target.
+h_parking: CMakeFiles/h_parking.dir/rule
+
+.PHONY : h_parking
+
+# clean rule for target.
+CMakeFiles/h_parking.dir/clean:
+	$(MAKE) -f CMakeFiles/h_parking.dir/build.make CMakeFiles/h_parking.dir/clean
+.PHONY : CMakeFiles/h_parking.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/geometry_msgs_generate_messages_py.dir
@@ -436,6 +469,33 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/humanfollow.dir
+
+# All Build rule for target.
+CMakeFiles/humanfollow.dir/all:
+	$(MAKE) -f CMakeFiles/humanfollow.dir/build.make CMakeFiles/humanfollow.dir/depend
+	$(MAKE) -f CMakeFiles/humanfollow.dir/build.make CMakeFiles/humanfollow.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target humanfollow"
+.PHONY : CMakeFiles/humanfollow.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/humanfollow.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/humanfollow.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/humanfollow.dir/rule
+
+# Convenience name for target.
+humanfollow: CMakeFiles/humanfollow.dir/rule
+
+.PHONY : humanfollow
+
+# clean rule for target.
+CMakeFiles/humanfollow.dir/clean:
+	$(MAKE) -f CMakeFiles/humanfollow.dir/build.make CMakeFiles/humanfollow.dir/clean
+.PHONY : CMakeFiles/humanfollow.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/run_tests.dir
 
 # All Build rule for target.
@@ -631,7 +691,7 @@ CMakeFiles/doxygen.dir/clean:
 CMakeFiles/parking.dir/all:
 	$(MAKE) -f CMakeFiles/parking.dir/build.make CMakeFiles/parking.dir/depend
 	$(MAKE) -f CMakeFiles/parking.dir/build.make CMakeFiles/parking.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target parking"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles --progress-num=26,27 "Built target parking"
 .PHONY : CMakeFiles/parking.dir/all
 
 # Build rule for subdir invocation for target.
@@ -847,7 +907,7 @@ CMakeFiles/roscpp_generate_messages_eus.dir/clean:
 CMakeFiles/histogram_camera.dir/all:
 	$(MAKE) -f CMakeFiles/histogram_camera.dir/build.make CMakeFiles/histogram_camera.dir/depend
 	$(MAKE) -f CMakeFiles/histogram_camera.dir/build.make CMakeFiles/histogram_camera.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target histogram_camera"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target histogram_camera"
 .PHONY : CMakeFiles/histogram_camera.dir/all
 
 # Build rule for subdir invocation for target.
@@ -874,7 +934,7 @@ CMakeFiles/histogram_camera.dir/clean:
 CMakeFiles/rgb_detect.dir/all:
 	$(MAKE) -f CMakeFiles/rgb_detect.dir/build.make CMakeFiles/rgb_detect.dir/depend
 	$(MAKE) -f CMakeFiles/rgb_detect.dir/build.make CMakeFiles/rgb_detect.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles --progress-num=24,25 "Built target rgb_detect"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles --progress-num=28,29 "Built target rgb_detect"
 .PHONY : CMakeFiles/rgb_detect.dir/all
 
 # Build rule for subdir invocation for target.
@@ -922,6 +982,33 @@ CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/sketlon.dir
+
+# All Build rule for target.
+CMakeFiles/sketlon.dir/all:
+	$(MAKE) -f CMakeFiles/sketlon.dir/build.make CMakeFiles/sketlon.dir/depend
+	$(MAKE) -f CMakeFiles/sketlon.dir/build.make CMakeFiles/sketlon.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles --progress-num=30,31 "Built target sketlon"
+.PHONY : CMakeFiles/sketlon.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sketlon.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sketlon.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/sketlon.dir/rule
+
+# Convenience name for target.
+sketlon: CMakeFiles/sketlon.dir/rule
+
+.PHONY : sketlon
+
+# clean rule for target.
+CMakeFiles/sketlon.dir/clean:
+	$(MAKE) -f CMakeFiles/sketlon.dir/build.make CMakeFiles/sketlon.dir/clean
+.PHONY : CMakeFiles/sketlon.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/rosgraph_msgs_generate_messages_eus.dir
 
 # All Build rule for target.
@@ -955,7 +1042,7 @@ CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
 CMakeFiles/jiesi.dir/all:
 	$(MAKE) -f CMakeFiles/jiesi.dir/build.make CMakeFiles/jiesi.dir/depend
 	$(MAKE) -f CMakeFiles/jiesi.dir/build.make CMakeFiles/jiesi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target jiesi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles --progress-num=24,25 "Built target jiesi"
 .PHONY : CMakeFiles/jiesi.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1009,7 +1096,7 @@ CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
 CMakeFiles/histogram_local.dir/all:
 	$(MAKE) -f CMakeFiles/histogram_local.dir/build.make CMakeFiles/histogram_local.dir/depend
 	$(MAKE) -f CMakeFiles/histogram_local.dir/build.make CMakeFiles/histogram_local.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target histogram_local"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrisliu/ROS/learn_opencv/src/image_pkg/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target histogram_local"
 .PHONY : CMakeFiles/histogram_local.dir/all
 
 # Build rule for subdir invocation for target.

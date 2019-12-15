@@ -15,11 +15,15 @@ set(CMAKE_MAKEFILE_DEPENDS
   "catkin_generated/order_packages.cmake"
   "keyboard/catkin_generated/ordered_paths.cmake"
   "keyboard/catkin_generated/package.cmake"
+  "quadcopter/catkin_generated/ordered_paths.cmake"
+  "quadcopter/catkin_generated/package.cmake"
   "vrep_pkg/catkin_generated/ordered_paths.cmake"
   "vrep_pkg/catkin_generated/package.cmake"
   "/home/chrisliu/ROS/vrep_ws/src/CMakeLists.txt"
   "/home/chrisliu/ROS/vrep_ws/src/keyboard/CMakeLists.txt"
   "/home/chrisliu/ROS/vrep_ws/src/keyboard/package.xml"
+  "/home/chrisliu/ROS/vrep_ws/src/quadcopter/CMakeLists.txt"
+  "/home/chrisliu/ROS/vrep_ws/src/quadcopter/package.xml"
   "/home/chrisliu/ROS/vrep_ws/src/vrep_pkg/CMakeLists.txt"
   "/home/chrisliu/ROS/vrep_ws/src/vrep_pkg/package.xml"
   "/opt/ros/kinetic/share/catkin/cmake/../package.xml"
@@ -179,6 +183,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "gtest/gtest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "vrep_pkg/CMakeFiles/CMakeDirectoryInformation.cmake"
   "keyboard/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "quadcopter/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

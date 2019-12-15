@@ -1276,6 +1276,24 @@ keyboard/preinstall:
 .PHONY : keyboard/preinstall
 
 #=============================================================================
+# Directory level rules for directory quadcopter
+
+# Convenience name for "all" pass in the directory.
+quadcopter/all:
+
+.PHONY : quadcopter/all
+
+# Convenience name for "clean" pass in the directory.
+quadcopter/clean:
+
+.PHONY : quadcopter/clean
+
+# Convenience name for "preinstall" pass in the directory.
+quadcopter/preinstall:
+
+.PHONY : quadcopter/preinstall
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

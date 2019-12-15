@@ -1,0 +1,2 @@
+amcl:astra/ros_astra_camera-filterlibrary:astra/ros_astra_launch-master:costmap_2d:dashgo_description:dashgo_driver:dashgo_nav:dashgo_rviz:dashgo_tools:ltme01_driver-1.0.1:map_server:move_base:teb_local_planner:ydlidar_v1.3.1
+-DCATKIN_DEVEL_PREFIX=/home/chrisliu/ROS/dashgo_ws/devel -DCMAKE_INSTALL_PREFIX=/home/chrisliu/ROS/dashgo_ws/install -G Unix Makefiles

@@ -21,6 +21,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/chrisliu/ROS/hardware_ws/devel/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "/opt/ros/kinetic/share/orocos_kdl/../../include"
   "/usr/include/eigen3"
   "/usr/local/cuda-9.0/include"
   "/usr/local/zed/include"

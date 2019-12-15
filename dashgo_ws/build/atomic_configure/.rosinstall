@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/chrisliu/ROS/dashgo_ws/devel/setup.sh

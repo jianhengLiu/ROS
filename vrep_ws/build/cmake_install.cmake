@@ -128,6 +128,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/chrisliu/ROS/vrep_ws/build/gtest/cmake_install.cmake")
   include("/home/chrisliu/ROS/vrep_ws/build/vrep_pkg/cmake_install.cmake")
   include("/home/chrisliu/ROS/vrep_ws/build/keyboard/cmake_install.cmake")
+  include("/home/chrisliu/ROS/vrep_ws/build/quadcopter/cmake_install.cmake")
 
 endif()
 

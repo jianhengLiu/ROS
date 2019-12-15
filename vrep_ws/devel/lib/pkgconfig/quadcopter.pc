@@ -1,0 +1,8 @@
+prefix=/home/chrisliu/ROS/vrep_ws/devel
+
+Name: quadcopter
+Description: Description of quadcopter
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/chrisliu/ROS/vrep_ws/devel/lib 
+Requires: 

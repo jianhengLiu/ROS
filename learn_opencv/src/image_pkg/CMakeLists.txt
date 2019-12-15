@@ -8,7 +8,7 @@ project(image_pkg)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS sensor_msgs cv_bridge roscpp std_msgs image_transport)
-find_package(OpenCV REQUIRED)
+find_package(OpenCV 3.4.0 REQUIRED)
 
 catkin_package(
 #  INCLUDE_DIRS include
@@ -74,5 +74,26 @@ add_executable(parking
         src/parking.cpp
         )
 target_link_libraries(parking
+        ${catkin_LIBRARIES}
+        ${OpenCV_LIBS})
+
+add_executable(humanfollow
+        src/humanfollow.cpp
+        )
+target_link_libraries(humanfollow
+        ${catkin_LIBRARIES}
+        ${OpenCV_LIBS})
+
+add_executable(sketlon
+        src/sketlon.cpp
+        )
+target_link_libraries(sketlon
+        ${catkin_LIBRARIES}
+        ${OpenCV_LIBS})
+
+add_executable(h_parking
+        src/h_parking.cpp
+        )
+target_link_libraries(h_parking
         ${catkin_LIBRARIES}
         ${OpenCV_LIBS})

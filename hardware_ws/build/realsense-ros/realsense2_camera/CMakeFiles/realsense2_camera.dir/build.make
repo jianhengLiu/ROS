@@ -142,7 +142,7 @@ realsense2_camera_EXTERNAL_OBJECTS =
 /home/chrisliu/ROS/hardware_ws/devel/lib/librealsense2_camera.so: realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o
 /home/chrisliu/ROS/hardware_ws/devel/lib/librealsense2_camera.so: realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.o
 /home/chrisliu/ROS/hardware_ws/devel/lib/librealsense2_camera.so: realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/build.make
-/home/chrisliu/ROS/hardware_ws/devel/lib/librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/librealsense2.so.2.29.0
+/home/chrisliu/ROS/hardware_ws/devel/lib/librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/librealsense2.so.2.30.0
 /home/chrisliu/ROS/hardware_ws/devel/lib/librealsense2_camera.so: /opt/ros/kinetic/lib/libnodeletlib.so
 /home/chrisliu/ROS/hardware_ws/devel/lib/librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libuuid.so
 /home/chrisliu/ROS/hardware_ws/devel/lib/librealsense2_camera.so: /opt/ros/kinetic/lib/libbondcpp.so

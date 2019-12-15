@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/chrisliu/ROS/hardware_ws/build
 include zed-ros-wrapper/zed_wrapper/CMakeFiles/_zed_wrapper_generate_messages_check_deps_start_svo_recording.dir/progress.make
 
 zed-ros-wrapper/zed_wrapper/CMakeFiles/_zed_wrapper_generate_messages_check_deps_start_svo_recording:
-	cd /home/chrisliu/ROS/hardware_ws/build/zed-ros-wrapper/zed_wrapper && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py zed_wrapper /home/chrisliu/ROS/hardware_ws/src/zed-ros-wrapper/zed_wrapper/srv/start_svo_recording.srv 
+	cd /home/chrisliu/ROS/hardware_ws/build/zed-ros-wrapper/zed_wrapper && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py zed_wrapper /home/chrisliu/ROS/hardware_ws/src/zed-ros-wrapper/zed_wrapper/srv/start_svo_recording.srv 
 
 _zed_wrapper_generate_messages_check_deps_start_svo_recording: zed-ros-wrapper/zed_wrapper/CMakeFiles/_zed_wrapper_generate_messages_check_deps_start_svo_recording
 _zed_wrapper_generate_messages_check_deps_start_svo_recording: zed-ros-wrapper/zed_wrapper/CMakeFiles/_zed_wrapper_generate_messages_check_deps_start_svo_recording.dir/build.make

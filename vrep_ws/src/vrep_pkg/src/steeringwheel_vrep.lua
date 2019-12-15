@@ -139,7 +139,15 @@ function sysCall_actuation()
         --         simROS.publish(sensorPub,detectionTrigger)
         simROS.publish(simTimePub, { data = sim.getSimulationTime() })
         -- Send the robot's transform:
-        simROS.sendTransform(getTransformStamped(robotHandle, 'rosInterSteeringWheel', -1, 'world'))
+        simROS.sendTransform(getTransformStamped(robotHandle, 'rosInterSteer
+
+
+
+
+
+
+
+        ingWheel', -1, 'world'))
         -- To send several transforms at once, use simROS.sendTransforms instead
     end
 end

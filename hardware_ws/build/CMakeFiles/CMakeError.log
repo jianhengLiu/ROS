@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/chrisliu/ROS/hardware_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_80cce/fast"
-/usr/bin/make -f CMakeFiles/cmTC_80cce.dir/build.make CMakeFiles/cmTC_80cce.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_21c50/fast"
+/usr/bin/make -f CMakeFiles/cmTC_21c50.dir/build.make CMakeFiles/cmTC_21c50.dir/build
 make[1]: Entering directory '/home/chrisliu/ROS/hardware_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_80cce.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_80cce.dir/CheckSymbolExists.c.o   -c /home/chrisliu/ROS/hardware_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_80cce
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80cce.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_80cce.dir/CheckSymbolExists.c.o  -o cmTC_80cce -rdynamic 
-CMakeFiles/cmTC_80cce.dir/CheckSymbolExists.c.o：在函数‘main’中：
+Building C object CMakeFiles/cmTC_21c50.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_21c50.dir/CheckSymbolExists.c.o   -c /home/chrisliu/ROS/hardware_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_21c50
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21c50.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_21c50.dir/CheckSymbolExists.c.o  -o cmTC_21c50 -rdynamic 
+CMakeFiles/cmTC_21c50.dir/CheckSymbolExists.c.o：在函数‘main’中：
 CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_80cce.dir/build.make:97: recipe for target 'cmTC_80cce' failed
-make[1]: *** [cmTC_80cce] Error 1
+CMakeFiles/cmTC_21c50.dir/build.make:97: recipe for target 'cmTC_21c50' failed
+make[1]: *** [cmTC_21c50] Error 1
 make[1]: Leaving directory '/home/chrisliu/ROS/hardware_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_80cce/fast' failed
-make: *** [cmTC_80cce/fast] Error 2
+Makefile:126: recipe for target 'cmTC_21c50/fast' failed
+make: *** [cmTC_21c50/fast] Error 2
 
 File /home/chrisliu/ROS/hardware_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,20 +36,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/chrisliu/ROS/hardware_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1b416/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1b416.dir/build.make CMakeFiles/cmTC_1b416.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_24ce4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_24ce4.dir/build.make CMakeFiles/cmTC_24ce4.dir/build
 make[1]: Entering directory '/home/chrisliu/ROS/hardware_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1b416.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1b416.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_1b416
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b416.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_1b416.dir/CheckFunctionExists.c.o  -o cmTC_1b416 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTC_24ce4.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_24ce4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_24ce4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24ce4.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_24ce4.dir/CheckFunctionExists.c.o  -o cmTC_24ce4 -rdynamic -lpthreads 
 /usr/bin/ld: 找不到 -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_1b416.dir/build.make:97: recipe for target 'cmTC_1b416' failed
-make[1]: *** [cmTC_1b416] Error 1
+CMakeFiles/cmTC_24ce4.dir/build.make:97: recipe for target 'cmTC_24ce4' failed
+make[1]: *** [cmTC_24ce4] Error 1
 make[1]: Leaving directory '/home/chrisliu/ROS/hardware_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_1b416/fast' failed
-make: *** [cmTC_1b416/fast] Error 2
+Makefile:126: recipe for target 'cmTC_24ce4/fast' failed
+make: *** [cmTC_24ce4/fast] Error 2
 
 

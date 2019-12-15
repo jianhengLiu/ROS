@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chrisliu/ROS/dashgo_ws/src/astra/ros_astra_camera-filterlibrary/include/astra_camera/astra_device_info.h
+ostream
+-
+boost/cstdint.hpp
+-
+
+/home/chrisliu/ROS/dashgo_ws/src/astra/ros_astra_camera-filterlibrary/include/astra_camera/astra_device_manager.h
+astra_camera/astra_device_info.h
+/home/chrisliu/ROS/dashgo_ws/src/astra/ros_astra_camera-filterlibrary/include/astra_camera/astra_camera/astra_device_info.h
+boost/thread/mutex.hpp
+-
+vector
+-
+string
+-
+ostream
+-
+
+/home/chrisliu/ROS/dashgo_ws/src/astra/ros_astra_camera-filterlibrary/include/astra_camera/astra_exception.h
+cstdarg
+-
+cstdio
+-
+exception
+-
+string
+-
+
+/home/chrisliu/ROS/dashgo_ws/src/astra/ros_astra_camera-filterlibrary/src/list_devices.cpp
+iostream
+-
+astra_camera/astra_device_manager.h
+/home/chrisliu/ROS/dashgo_ws/src/astra/ros_astra_camera-filterlibrary/src/astra_camera/astra_device_manager.h
+astra_camera/astra_exception.h
+/home/chrisliu/ROS/dashgo_ws/src/astra/ros_astra_camera-filterlibrary/src/astra_camera/astra_exception.h
+
