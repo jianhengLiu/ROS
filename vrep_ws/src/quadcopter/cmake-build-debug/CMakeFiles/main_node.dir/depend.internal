@@ -4,6 +4,8 @@
 CMakeFiles/main_node.dir/src/main_node.cpp.o
  /home/chrisliu/ROS/vrep_ws/src/quadcopter/src/main_node.cpp
  /opt/ros/kinetic/include/cv_bridge/cv_bridge.h
+ /opt/ros/kinetic/include/geometry_msgs/Twist.h
+ /opt/ros/kinetic/include/geometry_msgs/Vector3.h
  /opt/ros/kinetic/include/image_transport/camera_publisher.h
  /opt/ros/kinetic/include/image_transport/camera_subscriber.h
  /opt/ros/kinetic/include/image_transport/exception.h

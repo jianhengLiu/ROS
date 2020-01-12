@@ -1,6 +1,0 @@
-<launch>
-    <node name="tele_keyboard" pkg = "keyboard" type = "tele_keyboard.py" output="screen">
-    </node>
-    <node name="steerwheel" pkg = "vrep_pkg" type = "steerwheel" output="screen">
-    </node>
-</launch>

@@ -31,17 +31,17 @@ import rospy
 from geometry_msgs.msg import Twist
 import sys, select, termios, tty
 
-BURGER_MAX_LIN_VEL = 50
-BURGER_MAX_ANG_VEL = 1.2
+BURGER_MAX_LIN_VEL = 6
+BURGER_MAX_ANG_VEL = 0.5
 
 WAFFLE_MAX_LIN_VEL = 0.26
 WAFFLE_MAX_ANG_VEL = 1.82
 
-LIN_VEL_STEP_SIZE = 30
-ANG_VEL_STEP_SIZE = 0.5
+LIN_VEL_STEP_SIZE = 3
+ANG_VEL_STEP_SIZE = 0.1
 
 msg = """
-Control Your Omniwheel Car!
+Control Your Car!
 ---------------------------
 Moving around:
         w

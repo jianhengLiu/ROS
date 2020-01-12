@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/fwc.dir/src/FourWheelControl.cpp.o"
   "../devel/lib/libfwc.pdb"
   "../devel/lib/libfwc.so"
+  "CMakeFiles/fwc.dir/src/FourWheelControl.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

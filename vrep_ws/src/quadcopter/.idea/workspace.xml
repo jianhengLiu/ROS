@@ -2,41 +2,41 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="quadcopter" targetName="std_msgs_generate_messages_cpp" />
-      <config projectName="quadcopter" targetName="clean_test_results" />
-      <config projectName="quadcopter" targetName="roscpp_generate_messages_lisp" />
-      <config projectName="quadcopter" targetName="doxygen" />
-      <config projectName="quadcopter" targetName="roscpp_generate_messages_eus" />
-      <config projectName="quadcopter" targetName="gtest" />
-      <config projectName="quadcopter" targetName="sensor_msgs_generate_messages_nodejs" />
       <config projectName="quadcopter" targetName="sensor_msgs_generate_messages_cpp" />
-      <config projectName="quadcopter" targetName="gmock" />
-      <config projectName="quadcopter" targetName="geometry_msgs_generate_messages_eus" />
-      <config projectName="quadcopter" targetName="roscpp_generate_messages_nodejs" />
       <config projectName="quadcopter" targetName="rosgraph_msgs_generate_messages_nodejs" />
-      <config projectName="quadcopter" targetName="rosgraph_msgs_generate_messages_eus" />
-      <config projectName="quadcopter" targetName="std_msgs_generate_messages_eus" />
-      <config projectName="quadcopter" targetName="std_msgs_generate_messages_lisp" />
-      <config projectName="quadcopter" targetName="main_node" />
-      <config projectName="quadcopter" targetName="roscpp_generate_messages_cpp" />
-      <config projectName="quadcopter" targetName="std_msgs_generate_messages_py" />
-      <config projectName="quadcopter" targetName="geometry_msgs_generate_messages_nodejs" />
-      <config projectName="quadcopter" targetName="geometry_msgs_generate_messages_lisp" />
-      <config projectName="quadcopter" targetName="sensor_msgs_generate_messages_py" />
-      <config projectName="quadcopter" targetName="run_tests" />
-      <config projectName="quadcopter" targetName="rosgraph_msgs_generate_messages_lisp" />
-      <config projectName="quadcopter" targetName="tests" />
-      <config projectName="quadcopter" targetName="download_extra_data" />
-      <config projectName="quadcopter" targetName="sensor_msgs_generate_messages_eus" />
-      <config projectName="quadcopter" targetName="geometry_msgs_generate_messages_cpp" />
-      <config projectName="quadcopter" targetName="sensor_msgs_generate_messages_lisp" />
-      <config projectName="quadcopter" targetName="geometry_msgs_generate_messages_py" />
-      <config projectName="quadcopter" targetName="roscpp_generate_messages_py" />
-      <config projectName="quadcopter" targetName="rosgraph_msgs_generate_messages_py" />
-      <config projectName="quadcopter" targetName="gtest_main" />
-      <config projectName="quadcopter" targetName="gmock_main" />
-      <config projectName="quadcopter" targetName="std_msgs_generate_messages_nodejs" />
       <config projectName="quadcopter" targetName="rosgraph_msgs_generate_messages_cpp" />
+      <config projectName="quadcopter" targetName="sensor_msgs_generate_messages_py" />
+      <config projectName="quadcopter" targetName="gmock" />
+      <config projectName="quadcopter" targetName="sensor_msgs_generate_messages_eus" />
+      <config projectName="quadcopter" targetName="std_msgs_generate_messages_cpp" />
+      <config projectName="quadcopter" targetName="roscpp_generate_messages_eus" />
+      <config projectName="quadcopter" targetName="geometry_msgs_generate_messages_nodejs" />
+      <config projectName="quadcopter" targetName="geometry_msgs_generate_messages_cpp" />
+      <config projectName="quadcopter" targetName="geometry_msgs_generate_messages_py" />
+      <config projectName="quadcopter" targetName="std_msgs_generate_messages_lisp" />
+      <config projectName="quadcopter" targetName="sensor_msgs_generate_messages_lisp" />
+      <config projectName="quadcopter" targetName="clean_test_results" />
+      <config projectName="quadcopter" targetName="sensor_msgs_generate_messages_nodejs" />
+      <config projectName="quadcopter" targetName="geometry_msgs_generate_messages_lisp" />
+      <config projectName="quadcopter" targetName="roscpp_generate_messages_py" />
+      <config projectName="quadcopter" targetName="doxygen" />
+      <config projectName="quadcopter" targetName="std_msgs_generate_messages_py" />
+      <config projectName="quadcopter" targetName="gmock_main" />
+      <config projectName="quadcopter" targetName="run_tests" />
+      <config projectName="quadcopter" targetName="gtest_main" />
+      <config projectName="quadcopter" targetName="tests" />
+      <config projectName="quadcopter" targetName="roscpp_generate_messages_nodejs" />
+      <config projectName="quadcopter" targetName="std_msgs_generate_messages_nodejs" />
+      <config projectName="quadcopter" targetName="rosgraph_msgs_generate_messages_eus" />
+      <config projectName="quadcopter" targetName="rosgraph_msgs_generate_messages_py" />
+      <config projectName="quadcopter" targetName="rosgraph_msgs_generate_messages_lisp" />
+      <config projectName="quadcopter" targetName="download_extra_data" />
+      <config projectName="quadcopter" targetName="main_node" />
+      <config projectName="quadcopter" targetName="roscpp_generate_messages_lisp" />
+      <config projectName="quadcopter" targetName="gtest" />
+      <config projectName="quadcopter" targetName="roscpp_generate_messages_cpp" />
+      <config projectName="quadcopter" targetName="geometry_msgs_generate_messages_eus" />
+      <config projectName="quadcopter" targetName="std_msgs_generate_messages_eus" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -306,7 +306,11 @@
       <updated>1575682404476</updated>
       <workItem from="1575682406089" duration="1869000" />
       <workItem from="1575711859932" duration="42000" />
-      <workItem from="1576399831899" duration="3135000" />
+      <workItem from="1576399831899" duration="6913000" />
+      <workItem from="1576522849723" duration="5239000" />
+      <workItem from="1576582876282" duration="753000" />
+      <workItem from="1576635350826" duration="3946000" />
+      <workItem from="1577202595362" duration="1004000" />
     </task>
     <servers />
   </component>
@@ -314,22 +318,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1803" height="294" key="GridCell.Tab.0.bottom" timestamp="1576402981488">
+    <state width="874" height="293" key="GridCell.Tab.0.bottom" timestamp="1576646564407">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1803" height="294" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1576402981488" />
-    <state width="1803" height="294" key="GridCell.Tab.0.center" timestamp="1576402981488">
+    <state width="874" height="293" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1576646564407" />
+    <state width="874" height="293" key="GridCell.Tab.0.center" timestamp="1576646564406">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1803" height="294" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1576402981488" />
-    <state width="1803" height="294" key="GridCell.Tab.0.left" timestamp="1576402981487">
+    <state width="874" height="293" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1576646564406" />
+    <state width="874" height="293" key="GridCell.Tab.0.left" timestamp="1576646564406">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1803" height="294" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1576402981487" />
-    <state width="1803" height="294" key="GridCell.Tab.0.right" timestamp="1576402981488">
+    <state width="874" height="293" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1576646564406" />
+    <state width="874" height="293" key="GridCell.Tab.0.right" timestamp="1576646564407">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1803" height="294" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1576402981488" />
+    <state width="874" height="293" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1576646564407" />
     <state x="516" y="174" key="SettingsEditor" timestamp="1576399922159">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>

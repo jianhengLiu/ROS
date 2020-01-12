@@ -3,6 +3,8 @@
 
 CMakeFiles/main_node.dir/src/main_node.cpp.o: ../src/main_node.cpp
 CMakeFiles/main_node.dir/src/main_node.cpp.o: /opt/ros/kinetic/include/cv_bridge/cv_bridge.h
+CMakeFiles/main_node.dir/src/main_node.cpp.o: /opt/ros/kinetic/include/geometry_msgs/Twist.h
+CMakeFiles/main_node.dir/src/main_node.cpp.o: /opt/ros/kinetic/include/geometry_msgs/Vector3.h
 CMakeFiles/main_node.dir/src/main_node.cpp.o: /opt/ros/kinetic/include/image_transport/camera_publisher.h
 CMakeFiles/main_node.dir/src/main_node.cpp.o: /opt/ros/kinetic/include/image_transport/camera_subscriber.h
 CMakeFiles/main_node.dir/src/main_node.cpp.o: /opt/ros/kinetic/include/image_transport/exception.h

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/chrisliu/ROS/vrep_ws/src/vrep_pkg/src/steering_wheel.cpp" "/home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/vrep_pkg/CMakeFiles/steerwheel.dir/src/steering_wheel.cpp.o"
+  "/home/chrisliu/ROS/vrep_ws/src/vrep_pkg/src/steeringwheel_ros.cpp" "/home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/vrep_pkg/CMakeFiles/steerwheel.dir/src/steeringwheel_ros.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,11 +19,12 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "../vrep_pkg/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/vrep_pkg/CMakeFiles/fwc.dir/DependInfo.cmake"
+  "/home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/vrep_pkg/CMakeFiles/steeringwheel.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

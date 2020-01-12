@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/steerwheel.dir/src/steering_wheel.cpp.o"
-  "../devel/lib/vrep_pkg/steerwheel.pdb"
   "../devel/lib/vrep_pkg/steerwheel"
+  "../devel/lib/vrep_pkg/steerwheel.pdb"
+  "CMakeFiles/steerwheel.dir/src/steeringwheel_ros.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

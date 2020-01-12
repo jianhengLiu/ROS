@@ -31,6 +31,7 @@
 /home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/vrep_pkg/CMakeFiles/install/strip.dir
 /home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/vrep_pkg/CMakeFiles/install/local.dir
 /home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/vrep_pkg/CMakeFiles/rebuild_cache.dir
+/home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/vrep_pkg/CMakeFiles/omniwheel.dir
 /home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/vrep_pkg/CMakeFiles/bubblerob.dir
 /home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/vrep_pkg/CMakeFiles/fwc.dir
 /home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/vrep_pkg/CMakeFiles/geometry_msgs_generate_messages_py.dir
@@ -46,6 +47,7 @@
 /home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/vrep_pkg/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
 /home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/vrep_pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir
 /home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/vrep_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir
+/home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/vrep_pkg/CMakeFiles/steeringwheel.dir
 /home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/vrep_pkg/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
 /home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/vrep_pkg/CMakeFiles/install.dir
 /home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/vrep_pkg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir
@@ -65,3 +67,16 @@
 /home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/keyboard/CMakeFiles/install/local.dir
 /home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/keyboard/CMakeFiles/rebuild_cache.dir
 /home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/keyboard/CMakeFiles/install.dir
+/home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/quadcopter/CMakeFiles/install/strip.dir
+/home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/quadcopter/CMakeFiles/install.dir
+/home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/quadcopter/CMakeFiles/rebuild_cache.dir
+/home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/quadcopter/CMakeFiles/edit_cache.dir
+/home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/quadcopter/CMakeFiles/install/local.dir
+/home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/quadcopter/CMakeFiles/test.dir
+/home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/quadcopter/CMakeFiles/sensor_msgs_generate_messages_eus.dir
+/home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/quadcopter/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
+/home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/quadcopter/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir
+/home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/quadcopter/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
+/home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/quadcopter/CMakeFiles/sensor_msgs_generate_messages_py.dir
+/home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/quadcopter/CMakeFiles/list_install_components.dir
+/home/chrisliu/ROS/vrep_ws/src/cmake-build-debug/quadcopter/CMakeFiles/main_node.dir
